@@ -1,0 +1,29 @@
+missing module named resource - imported by posix, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named posix - imported by os, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named _posixsubprocess - imported by subprocess, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named 'org.python' - imported by pickle, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py, xml.sax
+missing module named readline - imported by cmd, code, pdb, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+excluded module named _frozen_importlib - imported by importlib, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named _winreg - imported by platform, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named 'java.lang' - imported by platform, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named termios - imported by tty, getpass, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named urllib.unquote - imported by urllib, asn1crypto._iri
+missing module named urllib.quote - imported by urllib, asn1crypto._iri
+missing module named grp - imported by tarfile, shutil, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, getpass, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named ce - imported by os, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named _dummy_threading - imported by dummy_threading, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named org - imported by copy, F:\desktop\自动化运维工具4.0\tools\sub_ftp.py
+missing module named cStringIO - imported by asn1crypto.core, paramiko.py3compat
+missing module named copy_reg - imported by cStringIO
+missing module named __builtin__ - imported by paramiko.py3compat
+missing module named UserDict - imported by asn1crypto._ordereddict
+missing module named urlparse - imported by asn1crypto._iri
+runtime module named six.moves - imported by cryptography.x509.general_name, cryptography.hazmat.backends.openssl.decode_asn1
+missing module named StringIO - imported by six
+missing module named thread - imported by paramiko.win_pageant
+missing module named fcntl - imported by paramiko.agent
+missing module named gssapi - imported by paramiko.ssh_gss

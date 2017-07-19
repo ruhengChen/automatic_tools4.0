@@ -1,0 +1,850 @@
+db2diag.log
+
+
+2017-07-10-14.52.20.255000+480 I17H351            LEVEL: Warning
+PID     : 9800                 TID  : 4704        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 4704
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-10-15.04.36.904000+480 I370H341           LEVEL: Warning
+PID     : 8400                 TID  : 1220        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 1220
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-10-15.05.50.770000+480 I713H341           LEVEL: Warning
+PID     : 4484                 TID  : 7164        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 7164
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-10-15.06.47.061000+480 I1056H341          LEVEL: Warning
+PID     : 8776                 TID  : 9968        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 9968
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-10-15.07.10.910000+480 I1399H341          LEVEL: Warning
+PID     : 5972                 TID  : 4084        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 4084
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-10-21.24.53.388000+480 I1742H342          LEVEL: Warning
+PID     : 6332                 TID  : 10104       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 10104
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-10-21.50.41.217000+480 I2086H347          LEVEL: Warning
+PID     : 4324                 TID  : 5756        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 5756
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-10-21.51.50.174000+480 I2435H347          LEVEL: Warning
+PID     : 3764                 TID  : 7728        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 7728
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-10-21.52.06.228000+480 I2784H347          LEVEL: Warning
+PID     : 7936                 TID  : 2332        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 2332
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-08.34.00.578000+480 I3133H347          LEVEL: Warning
+PID     : 5596                 TID  : 1612        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 1612
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-16.59.07.697000+480 I3482H347          LEVEL: Warning
+PID     : 9280                 TID  : 8932        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 8932
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-16.59.57.228000+480 I3831H347          LEVEL: Warning
+PID     : 4576                 TID  : 7016        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 7016
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-17.01.41.272000+480 I4180H347          LEVEL: Warning
+PID     : 7584                 TID  : 9968        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 9968
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-17.04.30.989000+480 I4529H351          LEVEL: Warning
+PID     : 7028                 TID  : 9696        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 9696
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-17.05.12.741000+480 I4882H351          LEVEL: Warning
+PID     : 8188                 TID  : 5236        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 5236
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-17.06.18.866000+480 I5235H341          LEVEL: Warning
+PID     : 7544                 TID  : 8324        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 8324
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-17.08.39.775000+480 I5578H350          LEVEL: Warning
+PID     : 7896                 TID  : 188         PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 188
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-17.19.34.830000+480 I5930H347          LEVEL: Warning
+PID     : 6284                 TID  : 7896        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 7896
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-17.20.05.398000+480 I6279H341          LEVEL: Warning
+PID     : 9092                 TID  : 5756        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 5756
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-17.21.03.017000+480 I6622H341          LEVEL: Warning
+PID     : 9180                 TID  : 8756        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 8756
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-17.21.45.457000+480 I6965H347          LEVEL: Warning
+PID     : 9624                 TID  : 8084        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 8084
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-11-18.06.41.337000+480 I7314H347          LEVEL: Warning
+PID     : 8460                 TID  : 6308        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 6308
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-12-15.51.03.790000+480 I7663H351          LEVEL: Warning
+PID     : 12800                TID  : 9356        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 9356
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-12-15.59.34.727000+480 I8016H351          LEVEL: Warning
+PID     : 1188                 TID  : 2564        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 2564
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-12-16.27.54.334000+480 I8369H351          LEVEL: Warning
+PID     : 7700                 TID  : 3984        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 3984
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-12-16.31.35.921000+480 I8722H351          LEVEL: Warning
+PID     : 12092                TID  : 8760        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 8760
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-12-17.45.39.993000+480 I9075H342          LEVEL: Warning
+PID     : 12912                TID  : 11676       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 11676
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-12-19.34.02.753000+480 I9419H342          LEVEL: Warning
+PID     : 10412                TID  : 10212       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 10212
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-12-19.39.22.467000+480 I9763H341          LEVEL: Warning
+PID     : 10692                TID  : 9800        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 9800
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-12-19.40.33.455000+480 I10106H341         LEVEL: Warning
+PID     : 10468                TID  : 5496        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 5496
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-12-19.52.28.178000+480 I10449H340         LEVEL: Warning
+PID     : 12248                TID  : 272         PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 272
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-12-19.53.00.114000+480 I10791H341         LEVEL: Warning
+PID     : 10404                TID  : 9344        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 9344
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-12-19.54.51.076000+480 I11134H351         LEVEL: Warning
+PID     : 7896                 TID  : 1040        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 1040
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-12-20.35.27.416000+480 I11487H352         LEVEL: Warning
+PID     : 4624                 TID  : 10596       PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 10596
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-09.25.19.115000+480 I11841H347         LEVEL: Warning
+PID     : 10192                TID  : 9640        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 9640
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-10.09.29.728000+480 I12190H347         LEVEL: Warning
+PID     : 8460                 TID  : 6812        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 6812
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-10.40.08.240000+480 I12539H347         LEVEL: Warning
+PID     : 2608                 TID  : 4960        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 4960
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-10.40.58.286000+480 I12888H347         LEVEL: Warning
+PID     : 1380                 TID  : 3208        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 3208
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-10.43.18.898000+480 I13237H348         LEVEL: Warning
+PID     : 5284                 TID  : 12028       PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 12028
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-10.55.11.759000+480 I13587H341         LEVEL: Warning
+PID     : 664                  TID  : 5892        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 5892
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-10.58.11.243000+480 I13930H341         LEVEL: Warning
+PID     : 8656                 TID  : 6916        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 6916
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-11.00.42.125000+480 I14273H341         LEVEL: Warning
+PID     : 10420                TID  : 8880        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 8880
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-11.01.08.922000+480 I14616H342         LEVEL: Warning
+PID     : 6608                 TID  : 12168       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 12168
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-11.02.58.980000+480 I14960H342         LEVEL: Warning
+PID     : 2488                 TID  : 12432       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 12432
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-11.03.47.979000+480 I15304H341         LEVEL: Warning
+PID     : 12556                TID  : 1604        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 1604
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-11.04.09.649000+480 I15647H341         LEVEL: Warning
+PID     : 7612                 TID  : 4436        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 4436
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-11.04.25.500000+480 I15990H342         LEVEL: Warning
+PID     : 6564                 TID  : 10556       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 10556
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-11.05.13.914000+480 I16334H341         LEVEL: Warning
+PID     : 9412                 TID  : 4808        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 4808
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-11.06.30.161000+480 I16677H341         LEVEL: Warning
+PID     : 5072                 TID  : 8492        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 8492
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-11.09.50.647000+480 I17020H341         LEVEL: Warning
+PID     : 2428                 TID  : 1216        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 1216
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-11.10.16.765000+480 I17363H341         LEVEL: Warning
+PID     : 2372                 TID  : 2228        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 2228
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-11.10.36.611000+480 I17706H342         LEVEL: Warning
+PID     : 12408                TID  : 12248       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 12248
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-11.11.29.330000+480 I18050H341         LEVEL: Warning
+PID     : 1908                 TID  : 5104        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 5104
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-14.08.45.645000+480 I18393H341         LEVEL: Warning
+PID     : 6688                 TID  : 5268        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 5268
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-14.12.54.889000+480 I18736H341         LEVEL: Warning
+PID     : 5684                 TID  : 4604        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 4604
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-14.14.13.134000+480 I19079H341         LEVEL: Warning
+PID     : 5336                 TID  : 8928        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 8928
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-14.14.27.523000+480 I19422H341         LEVEL: Warning
+PID     : 384                  TID  : 1768        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 1768
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-14.16.33.219000+480 I19765H347         LEVEL: Warning
+PID     : 7856                 TID  : 6724        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 6724
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-14.17.56.774000+480 I20114H348         LEVEL: Warning
+PID     : 4308                 TID  : 11868       PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 11868
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-14.18.13.630000+480 I20464H348         LEVEL: Warning
+PID     : 10848                TID  : 12512       PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 12512
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-14.18.45.021000+480 I20814H347         LEVEL: Warning
+PID     : 5800                 TID  : 4604        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 4604
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-14.18.57.037000+480 I21163H347         LEVEL: Warning
+PID     : 8432                 TID  : 1168        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 1168
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-14.19.51.930000+480 I21512H341         LEVEL: Warning
+PID     : 5588                 TID  : 2064        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 2064
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-14.20.49.744000+480 I21855H342         LEVEL: Warning
+PID     : 6176                 TID  : 10716       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 10716
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-14.21.50.960000+480 I22199H347         LEVEL: Warning
+PID     : 8828                 TID  : 5808        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 5808
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-15.59.06.528000+480 I22548H352         LEVEL: Warning
+PID     : 7608                 TID  : 12740       PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 12740
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-16.08.13.855000+480 I22902H351         LEVEL: Warning
+PID     : 2264                 TID  : 7880        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 7880
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-16.08.27.757000+480 I23255H351         LEVEL: Warning
+PID     : 8252                 TID  : 3376        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 3376
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-16.08.45.706000+480 I23608H351         LEVEL: Warning
+PID     : 4660                 TID  : 8824        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 8824
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-23.07.46.498000+480 I23961H352         LEVEL: Warning
+PID     : 12272                TID  : 10864       PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 10864
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-23.10.16.017000+480 I24315H351         LEVEL: Warning
+PID     : 5740                 TID  : 6760        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 6760
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-23.13.34.255000+480 I24668H352         LEVEL: Warning
+PID     : 196                  TID  : 11552       PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 11552
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-13-23.16.50.926000+480 I25022H351         LEVEL: Warning
+PID     : 13276                TID  : 2768        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 2768
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-14-11.52.21.338000+480 I25375H341         LEVEL: Warning
+PID     : 9092                 TID  : 9948        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 9948
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-14-11.52.33.342000+480 I25718H340         LEVEL: Warning
+PID     : 5052                 TID  : 404         PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 404
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-14-11.55.57.960000+480 I26060H342         LEVEL: Warning
+PID     : 12068                TID  : 12952       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 12952
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-14-11.56.43.306000+480 I26404H341         LEVEL: Warning
+PID     : 8252                 TID  : 3340        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 3340
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-14-12.01.30.282000+480 I26747H352         LEVEL: Warning
+PID     : 7092                 TID  : 12952       PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 12952
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-14-12.42.09.111000+480 I27101H341         LEVEL: Warning
+PID     : 11672                TID  : 7208        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 7208
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-17-10.09.01.375000+480 I27444H342         LEVEL: Warning
+PID     : 10676                TID  : 14384       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 14384
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-17-10.11.22.298000+480 I27788H342         LEVEL: Warning
+PID     : 14804                TID  : 12640       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 12640
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-17-10.12.45.208000+480 I28132H342         LEVEL: Warning
+PID     : 8780                 TID  : 14836       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 14836
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-17-10.13.49.511000+480 I28476H342         LEVEL: Warning
+PID     : 3044                 TID  : 15104       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 15104
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-17-10.14.35.105000+480 I28820H342         LEVEL: Warning
+PID     : 6320                 TID  : 10796       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 10796
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-17-10.14.51.633000+480 I29164H342         LEVEL: Warning
+PID     : 11800                TID  : 15072       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 15072
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-17-10.15.11.503000+480 I29508H342         LEVEL: Warning
+PID     : 3516                 TID  : 12052       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 12052
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-17-10.18.40.005000+480 I29852H341         LEVEL: Warning
+PID     : 16280                TID  : 3044        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 3044
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-17-10.27.00.403000+480 I30195H352         LEVEL: Warning
+PID     : 13652                TID  : 14024       PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 14024
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-18-16.45.04.060000+480 I30549H347         LEVEL: Warning
+PID     : 2020                 TID  : 6380        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 6380
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-18-16.49.04.308000+480 I30898H347         LEVEL: Warning
+PID     : 14452                TID  : 7368        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 7368
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-18-16.49.22.686000+480 I31247H351         LEVEL: Warning
+PID     : 12708                TID  : 6584        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 6584
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-18-16.57.06.275000+480 I31600H341         LEVEL: Warning
+PID     : 13636                TID  : 9916        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 9916
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-18-16.58.13.504000+480 I31943H342         LEVEL: Warning
+PID     : 1096                 TID  : 16092       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 16092
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-18-17.00.03.677000+480 I32287H342         LEVEL: Warning
+PID     : 16100                TID  : 17340       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 17340
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-18-17.02.06.433000+480 I32631H341         LEVEL: Warning
+PID     : 9840                 TID  : 5940        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 5940
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-18-17.08.45.445000+480 I32974H341         LEVEL: Warning
+PID     : 14464                TID  : 9292        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 9292
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-18-17.12.39.888000+480 I33317H341         LEVEL: Warning
+PID     : 6932                 TID  : 2528        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 2528
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-18-17.14.37.662000+480 I33660H351         LEVEL: Warning
+PID     : 12968                TID  : 6036        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 6036
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-18-17.14.49.441000+480 I34013H342         LEVEL: Warning
+PID     : 14136                TID  : 14012       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 14012
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-19-14.19.21.165000+480 I34357H348         LEVEL: Warning
+PID     : 22768                TID  : 17452       PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 17452
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-19-14.20.06.400000+480 I34707H342         LEVEL: Warning
+PID     : 3740                 TID  : 21356       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 21356
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-19-14.21.47.308000+480 I35051H352         LEVEL: Warning
+PID     : 9704                 TID  : 20032       PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 20032
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-19-15.40.49.519000+480 I35405H348         LEVEL: Warning
+PID     : 19844                TID  : 20344       PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 20344
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-19-15.41.14.352000+480 I35755H348         LEVEL: Warning
+PID     : 6692                 TID  : 21752       PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 21752
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-19-15.41.28.392000+480 I36105H347         LEVEL: Warning
+PID     : 3100                 TID  : 2924        PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 2924
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-19-16.07.54.312000+480 I36454H348         LEVEL: Warning
+PID     : 18524                TID  : 15448       PROC : unzip_loadin.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 15448
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126

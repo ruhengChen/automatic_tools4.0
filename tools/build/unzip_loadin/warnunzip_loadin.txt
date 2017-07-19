@@ -1,0 +1,30 @@
+missing module named resource - imported by posix, E:\work\自动化运维工具4.0\tools\unzip_loadin.py
+missing module named posix - imported by os, E:\work\自动化运维工具4.0\tools\unzip_loadin.py
+missing module named _posixsubprocess - imported by subprocess, E:\work\自动化运维工具4.0\tools\unzip_loadin.py
+missing module named 'org.python' - imported by pickle, E:\work\自动化运维工具4.0\tools\unzip_loadin.py, xml.sax
+missing module named readline - imported by cmd, code, pdb, E:\work\自动化运维工具4.0\tools\unzip_loadin.py
+excluded module named _frozen_importlib - imported by importlib, E:\work\自动化运维工具4.0\tools\unzip_loadin.py
+missing module named _winreg - imported by platform, E:\work\自动化运维工具4.0\tools\unzip_loadin.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, E:\work\自动化运维工具4.0\tools\unzip_loadin.py
+missing module named 'java.lang' - imported by platform, E:\work\自动化运维工具4.0\tools\unzip_loadin.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, E:\work\自动化运维工具4.0\tools\unzip_loadin.py
+missing module named termios - imported by tty, E:\work\自动化运维工具4.0\tools\unzip_loadin.py, getpass
+missing module named urllib.quote - imported by urllib, asn1crypto._iri
+missing module named urllib.unquote - imported by urllib, asn1crypto._iri
+missing module named grp - imported by tarfile, shutil, E:\work\自动化运维工具4.0\tools\unzip_loadin.py
+missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, E:\work\自动化运维工具4.0\tools\unzip_loadin.py, getpass
+missing module named ce - imported by os, E:\work\自动化运维工具4.0\tools\unzip_loadin.py
+missing module named _dummy_threading - imported by dummy_threading, E:\work\自动化运维工具4.0\tools\unzip_loadin.py
+missing module named org - imported by copy, E:\work\自动化运维工具4.0\tools\unzip_loadin.py
+missing module named elementtree - imported by xlrd.xlsx
+missing module named cElementTree - imported by xlrd.xlsx
+missing module named cStringIO - imported by asn1crypto.core, xlrd.timemachine
+missing module named copy_reg - imported by cStringIO
+missing module named pyblake2 - imported by rarfile
+missing module named 'Crypto.Protocol' - imported by rarfile
+missing module named Crypto - imported by rarfile
+missing module named StringIO - imported by six
+missing module named UserDict - imported by asn1crypto._ordereddict
+missing module named urlparse - imported by asn1crypto._iri
+runtime module named six.moves - imported by cryptography.x509.general_name, cryptography.hazmat.backends.openssl.decode_asn1

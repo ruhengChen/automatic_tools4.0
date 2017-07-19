@@ -1,0 +1,20 @@
+missing module named resource - imported by posix, E:\work\自动化运维工具4.0\tools\spider.py
+missing module named posix - imported by os, E:\work\自动化运维工具4.0\tools\spider.py
+missing module named _posixsubprocess - imported by subprocess, E:\work\自动化运维工具4.0\tools\spider.py
+missing module named 'org.python' - imported by pickle, E:\work\自动化运维工具4.0\tools\spider.py, xml.sax
+missing module named readline - imported by cmd, code, pdb, E:\work\自动化运维工具4.0\tools\spider.py
+excluded module named _frozen_importlib - imported by importlib, E:\work\自动化运维工具4.0\tools\spider.py
+missing module named _winreg - imported by platform, E:\work\自动化运维工具4.0\tools\spider.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, E:\work\自动化运维工具4.0\tools\spider.py
+missing module named 'java.lang' - imported by platform, E:\work\自动化运维工具4.0\tools\spider.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, E:\work\自动化运维工具4.0\tools\spider.py
+missing module named termios - imported by tty, E:\work\自动化运维工具4.0\tools\spider.py, getpass
+missing module named grp - imported by tarfile, shutil, E:\work\自动化运维工具4.0\tools\spider.py
+missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, E:\work\自动化运维工具4.0\tools\spider.py, getpass
+missing module named ce - imported by os, E:\work\自动化运维工具4.0\tools\spider.py
+missing module named _dummy_threading - imported by dummy_threading, E:\work\自动化运维工具4.0\tools\spider.py
+missing module named org - imported by copy, E:\work\自动化运维工具4.0\tools\spider.py
+missing module named lxml - imported by E:\work\自动化运维工具4.0\tools\spider.py
+missing module named pyquery - imported by E:\work\自动化运维工具4.0\tools\spider.py
+missing module named requests - imported by E:\work\自动化运维工具4.0\tools\spider.py

@@ -1,0 +1,6692 @@
+发布机构
+浙江省农村信用社联合社
+公告标题
+20170426全量包说明
+公告内容
+本次全量数据范围：
+1、新增的核心1张表、中间业务4张表、理财2张表、基金代销1张表
+
+提取路径：/S-999000/ODS/ALL/20170426/
+公告发布时间
+2017-04-26
+公告最后更新时间
+2017-04-26 16:14:01
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20170426升级说明
+公告内容
+1、新增下发表
+CORE.BFFMDQCT	定存宝发行信息登记簿
+IMBS.MID72_T_JRNL_FINPAY	非税电子缴款流水表
+IMBS.T_ADB_BAT	安贷宝批量明细表
+IMBS.MID73_T_XARQ_JRNL	新奥燃气交易流水表(发往海宁农商行)
+IMBS.MID73_T_XARQ_PAYDET	新奥燃气缴费阶梯明细表(发往海宁农商行)
+FMS.GOLD_PLANINFO	定期积存协议表
+FMS.GOLD_CUSTINFO	黄金客户信息
+FDS.RPT_BUYPLAN_ORGID_STAT	定投按机构汇总表
+2、新增下发册亨富民村镇银行、固安恒升村镇银行每日增量
+公告发布时间
+2017-04-26
+公告最后更新时间
+2017-04-26 16:13:43
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表
+CORE.BFFMDQCT	定存宝发行信息登记簿
+IMBS.MID72_T_JRNL_FINPAY	非税电子缴款流水表
+IMBS.T_ADB_BAT	安贷宝批量明细表
+IMBS.MID73_T_XARQ_JRNL	新奥燃气交易流水表(发往海宁农商行)
+IMBS.MID73_T_XARQ_PAYDET	新奥燃气缴费阶梯明细表(发往海宁农商行)
+FMS.GOLD_PLANINFO	定期积存协议表
+FMS.GOLD_CUSTINFO	黄金客户信息
+FDS.RPT_BUYPLAN_ORGID_STAT	定投按机构汇总表
+公告发布时间
+2017-04-26
+公告最后更新时间
+2017-04-26 16:13:23
+附件
+标准化文档-20170426.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20170423升级说明
+公告内容
+1、互联网核心新增53张表;
+公告发布时间
+2017-04-23
+公告最后更新时间
+2017-04-23 14:20:50
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、互联网核心新增53张表;详见附件;
+公告发布时间
+2017-04-23
+公告最后更新时间
+2017-04-23 14:20:03
+附件
+标准化文档-20170423.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+互联网核心预告表结构
+公告内容
+将于4月23日下发的互联网核心53张表表结构
+公告发布时间
+2017-04-18
+公告最后更新时间
+2017-04-18 15:21:55
+附件
+数据标准化拆分-互联网核心-发布版-20170423.xls
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20170322全量包说明
+公告内容
+本次全量数据范围：
+1、新增的网银1张表、基金代销1张表、中间业务4张表（T_CKSY_NSZMX该表不下发全量，如需全量请自行到170 FTP服务器下载）
+2、表结构变更表：
+CCRD.APMA
+TBS.TTRD_OTC_ORDER
+3、数据修复表
+IMBS.T_QZJFT_MX
+CORE.BFFMDQCP
+
+提取路径：/S-999000/ODS/ALL/20170322/
+公告发布时间
+2017-03-22
+公告最后更新时间
+2017-03-22 14:40:40
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20170322升级说明
+公告内容
+1、新增下发表
+IMBS.MID70_T_SIGN_HIST	签约历史表
+IMBS.T_JXDSF_JRNL	驾校代收费(发往台州地区)
+IMBS.T_WZYJJJ_FPHM	温州永嘉交警发票号码表(发往温州地区)
+IMBS.T_WZYJJJ_JRNL	温州永嘉交警流水表(发往温州地区)
+IMBS.T_CKSY_NSZMX	批扣税种明细登记簿
+IBS.CB_EDRAFT_SIGN	客户电子票据签约表
+FDS.H_APP_RISKLOG	客户风险评级流水历史表
+2、CCRD.APMA申请件记录增加APP_SOURCE VARCHAR(10)专案代码字段
+3、TBS.TTRD_OTC_ORDER审批单THENMKTPRICE_U当时标的市场价字段由DECIMAL(10,3)调整为DECIMAL(10,4)
+4、调整IMBS.T_QZJFT_MX缴费通明细表、CORE.BFFMDQCP大额存单提前支取多档次利率定义表拆分规则调整
+公告发布时间
+2017-03-22
+公告最后更新时间
+2017-03-22 14:40:19
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表
+IMBS.MID70_T_SIGN_HIST	签约历史表
+IMBS.T_JXDSF_JRNL	驾校代收费(发往台州地区)
+IMBS.T_WZYJJJ_FPHM	温州永嘉交警发票号码表(发往温州地区)
+IMBS.T_WZYJJJ_JRNL	温州永嘉交警流水表(发往温州地区)
+IMBS.T_CKSY_NSZMX	批扣税种明细登记簿
+IBS.CB_EDRAFT_SIGN	客户电子票据签约表
+FDS.H_APP_RISKLOG	客户风险评级流水历史表
+2、CCRD.APMA申请件记录增加APP_SOURCE VARCHAR(10)专案代码字段
+3、TBS.TTRD_OTC_ORDER审批单THENMKTPRICE_U当时标的市场价字段由DECIMAL(10,3)调整为DECIMAL(10,4)
+公告发布时间
+2017-03-22
+公告最后更新时间
+2017-03-22 14:39:57
+附件
+标准化文档-20170322.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2017年3月22日表结构变更预告
+公告内容
+1、CCRD.APMA申请件记录增加APP_SOURCE VARCHAR(10)专案代码字段
+2、TBS.TTRD_OTC_ORDER审批单THENMKTPRICE_U当时标的市场价字段由DECIMAL(10,3)调整为DECIMAL(10,4)
+公告发布时间
+2017-03-01
+公告最后更新时间
+2017-03-01 14:58:01
+附件
+表结构变更预告_20170322.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20170301全量包说明
+公告内容
+本次全量数据范围：
+1、新增的电话POSP 2张表、中间业务6张表、银保通4张表
+2、表结构变更表：
+EBILLS.PA_CORPFEEFAV
+CCRD.ICLG
+FMS.FMS_TRANS_LOG
+FMS.FMS_H_TRANS_LOG
+
+提取路径：/S-999000/ODS/ALL/20170301/
+公告发布时间
+2017-03-01
+公告最后更新时间
+2017-03-01 14:57:32
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20170301升级说明
+公告内容
+1、新增下发表
+POSP.T_CARDBIN	卡BIN表
+POSP.T_WHITETERMINAL	终端白名单表
+IMBS.T_NEW_JTFK_JRNL	交通罚款流水表(增加发往金华地区)
+IMBS.T_TZSZTV_BAT	台州数字电视批量表(增加发往玉环农商行)
+IMBS.T_HZWT_BAT	水费批扣表(增加下发福鼎恒兴村镇银行数据)
+IMBS.T_WZSF_BAT	温州水费批扣表(增加下发福鼎恒兴村镇银行数据)
+IMBS.T_HRRQ_DRAW	燃气签约表(发往杭州地区)
+IMBS.T_HRRQ_JRNL	燃气交易表(发往杭州地区)
+TOSI2.BIC_CUST_INFO	银保通个人基本信息表
+TOSI2.BIC_INSUSLIP	保单信息表
+TOSI2.BIC_INSUSLIP_ADL	保单信息附表_寿险分红险
+TOSI2.BIC_INSUSLIP_ADL_LIST	附加险明细登记表
+2、EBILLS.PA_CORPFEEFAV手续费优惠表增加MINFEE最低金额、MAXFEE最高金额字段
+3、CCRD.ICLG芯片卡交易日志表增加AUTH_RESP授权响应码、TRACE_NBR系统跟踪号、CENDT交易传输时间字段
+4、FMS.FMS_TRANS_LOG交易流水表增加MEDIA_SNO字段
+5、FMS.FMS_H_TRANS_LOG交易流水历史表增加MEDIA_SNO字段
+公告发布时间
+2017-03-01
+公告最后更新时间
+2017-03-01 14:57:11
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表
+POSP.T_CARDBIN	卡BIN表
+POSP.T_WHITETERMINAL	终端白名单表
+IMBS.T_NEW_JTFK_JRNL	交通罚款流水表(增加发往金华地区)
+IMBS.T_TZSZTV_BAT	台州数字电视批量表(增加发往玉环农商行)
+IMBS.T_HZWT_BAT	水费批扣表(增加下发福鼎恒兴村镇银行数据)
+IMBS.T_WZSF_BAT	温州水费批扣表(增加下发福鼎恒兴村镇银行数据)
+IMBS.T_HRRQ_DRAW	燃气签约表(发往杭州地区)
+IMBS.T_HRRQ_JRNL	燃气交易表(发往杭州地区)
+TOSI2.BIC_CUST_INFO	银保通个人基本信息表
+TOSI2.BIC_INSUSLIP	保单信息表
+TOSI2.BIC_INSUSLIP_ADL	保单信息附表_寿险分红险
+TOSI2.BIC_INSUSLIP_ADL_LIST	附加险明细登记表
+2、EBILLS.PA_CORPFEEFAV手续费优惠表增加MINFEE最低金额、MAXFEE最高金额字段
+3、CCRD.ICLG芯片卡交易日志表增加AUTH_RESP授权响应码、TRACE_NBR系统跟踪号、CENDT交易传输时间字段
+4、FMS.FMS_TRANS_LOG交易流水表增加MEDIA_SNO字段
+5、FMS.FMS_H_TRANS_LOG交易流水历史表增加MEDIA_SNO字段
+公告发布时间
+2017-03-01
+公告最后更新时间
+2017-03-01 14:56:51
+附件
+标准化文档-20170301.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2017年3月1日表结构变更预告
+公告内容
+1、EBILLS.PA_CORPFEEFAV手续费优惠表增加MINFEE最低金额、MAXFEE最高金额字段
+2、CCRD.ICLG芯片卡交易日志表增加AUTH_RESP授权响应码、TRACE_NBR系统跟踪号、CENDT交易传输时间字段
+3、FMS.FMS_TRANS_LOG交易流水表增加MEDIA_SNO字段
+4、FMS.FMS_H_TRANS_LOG交易流水历史表增加MEDIA_SNO字段
+公告发布时间
+2017-02-15
+公告最后更新时间
+2017-02-15 14:51:00
+附件
+表结构变更预告_20170301.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20170215全量包说明
+公告内容
+本次全量数据范围：
+1、新增的电话POSP 1张表、理财1张表、国际业务2张表、中间业务10张表
+2、数据修复表：
+IMBS.T_AGT_DATA
+IMBS.T_CKSY_JRNL
+
+提取路径：/S-999000/ODS/ALL/20170215/
+公告发布时间
+2017-02-15
+公告最后更新时间
+2017-02-15 14:50:30
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表
+POSP.T_WECHAT_ORDER_INFO	二维码交易当日订单流水表
+FMS.GOLD_TRANSLOG_ACC	积存金的交易流水表
+IMBS.MID70_T_JRNL_YHCG	余杭城管缴费流水表(发往余杭农商行)
+EBILLS.SB_WHZHNGH_GLXX	外汇账户内购汇管理信息
+EBILLS.SB_WHZHNJH_GLXX	外汇账户内结汇管理信息
+IMBS.T_LASB2_SIGN_PK	临安社保批量签约信息表(发往临安联社)
+IMBS.T_LASB2_BAT_ACC	临安社保批量明细表(发往临安联社)
+IMBS.T_JXSBK_CHK 	嘉兴社保卡核查明细表(发往嘉兴地区)
+IMBS.T_JXSBK_OPEN	嘉兴批量开户明细表(发往嘉兴地区)
+IMBS.T_JXSBK_CTRL	嘉兴社保卡控制表(发往嘉兴地区)
+IMBS.T_JXSBK_INFO	嘉兴社保卡信息表(发往嘉兴地区)
+IMBS.T_JXSBK_OPER	嘉兴社保卡信息修改表(发往嘉兴地区)
+IMBS.T_JXSBK_PARA	嘉兴社保卡参数表(发往嘉兴地区)
+IMBS.T_JXSBK_JRNL	嘉兴社保卡交易流水表(发往嘉兴地区)
+公告发布时间
+2017-02-15
+公告最后更新时间
+2017-02-15 14:49:50
+附件
+标准化文档-20170215.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20170215升级说明
+公告内容
+1、新增下发表
+POSP.T_WECHAT_ORDER_INFO	二维码交易当日订单流水表
+FMS.GOLD_TRANSLOG_ACC	积存金的交易流水表
+IMBS.MID70_T_JRNL_YHCG	余杭城管缴费流水表(发往余杭农商行)
+EBILLS.SB_WHZHNGH_GLXX	外汇账户内购汇管理信息
+EBILLS.SB_WHZHNJH_GLXX	外汇账户内结汇管理信息
+IMBS.T_LASB2_SIGN_PK	临安社保批量签约信息表(发往临安联社)
+IMBS.T_LASB2_BAT_ACC	临安社保批量明细表(发往临安联社)
+IMBS.T_JXSBK_CHK 	嘉兴社保卡核查明细表(发往嘉兴地区)
+IMBS.T_JXSBK_OPEN	嘉兴批量开户明细表(发往嘉兴地区)
+IMBS.T_JXSBK_CTRL	嘉兴社保卡控制表(发往嘉兴地区)
+IMBS.T_JXSBK_INFO	嘉兴社保卡信息表(发往嘉兴地区)
+IMBS.T_JXSBK_OPER	嘉兴社保卡信息修改表(发往嘉兴地区)
+IMBS.T_JXSBK_PARA	嘉兴社保卡参数表(发往嘉兴地区)
+IMBS.T_JXSBK_JRNL	嘉兴社保卡交易流水表(发往嘉兴地区)
+2、调整IMBS.T_AGT_DATA、IMBS.T_CKSY_JRNL表拆分规则
+3、新增下发江西芦溪、莲花富民村镇银行数据
+公告发布时间
+2017-02-15
+公告最后更新时间
+2017-02-15 14:48:53
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161207全量包说明
+公告内容
+1、新增下发表：
+TOSI2.BIC_JRNL	银保通交易流水表
+FDS.APP_RISKLOG	客户风险评级流水表 
+IMBS.T_SIGN_LHSB	新农合签约表(发往台州地区)
+IMBS.T_LHSB_KOU	新农合代扣流水表(增加发往黄岩、玉环、三门行社)
+IMBS.T_LHSB_PAY	新农合支付流水表(增加发往黄岩、天台、三门行社)
+
+提取路径：/S-999000/ODS/ALL/20161207/
+公告发布时间
+2016-12-07
+公告最后更新时间
+2016-12-07 15:14:44
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161207升级说明
+公告内容
+1、新增下发表：
+TOSI2.BIC_JRNL	银保通交易流水表
+FDS.APP_RISKLOG	客户风险评级流水表 
+IMBS.T_SIGN_LHSB	新农合签约表(发往台州地区)
+IMBS.T_LHSB_KOU	新农合代扣流水表(增加发往黄岩、玉环、三门行社)
+IMBS.T_LHSB_PAY	新农合支付流水表(增加发往黄岩、天台、三门行社)
+2、停止下发表：
+EPAY.OT_SUB_TRANS	互联网支付交易流水表
+EPAY.FT_USER_PRO_SIGNINFO	客户协议支付签约信息表
+3、新增下发机构：西安铜川、新建、武宁恒通村镇银行
+公告发布时间
+2016-12-07
+公告最后更新时间
+2016-12-07 15:14:17
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表：
+TOSI2.BIC_JRNL	银保通交易流水表
+FDS.APP_RISKLOG	客户风险评级流水表 
+IMBS.T_SIGN_LHSB	新农合签约表(发往台州地区)
+IMBS.T_LHSB_KOU	新农合代扣流水表(增加发往黄岩、玉环、三门行社)
+IMBS.T_LHSB_PAY	新农合支付流水表(增加发往黄岩、天台、三门行社)
+2、停止下发表：
+EPAY.OT_SUB_TRANS	互联网支付交易流水表
+EPAY.FT_USER_PRO_SIGNINFO	客户协议支付签约信息表
+公告发布时间
+2016-12-07
+公告最后更新时间
+2016-12-07 15:13:54
+附件
+标准化文档-20161207.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2016年12月7日表结构变更预告
+公告内容
+停止下发EPAY.OT_SUB_TRANS互联网支付交易流水表、EPAY.FT_USER_PRO_SIGNINFO客户协议支付签约信息表
+公告发布时间
+2016-11-23
+公告最后更新时间
+2016-11-23 14:45:01
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161123全量包说明
+公告内容
+本次全量数据范围：
+1、新增下发表
+IMBS.MID71_T_SIGN银校通签约表
+IMBS.MID71_T_JRNL_YXT银校通交易流水表
+IMBS.T_SIGN_JXOTH驾校代收费其他表(发往台州地区)
+IMBS.T_SIGN_JXDSF驾校代收费签约表(发往台州地区)
+IMBS.T_YHWT_JRNL水费缴费流水表(发往云和信用联社)
+IMBS.T_YHWT_BAT水费批扣流水表(发往云和信用联社)
+2、数据修复表：
+BODTALIBP.BDFMHQFN部提开户登记簿拆分规则调整
+
+提取路径：/S-999000/ODS/ALL/20161123/
+公告发布时间
+2016-11-23
+公告最后更新时间
+2016-11-23 14:44:29
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161123升级说明
+公告内容
+1、新增下发表： 
+IMBS.MID71_T_SIGN银校通签约表
+IMBS.MID71_T_JRNL_YXT银校通交易流水表
+IMBS.T_SIGN_JXOTH驾校代收费其他表(发往台州地区)
+IMBS.T_SIGN_JXDSF驾校代收费签约表(发往台州地区)
+IMBS.T_YHWT_JRNL水费缴费流水表(发往云和信用联社)
+IMBS.T_YHWT_BAT水费批扣流水表(发往云和信用联社)
+2、表结构变更表：
+XDZX.ACCEPTANCE_DETAIL承兑汇票交易表EXCHG_CONTRACT_DEFICIT交易合同不足金额字段长度由DECIMAL(10,2)调整为DECIMAL(18,2)
+3、数据修复表：
+BODTALIBP.BDFMHQFN部提开户登记簿拆分规则调整
+公告发布时间
+2016-11-23
+公告最后更新时间
+2016-11-23 14:44:11
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+IMBS.MID71_T_SIGN银校通签约表
+IMBS.MID71_T_JRNL_YXT银校通交易流水表
+IMBS.T_SIGN_JXOTH驾校代收费其他表(发往台州地区)
+IMBS.T_SIGN_JXDSF驾校代收费签约表(发往台州地区)
+IMBS.T_YHWT_JRNL水费缴费流水表(发往云和信用联社)
+IMBS.T_YHWT_BAT水费批扣流水表(发往云和信用联社)
+2、表结构变更表：
+XDZX.ACCEPTANCE_DETAIL承兑汇票交易表EXCHG_CONTRACT_DEFICIT交易合同不足金额字段长度由DECIMAL(10,2)调整为DECIMAL(18,2)
+公告发布时间
+2016-11-23
+公告最后更新时间
+2016-11-23 14:43:34
+附件
+标准化文档-20161123.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161118全量包说明
+公告内容
+本次全量数据范围：
+1、表结构变更表
+CORE.BCFMCADI
+CORE.BCFMCPNI
+XDZX.PUB_CUST_BASE_INFO
+
+提取路径：/S-999000/ODS/ALL/20161118/
+
+注：本次升级XDZX相关表当天增量即为全量(当天不再下发全量)。因XDZX.PUB_CUST_BASE_INFO客户基本信息表为全省共享表，数据量太大，单独进行发送。当天XDZX的增量包将缺少该文件。
+核心BCFMCADI、BCFMCPNI表全量包（以801为例）：基础目录/S-999000/ODS/ALL/20161118/ODS_801000_20161118_ALL.tar
+信贷PUB_CUST_BASE_INFO表所在目录：基础目录/S-999000/ODS/ALL/20161118/XDZX_PUB_CUST_BASE_INFO_20161118_ALL.del.Z
+公告发布时间
+2016-11-18
+公告最后更新时间
+2016-11-18 14:45:42
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161118升级说明
+公告内容
+1、新增下发表：
+XDZX.CUST_ADDR_INFO  地址信息表
+XDZX.CUST_TEL_INFO  电话信息表
+XDZX.IND_CUST_EXPD_ECIF  对私客户扩展信息表
+XDZX.EN_CUST_EXPD_ECIF  对公客户拓展信息表
+XDZX.EN_FNC_CUST_ECIF  对公客户金融客户信息表
+XDZX.EN_RL_SH_INFO  对公客户股东信息表
+XDZX.EN_RL_PER_INFO  对公客户关联关系(个人)信息表
+2、删除表:
+XDZX.IND_CUST_EXPD_INFO 对私信贷客户拓展表
+XDZX.IND_LTC_CUST_EXPD_INFO 对私潜在客户拓展表
+XDZX.EN_CUST_EXPD_INFO 对公信贷客户拓展表
+XDZX.EN_LTC_CUST_EXPD_INFO 对公潜在客户拓展表
+XDZX.EN_FNC_CUST_INFO 对公客户金融客户信息表
+XDZX.EN_RLSP_INFO 对公客户关键人信息表
+3、表结构变更表
+XDZX.PUB_CUST_BASE_INFO		客户公共信息表
+XDZX.IND_FMY_INFO		对私客户家庭成员信息表
+XDZX.IND_SOCIAL_RLT_INFO		对私客户重要社会关系信息表
+XDZX.IND_CAR_ASSETS		对私客户汽车资产明细表
+XDZX.PUB_RTY_AST_INFO		房地产类资产明细表
+XDZX.EN_RLSP_GROUP_INFO	对公客户关联关系（对公）信息表
+XDZX.BLACK_LIST_INFO		黑名单信息维护
+XDZX.IN_FI_CUST_INFO		普惠金融客户信息表
+XDZX.CREDIT_CUST_BASE_INFO		信贷客户基础信息表
+XDZX.IND_FMY_SRY_ICM		家庭薪金收入信息
+CORE.BCFMCADI		BC-客户地址信息表
+CORE.BCFMCPNI		BC-客户电话信息表
+公告发布时间
+2016-11-18
+公告最后更新时间
+2016-11-18 14:45:17
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+XDZX.CUST_ADDR_INFO  地址信息表
+XDZX.CUST_TEL_INFO  电话信息表
+XDZX.IND_CUST_EXPD_ECIF  对私客户扩展信息表
+XDZX.EN_CUST_EXPD_ECIF  对公客户拓展信息表
+XDZX.EN_FNC_CUST_ECIF  对公客户金融客户信息表
+XDZX.EN_RL_SH_INFO  对公客户股东信息表
+XDZX.EN_RL_PER_INFO  对公客户关联关系(个人)信息表
+2、删除表:
+XDZX.IND_CUST_EXPD_INFO 对私信贷客户拓展表
+XDZX.IND_LTC_CUST_EXPD_INFO 对私潜在客户拓展表
+XDZX.EN_CUST_EXPD_INFO 对公信贷客户拓展表
+XDZX.EN_LTC_CUST_EXPD_INFO 对公潜在客户拓展表
+XDZX.EN_FNC_CUST_INFO 对公客户金融客户信息表
+XDZX.EN_RLSP_INFO 对公客户关键人信息表
+3、表结构变更表
+XDZX.PUB_CUST_BASE_INFO		客户公共信息表
+XDZX.IND_FMY_INFO		对私客户家庭成员信息表
+XDZX.IND_SOCIAL_RLT_INFO		对私客户重要社会关系信息表
+XDZX.IND_CAR_ASSETS		对私客户汽车资产明细表
+XDZX.PUB_RTY_AST_INFO		房地产类资产明细表
+XDZX.EN_RLSP_GROUP_INFO	对公客户关联关系（对公）信息表
+XDZX.BLACK_LIST_INFO		黑名单信息维护
+XDZX.IN_FI_CUST_INFO		普惠金融客户信息表
+XDZX.CREDIT_CUST_BASE_INFO		信贷客户基础信息表
+XDZX.IND_FMY_SRY_ICM		家庭薪金收入信息
+CORE.BCFMCADI		BC-客户地址信息表
+CORE.BCFMCPNI		BC-客户电话信息表
+公告发布时间
+2016-11-18
+公告最后更新时间
+2016-11-18 14:44:00
+附件
+标准化文档-20161118.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2016年11月23日表结构变更预告
+公告内容
+1、XDZX.ACCEPTANCE_DETAIL承兑汇票交易表EXCHG_CONTRACT_DEFICIT交易合同不足金额字段长度由decimal(10,2)调整为decimal(18,2)
+公告发布时间
+2016-11-15
+公告最后更新时间
+2016-11-15 14:22:09
+附件
+数据标准化拆分-信贷中心-发布版-20161123.xls
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161109全量包说明
+公告内容
+本次全量数据范围：
+1、新增的中间业务1张表、核心1张表、网银6张表
+2、表结构变更表
+XDZX.IND_FMY_ICM_AND_PT
+XDZX.IND_FMY_AL_INFO
+3、配合审计系统下发表
+CORE.BVFMOLDC
+
+提取路径：/S-999000/ODS/ALL/20161109/
+公告发布时间
+2016-11-09
+公告最后更新时间
+2016-11-09 15:29:02
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161109升级说明
+公告内容
+1、新增下发表： 
+IMBS.T_AGT_ACCRULE1	代收付入帐规则表
+CORE.BDFMHQFN	部提开户登记簿
+IBS.PB_REGISTER_RECORD_FLOW	银医通交易流水表
+IBS.PB_FUND_TRANFLOW	个人网银基金产品交易流水表
+IBS.PB_CASEPAY_FLOW	个人网银法院案款缴费交易流水表
+IBS.MB_CREDAPPLY_TRANFLOW	普惠宝交易流水表
+IBS.MB_LOAN_LEND_FLOW	手机银行放贷申请流水表
+IBS.MB_LOAN_REPAYFLOW	手机银行还贷流水
+2、表结构变更表:
+（1）XDZX.IND_FMY_ICM_AND_PT对私客户家庭收支信息新增如下字段：
+RPM_EXP 原材料支出
+OPER_LAN_PAY 其中：经营性贷款本金偿付
+OPER_INTEREST_PAY 经营性贷款利息偿付
+WT_RT 其中：水费
+ELE_BILL 电费
+SELL_EXP 销售费用支出
+EMP_SLS_EXP 职工薪酬支出
+（2）XDZX.IND_FMY_AL_INFO家庭资债信息表新增如下字段：
+ADV_MNY 预付账款
+RAW_MAT 原材料
+PRT_AND_STG_PRT 在产品及库存产品
+ADV_RCV 预收帐款
+IND_LOAN_ST 个人借款（短期）
+OBK_LOAN_ST 我行贷款（短期）
+OTH_LOAN_ST 其他贷款（短期）
+OTH_LBTS_ST 其他负债（短期）
+TTL_OTH_AST 其他资产汇总(普惠)
+TTL_OTH_LTBS 其他负债汇总(普惠)
+公告发布时间
+2016-11-09
+公告最后更新时间
+2016-11-09 15:28:42
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+IMBS.T_AGT_ACCRULE1	代收付入帐规则表
+CORE.BDFMHQFN	部提开户登记簿
+IBS.PB_REGISTER_RECORD_FLOW	银医通交易流水表
+IBS.PB_FUND_TRANFLOW	个人网银基金产品交易流水表
+IBS.PB_CASEPAY_FLOW	个人网银法院案款缴费交易流水表
+IBS.MB_CREDAPPLY_TRANFLOW	普惠宝交易流水表
+IBS.MB_LOAN_LEND_FLOW	手机银行放贷申请流水表
+IBS.MB_LOAN_REPAYFLOW	手机银行还贷流水
+2、表结构变更表:
+XDZX.IND_FMY_ICM_AND_PT
+XDZX.IND_FMY_AL_INFO
+公告发布时间
+2016-11-09
+公告最后更新时间
+2016-11-09 15:28:23
+附件
+标准化文档-20161109.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2016年11月9日表结构变更预告
+公告内容
+1、XDZX.IND_FMY_ICM_AND_PT对私客户家庭收支信息新增如下字段：
+RPM_EXP 原材料支出
+OPER_LAN_PAY 其中：经营性贷款本金偿付
+OPER_INTEREST_PAY 经营性贷款利息偿付
+WT_RT 其中：水费
+ELE_BILL 电费
+SELL_EXP 销售费用支出
+EMP_SLS_EXP 职工薪酬支出
+2、XDZX.IND_FMY_AL_INFO家庭资债信息表新增如下字段：
+ADV_MNY 预付账款
+RAW_MAT 原材料
+PRT_AND_STG_PRT 在产品及库存产品
+ADV_RCV 预收帐款
+IND_LOAN_ST 个人借款（短期）
+OBK_LOAN_ST 我行贷款（短期）
+OTH_LOAN_ST 其他贷款（短期）
+OTH_LBTS_ST 其他负债（短期）
+TTL_OTH_AST 其他资产汇总(普惠)
+TTL_OTH_LTBS 其他负债汇总(普惠)
+公告发布时间
+2016-10-26
+公告最后更新时间
+2016-10-26 18:16:39
+附件
+表结构变更预告-20161109.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161026全量包说明
+公告内容
+本次全量数据范围：
+1、新增的新信用卡1张表、核心1张表、中间业务7张表
+2、拆分规则调整表
+CORE.BVFMOLDC
+
+提取路径：/S-999000/ODS/ALL/20161026/
+公告发布时间
+2016-10-26
+公告最后更新时间
+2016-10-26 18:15:59
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161027升级说明
+公告内容
+1、新增下发表： 
+EPAY.INNERFUNDTRANSHIST 积分流水历史表（配合综合积分下发）
+公告发布时间
+2016-10-26
+公告最后更新时间
+2016-10-26 18:15:40
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161026升级说明
+公告内容
+1、新增下发表： 
+CCRD.STMT	账单记录表
+CORE.BFFMDQCG	贴心存签约表
+IMBS.T_BAT_ACC_LASB	临安社保批扣表(发往杭州地区)
+IMBS.T_LASB_JRNL 临安社保流水表(发往杭州地区)
+IMBS.T_CXSB_CC_BAT	长兴社保批量明细数据表(发往长兴农商行)
+IMBS.T_CXSB_CC_JRNL	长兴社保零星缴费明细表(发往长兴农商行)
+IMBS.T_CXSB_CC_SIGN	长兴社保签约表(发往长兴农商行)
+IMBS.T_JHYB_BAT	金华医保批量代扣(发往金华地区)
+IMBS.T_LAYXT_JRNL	临安银校通
+2、调整CORE.BVFMOLDC重控凭证调拨登记簿的拆分规则
+公告发布时间
+2016-10-26
+公告最后更新时间
+2016-10-26 18:15:17
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+CCRD.STMT	账单记录表
+CORE.BFFMDQCG	贴心存签约表
+IMBS.T_BAT_ACC_LASB	临安社保批扣表(发往杭州地区)
+IMBS.T_LASB_JRNL 临安社保流水表(发往杭州地区)
+IMBS.T_CXSB_CC_BAT	长兴社保批量明细数据表(发往长兴农商行)
+IMBS.T_CXSB_CC_JRNL	长兴社保零星缴费明细表(发往长兴农商行)
+IMBS.T_CXSB_CC_SIGN	长兴社保签约表(发往长兴农商行)
+IMBS.T_JHYB_BAT	金华医保批量代扣(发往金华地区)
+IMBS.T_LAYXT_JRNL	临安银校通
+EPAY.INNERFUNDTRANSHIST 积分流水历史表
+公告发布时间
+2016-10-26
+公告最后更新时间
+2016-10-26 18:14:52
+附件
+标准化文档-20161026.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+ECIF私有化改造表结构变更预公告
+公告内容
+原系统计划于11月18日进行ECIF私有化改造上线，数据交换平台将同步进行表结构变更。几点说明如下：
+(1)本次表结构变更涉及核心两张表、信贷多张表，详细内容和表结构请登录数据交换平台公告系统查看。
+(2)改造当天核心表将通过全量包进行下发(包含当天增量数据)，信贷相关表当天增量即为全量(当天不再下发全量)。
+(3)因XDZX.PUB_CUST_BASE_INFO客户基本信息表为全省共享表，数据量太大，无法发送。当天XDZX的增量包将缺少该文件，届时将放到170下载服务器public公共目录上，请各行社自行下载。
+(4)视当天升级情况及私有化改造后数据量的增加，数据下发的时间可能会有所延迟
+(5)上述日期为暂定日期，实际ECIF私有化改造上线日期以省联社正式公告为准
+公告发布时间
+2016-10-17
+公告最后更新时间
+2016-10-17 15:35:02
+附件
+数据标准化-ECIF-发布版.zip
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161012全量包说明
+公告内容
+1、表结构变更表
+FMS.FMS_ACCT_LOG
+XDZX.EN_LG_ICM_STMT
+XDZX.EN_LG_BAL_SHT
+2、拆分规则调整表
+EBILLS.BU_LOANREPAY
+EBILLS.EX_LCPACKLOANARV
+EBILLS.EX_PLLCNOARV
+
+提取路径：/S-999000/ODS/ALL/20161012/
+公告发布时间
+2016-10-12
+公告最后更新时间
+2016-10-12 15:55:36
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20161012升级说明
+公告内容
+1、FMS.FMS_ACCT_LOG账户流水表新增MACHINE_TIME机器时间字段
+2、XDZX.EN_LG_ICM_STMT大中型企业损益表新增RPT_DT_TYP报表类型字段
+3、XDZX.EN_LG_BAL_SHT大中型企业资产负债表新增RPT_DT_TYP报表类型字段
+4、调整EBILLS.BU_LOANREPAY贷款回款归档表的拆分规则
+5、调整EBILLS.EX_LCPACKLOANARV出口打包放款归档表的拆分规则
+6、调整EBILLS.EX_PLLCNOARV出口打包LC号码归档表的拆分规则
+公告发布时间
+2016-10-12
+公告最后更新时间
+2016-10-12 15:55:08
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、FMS.FMS_ACCT_LOG账户流水表新增MACHINE_TIME机器时间字段
+2、XDZX.EN_LG_ICM_STMT大中型企业损益表新增RPT_DT_TYP报表类型字段
+3、XDZX.EN_LG_BAL_SHT大中型企业资产负债表新增RPT_DT_TYP报表类型字段
+公告发布时间
+2016-10-12
+公告最后更新时间
+2016-10-12 15:54:49
+附件
+标准化文档-20161012.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+机房搬迁数据下发IP调整通知
+公告内容
+因数据仓库机房将搬迁至德清，届时数据交换平台对外浮动IP将调整为154.233.150.87（物理IP为154.233.150.88、154.233.150.89），计划在2016年10月15日左右进行连通性测试，请各行社配置好相关网络，若数据交换平台服务端程序配置文件SJFF_MFTPSVR.ini有设定过允许的IP地址范围，请将新的IP添加到允许范围内并重新启动文件传输服务端程序。
+公告发布时间
+2016-09-27
+公告最后更新时间
+2016-09-27 15:53:08
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2016年10月12日表结构变更预告
+公告内容
+1、FMS.FMS_ACCT_LOG账户流水表新增MACHINE_TIME机器时间字段
+2、XDZX.EN_LG_ICM_STMT大中型企业损益表新增RPT_DT_TYP报表类型字段
+3、XDZX.EN_LG_BAL_SHT大中型企业资产负债表新增RPT_DT_TYP报表类型字段
+公告发布时间
+2016-09-27
+公告最后更新时间
+2016-09-27 15:51:05
+附件
+表结构变更预告-20161012.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160927全量包说明
+公告内容
+本次全量数据范围：
+1、新增的核心3张表、信贷中心1张表、基金代销4张表
+2、拆分规则调整表
+EPAY.ONLINESUBTRANS
+IMBS.T_LSSBK_BAT_DETAIL
+
+提取路径：/S-999000/ODS/ALL/20160927/
+公告发布时间
+2016-09-27
+公告最后更新时间
+2016-09-27 15:50:37
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160927升级说明
+公告内容
+1、新增下发表： 
+CORE.BDFMHQFV	单卡户对账簿签约文件
+CORE.BWFMECTR	电子现金账户脱机交易流水表（批上送请求/入账结果文件）
+CORE.BDFMHQGE	机构客户等级表
+XDZX.AGATE_CRE_GUARAN_DETAIL	CRE授信资料担保关系明细
+FDS.APP_ACCT	帐户申请表
+FDS.APP_TRANS	交易申请表
+FDS.H_APP_ACCT	帐户申请历史表
+FDS.H_APP_TRANS	交易申请历史表
+2、调整EPAY.ONLINESUBTRANS子交易明细表、IMBS.T_LSSBK_BAT_DETAIL丽水社保卡批量明细表的拆分规则
+公告发布时间
+2016-09-27
+公告最后更新时间
+2016-09-27 15:50:17
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+CORE.BDFMHQFV	单卡户对账簿签约文件
+CORE.BWFMECTR	电子现金账户脱机交易流水表（批上送请求/入账结果文件）
+CORE.BDFMHQGE	机构客户等级表
+XDZX.AGATE_CRE_GUARAN_DETAIL	CRE授信资料担保关系明细
+FDS.APP_ACCT	帐户申请表
+FDS.APP_TRANS	交易申请表
+FDS.H_APP_ACCT	帐户申请历史表
+FDS.H_APP_TRANS	交易申请历史表
+公告发布时间
+2016-09-27
+公告最后更新时间
+2016-09-27 15:49:52
+附件
+标准化文档-20160927.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160810全量包说明
+公告内容
+1、新增的核心2张表、中间业务3张表、互联网支付2张表
+2、拆分规则调整表
+ECP.MALL_ORDER
+
+提取路径：/S-999000/ODS/ALL/20160810/
+公告发布时间
+2016-08-10
+公告最后更新时间
+2016-08-10 15:53:50
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160810升级说明
+公告内容
+1、新增下发表： 
+CORE.BWFMECDZ	IC卡电子现金余额对账表
+CORE.BCFMCCBI	BC-客户辅助信息文件(对公)
+IMBS.T_IC_LCMQF_JRNL  煤气费交易流水表(发往温州地区)
+IMBS.T_QZJFT_MX	缴费通明细表(增加发往杭州、金华、绍兴、台州、温州地区)
+IMBS.T_QZJFT_MXZL	缴费通明细总览表(发往杭州、金华、衢州、绍兴、台州、温州地区)
+EPAY.ONLINESUBTRANS	子交易明细表
+EPAY.USERPAYTYPSIGNINFO	用户支付方式签约表
+2、调整ECP.MALL_ORDER拆分规则，代办账号购买的订单也按行社进行下发
+公告发布时间
+2016-08-10
+公告最后更新时间
+2016-08-10 15:53:27
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+CORE.BWFMECDZ	IC卡电子现金余额对账表
+CORE.BCFMCCBI	BC-客户辅助信息文件(对公)
+IMBS.T_IC_LCMQF_JRNL  煤气费交易流水表(发往温州地区)
+IMBS.T_QZJFT_MX	缴费通明细表(增加发往杭州、金华、绍兴、台州、温州地区)
+IMBS.T_QZJFT_MXZL	缴费通明细总览表(发往杭州、金华、衢州、绍兴、台州、温州地区)
+EPAY.ONLINESUBTRANS	子交易明细表
+EPAY.USERPAYTYPSIGNINFO	用户支付方式签约表
+公告发布时间
+2016-08-10
+公告最后更新时间
+2016-08-10 15:53:05
+附件
+标准化文档-20160810.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160727全量包说明
+公告内容
+本次全量数据范围：
+1、新增的支付宝2张表、核心1张表：
+ZFB.T_TEN_SIGN
+ZFB.T_TEN_JRNL_ALL     近一个月全量
+CORE.BWFMECSH 
+
+提取路径：/S-999000/ODS/ALL/20160727/
+公告发布时间
+2016-07-27
+公告最后更新时间
+2016-07-27 15:43:31
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160727升级说明
+公告内容
+1、新增下发表： 
+ZFB.T_TEN_SIGN  财付通签约信息表
+ZFB.T_TEN_JRNL_ALL  财付通流水表
+CORE.BWFMECSH  电子现金账户表（登记薄）
+公告发布时间
+2016-07-27
+公告最后更新时间
+2016-07-27 15:42:08
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+ZFB.T_TEN_SIGN  财付通签约信息表
+ZFB.T_TEN_JRNL_ALL  财付通流水表
+CORE.BWFMECSH  电子现金账户表（登记薄）
+公告发布时间
+2016-07-27
+公告最后更新时间
+2016-07-27 15:41:50
+附件
+标准化文档-发布版.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160713全量包说明
+公告内容
+本次全量数据范围：
+1、新增的中间业务14张表、信贷中心3张表
+
+提取路径：/S-999000/ODS/ALL/20160713/
+公告发布时间
+2016-07-13
+公告最后更新时间
+2016-07-13 15:19:15
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160713升级说明
+公告内容
+1、新增下发表： 
+XDZX.SILT_CST_RAT_APP_RSLT	CST客户评级审批结果表
+XDZX.SILT_CST_RAT_SCO_DEL	CST评级等分细项表
+XDZX.AGATE_CRE_ERT_MSR	CRE授信测算信息表
+IMBS.T_STWT_BAT 发往温州地区
+IMBS.T_GWK_QTK	个人公务卡启停卡信息表
+IMBS.T_GWK_JRNL	个人公务卡前交易日pos明细表
+IMBS.T_GWK_BAT	个人公务卡批量明细表
+IMBS.T_GWK_CRT_BAT	个人公务卡贷记卡批量明细表
+IMBS.T_GWK_CRT_JRNL	个人公务卡贷记卡业务流水表
+IMBS.T_WXZF_ZFZL	吴兴集中支付支付指令表（增加发往杭州地区）
+IMBS.T_WXZF_ZFZL_MX	吴兴集中支付支付指令明细表（增加发往杭州地区）
+IMBS.T_WXZF_JRNL	吴兴集中支付支付业务流水表（增加发往杭州地区）
+IMBS.T_WXZF_JS_JRNL	吴兴财政集中支付结算业务流水表（增加发往杭州地区）
+IMBS.T_WXZF_ZFPZZF	吴兴集中支付支付凭证作废表（增加发往杭州地区）
+IMBS.T_WXZF_GWK_QTK	吴兴财政支付公务卡启/停表（增加发往杭州地区）
+IMBS.T_WXZF_GWK_JRNL	吴兴财政集中支付公务卡交易流水表（增加发往杭州地区）
+IMBS.T_SIGN_TELE_HIST	电信签约历史表
+公告发布时间
+2016-07-13
+公告最后更新时间
+2016-07-13 15:18:53
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+XDZX.SILT_CST_RAT_APP_RSLT	CST客户评级审批结果表
+XDZX.SILT_CST_RAT_SCO_DEL	CST评级等分细项表
+XDZX.AGATE_CRE_ERT_MSR	CRE授信测算信息表
+IMBS.T_STWT_BAT 发往温州地区
+IMBS.T_GWK_QTK	个人公务卡启停卡信息表
+IMBS.T_GWK_JRNL	个人公务卡前交易日pos明细表
+IMBS.T_GWK_BAT	个人公务卡批量明细表
+IMBS.T_GWK_CRT_BAT	个人公务卡贷记卡批量明细表
+IMBS.T_GWK_CRT_JRNL	个人公务卡贷记卡业务流水表
+IMBS.T_WXZF_ZFZL	吴兴集中支付支付指令表（增加发往杭州地区）
+IMBS.T_WXZF_ZFZL_MX	吴兴集中支付支付指令明细表（增加发往杭州地区）
+IMBS.T_WXZF_JRNL	吴兴集中支付支付业务流水表（增加发往杭州地区）
+IMBS.T_WXZF_JS_JRNL	吴兴财政集中支付结算业务流水表（增加发往杭州地区）
+IMBS.T_WXZF_ZFPZZF	吴兴集中支付支付凭证作废表（增加发往杭州地区）
+IMBS.T_WXZF_GWK_QTK	吴兴财政支付公务卡启/停表（增加发往杭州地区）
+IMBS.T_WXZF_GWK_JRNL	吴兴财政集中支付公务卡交易流水表（增加发往杭州地区）
+IMBS.T_SIGN_TELE_HIST	电信签约历史表
+公告发布时间
+2016-07-13
+公告最后更新时间
+2016-07-13 15:18:21
+附件
+标准化文档-20160713.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160629全量包说明
+公告内容
+本次全量数据范围：
+1、新增的中间业务4张表、网银4张表
+2、数据修复表
+IMBS.T_SIGN
+IBS.CB_CST_INF
+注：XDZX.CHARACT_PRODUCT、IMBS.T_SIGN_TELE、IMBS.T_SIGN_YHT当天增量就是全量，不再发送全量
+
+提取路径：/S-999000/ODS/ALL/20160629/
+公告发布时间
+2016-06-29
+公告最后更新时间
+2016-06-29 15:05:45
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160629升级说明
+公告内容
+1、新增下发表： 
+IMBS.T_QZ_JRNL	交易流水表(发往衢州地区)
+IMBS.T_NEW_JTFK_JRNL	新交通卡模块代理缴费流水(增加发往衢州地区)
+IMBS.T_FIN_PAY_JNL	财政票据(缴款书)信息登记表(增加发往衢州地区)
+IMBS.T_JRNL_GSETC	交易流水表
+IBS.CB_LOAN_REPAYFLOW	企业网银还贷流水表
+IBS.CB_CENPAYFLOW	企业网银财政集中支付流水表
+IBS.CB_COURTCASEPAY_FLOW	企业法院案件缴费流水表
+IBS.MB_PB_CASEPAY_FLOW	手机银行法院案款缴费交易流水表
+2、XDZX.CHARACT_PRODUCT表CHAR_PRODUCT_NAME字段长度类型由varchar(30)调整为varchar(255)
+3、如下表数据修复
+IMBS.T_SIGN_TELE
+IMBS.T_SIGN_YHT
+IMBS.T_SIGN
+IBS.CB_CST_INF
+公告发布时间
+2016-06-29
+公告最后更新时间
+2016-06-29 15:05:04
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+IMBS.T_QZ_JRNL	交易流水表(发往衢州地区)
+IMBS.T_NEW_JTFK_JRNL	新交通卡模块代理缴费流水(增加发往衢州地区)
+IMBS.T_FIN_PAY_JNL	财政票据(缴款书)信息登记表(增加发往衢州地区)
+IMBS.T_JRNL_GSETC	交易流水表
+IBS.CB_LOAN_REPAYFLOW	企业网银还贷流水表
+IBS.CB_CENPAYFLOW	企业网银财政集中支付流水表
+IBS.CB_COURTCASEPAY_FLOW	企业法院案件缴费流水表
+IBS.MB_PB_CASEPAY_FLOW	手机银行法院案款缴费交易流水表
+2、XDZX.CHARACT_PRODUCT表CHAR_PRODUCT_NAME字段长度类型由varchar(30)调整为varchar(255)
+公告发布时间
+2016-06-29
+公告最后更新时间
+2016-06-29 15:04:00
+附件
+标准化文档-20160629.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2016年6月29日表结构变更预告
+公告内容
+1、XDZX.CHARACT_PRODUCT表CHAR_PRODUCT_NAME字段长度类型由varchar(30)调整为varchar(255)
+公告发布时间
+2016-06-15
+公告最后更新时间
+2016-06-15 14:33:53
+附件
+表结构变更预告_20160629.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160615全量包说明
+公告内容
+本次全量数据范围：
+1、新增的中间业务2张表、网银2张表
+2、数据修复表
+CORE.BDFMHQBB（近一个月全量）
+3、配合审计系统下发表
+XDZX.LOAN_LIABILITY
+
+提取路径：/S-999000/ODS/ALL/20160615/
+公告发布时间
+2016-06-15
+公告最后更新时间
+2016-06-15 14:33:24
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160615升级说明
+公告内容
+1、新增下发表： 
+IBS.PB_TRANFLOW_DH	个人网银定活互转流水表
+IBS.PB_LOAN_LEND_FLOW	个人网银贷款放贷申请流水表
+IMBS.T_JSSF_BAT	金沙水费批扣表(增加发往金沙、安源富民村镇银行)
+IMBS.T_JSSF_JRNL	金沙水费流水表(增加发往金沙、安源富民村镇银行)
+2、CORE.BDFMHQBB	大额存取款登记簿拆分规则调整为按归属机构和操作网点拆分
+公告发布时间
+2016-06-15
+公告最后更新时间
+2016-06-15 14:33:02
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+IBS.PB_TRANFLOW_DH	个人网银定活互转流水表
+IBS.PB_LOAN_LEND_FLOW	个人网银贷款放贷申请流水表
+IMBS.T_JSSF_BAT	金沙水费批扣表(增加发往金沙、安源富民村镇银行)
+IMBS.T_JSSF_JRNL	金沙水费流水表(增加发往金沙、安源富民村镇银行)
+公告发布时间
+2016-06-15
+公告最后更新时间
+2016-06-15 14:32:36
+附件
+标准化文档-20160615.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160525全量包说明
+公告内容
+公告标题 : 20160525全量包说明
+公告内容 : 
+本次全量数据范围：
+1、新增的中间业务1张表、电商12张表
+
+提取路径：/S-999000/ODS/ALL/20160525/
+公告发布时间
+2016-05-25
+公告最后更新时间
+2016-05-25 14:26:57
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160525升级说明
+公告内容
+1、新增下发表： 
+IMBS.T_QZSBK_FIL	绍兴市民卡文件登记表（发往绍兴地区）
+ECP.MALL_COMPANYINFOMATION	企业信息表
+ECP.MALL_SHOP	店铺表
+ECP.MALL_SHOP_CATEGORY	店铺分类表
+ECP.MALL_SHOP_CATEGORY_GOODS	店铺分类商品表
+ECP.MALL_CATEGORY	商品分类表
+ECP.MALL_MERCHANT_FUNDSETTLE	商户清算表
+ECP.MALL_ORDER_GOODS	订单商品表
+ECP.MALL_REFUND	退款表
+ECP.MALL_ORDERRELATION	订单关联表
+ECP.MALL_MERCHANT	商户表
+ECP.MALL_ORDER	订单表
+ECP.MALL_GOODS	商品表
+公告发布时间
+2016-05-25
+公告最后更新时间
+2016-05-25 14:26:31
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+IMBS.T_QZSBK_FIL	绍兴市民卡文件登记表（发往绍兴地区）
+ECP.MALL_COMPANYINFOMATION	企业信息表
+ECP.MALL_SHOP	店铺表
+ECP.MALL_SHOP_CATEGORY	店铺分类表
+ECP.MALL_SHOP_CATEGORY_GOODS	店铺分类商品表
+ECP.MALL_CATEGORY	商品分类表
+ECP.MALL_MERCHANT_FUNDSETTLE	商户清算表
+ECP.MALL_ORDER_GOODS	订单商品表
+ECP.MALL_REFUND	退款表
+ECP.MALL_ORDERRELATION	订单关联表
+ECP.MALL_MERCHANT	商户表
+ECP.MALL_ORDER	订单表
+ECP.MALL_GOODS	商品表
+公告发布时间
+2016-05-25
+公告最后更新时间
+2016-05-25 14:26:04
+附件
+标准化文档-20160525.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160511全量包说明
+公告内容
+本次全量数据范围：
+1、新增的中间业务4张表、核心1张表、信贷1张表
+2、表结构变更表
+IMBS.T_YWSMK_MSG
+IMBS.T_YWSMK_YKH
+EBILLS.SB_SWSRSBD_SBXX
+
+提取路径：/S-999000/ODS/ALL/20160511/
+公告发布时间
+2016-05-11
+公告最后更新时间
+2016-05-11 10:21:20
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160511升级说明
+公告内容
+1、新增下发表： 
+IMBS.T_LQSF_BAT  水费批扣表(新增发往温岭合行)
+IMBS.T_FIN_ASSIGN   非税资金清算表(新增发往杭州地区)
+IMBS.T_YHLZF_BAT  玉环廉租房流水表(发往玉环合行)
+IMBS.T_XCSB_BAT  新昌社保批扣明细表(发往新昌农商行)
+CORE.BCFMCDBI    个人客户辅助信息文件
+XDZX.AR_CREDIT_SHEET_GRD_DTL  信贷资产表外分类细项表
+2、IMBS.T_YWSMK_MSG表增加下发字段：comm_no(社区编号）、comm_name(社区名称）
+3、IMBS.T_YWSMK_YKH表增加下发字段：comm_no(社区编号）、comm_name(社区名称）
+4、EBILLS.SB_SWSRSBD_SBXX表增加下发字段：payattr收入类型
+公告发布时间
+2016-05-11
+公告最后更新时间
+2016-05-11 10:20:59
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+IMBS.T_LQSF_BAT  水费批扣表(新增发往温岭合行)
+IMBS.T_FIN_ASSIGN   非税资金清算表(新增发往杭州地区)
+IMBS.T_YHLZF_BAT  玉环廉租房流水表(发往玉环合行)
+IMBS.T_XCSB_BAT  新昌社保批扣明细表(发往新昌农商行)
+CORE.BCFMCDBI    个人客户辅助信息文件
+XDZX.AR_CREDIT_SHEET_GRD_DTL  信贷资产表外分类细项表
+2、IMBS.T_YWSMK_MSG表增加下发字段：comm_no(社区编号）、comm_name(社区名称）
+3、IMBS.T_YWSMK_YKH表增加下发字段：comm_no(社区编号）、comm_name(社区名称）
+4、EBILLS.SB_SWSRSBD_SBXX表增加下发字段：payattr收入类型
+公告发布时间
+2016-05-11
+公告最后更新时间
+2016-05-11 10:20:38
+附件
+标准化文档-20160511.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2016年5月11日表结构变更预告
+公告内容
+1、IMBS.T_YWSMK_MSG表增加下发字段：comm_no(社区编号）、comm_name(社区名称）
+2、IMBS.T_YWSMK_YKH表增加下发字段：comm_no(社区编号）、comm_name(社区名称）
+3、EBILLS.SB_SWSRSBD_SBXX表增加下发字段：payattr收入类型
+公告发布时间
+2016-04-27
+公告最后更新时间
+2016-04-27 14:23:34
+附件
+表结构变更预告_20160511.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160427全量包说明
+公告内容
+本次全量数据范围：
+1、新增的中间业务2张表
+2、表结构变更表
+FMS.FMS_TRANS_LOG
+3、数据修复表：
+IBS.PB_CSTINF_PRO
+IBS.MB_PB_CSTINF_PRO
+XDZX.AR_CREDIT_RISK_GRD_DTL
+4、配合OCR下发表
+EBILLS.PA_CORP
+
+提取路径：/S-999000/ODS/ALL/20160427/
+公告发布时间
+2016-04-27
+公告最后更新时间
+2016-04-27 14:23:08
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160427升级说明
+公告内容
+1、新增下发表： 
+IMBS.ZJHS_JRNL  华数业务流水表(新增发往丽水地区)
+IMBS.ZJHS_BAT   华数批扣表(新增发往丽水、绍兴地区)
+2、FMS.FMS_TRANS_LOG增加下发字段：MACHINE_TIME机器时间 CHAR(6)
+3、IBS.PB_CSTINF_PRO表拆分规则调整：将手机银行在本行开通的相关数据也进行下发
+   IBS.MB_PB_CSTINF_PRO表拆分规则调整为按账户表的开户网点、签约网点及客户信息表的注册网点、开户网点拆分
+4、XDZX.AR_CREDIT_RISK_GRD_DTL表数据修复
+公告发布时间
+2016-04-27
+公告最后更新时间
+2016-04-27 14:22:44
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+IMBS.ZJHS_JRNL  华数业务流水表(新增发往丽水地区)
+IMBS.ZJHS_BAT   华数批扣表(新增发往丽水、绍兴地区)
+2、FMS.FMS_TRANS_LOG增加下发字段：MACHINE_TIME机器时间 CHAR(6)
+公告发布时间
+2016-04-27
+公告最后更新时间
+2016-04-27 14:22:19
+附件
+标准化文档-20160427.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2016年4月27日表结构变更预告
+公告内容
+1、FMS.FMS_TRANS_LOG增加下发字段：MACHINE_TIME机器时间 CHAR(6)
+公告发布时间
+2016-04-13
+公告最后更新时间
+2016-04-13 13:32:54
+附件
+表结构变更预告-20160427.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160413全量包说明
+公告内容
+本次全量数据范围：
+1、新增的核心1张表、信贷3张表、中间业务1张表、国际业务1张表
+2、数据修复表：
+IBS.CB_CST_INF
+XDZX.IN_FI_CUST_INFO
+EBILLS.PA_CORPLELVE
+
+提取路径：/S-999000/ODS/ALL/20160413/
+公告发布时间
+2016-04-13
+公告最后更新时间
+2016-04-13 13:31:59
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160413升级说明
+公告内容
+1、新增下发表： 
+XDZX.CHARACT_PRODUCT_ORGNIZATION  特色产品机构表
+XDZX.CHARACT_PRODUCT  特色产品表
+XDZX.CHAR_PRODUCT_RELATION  特色产品关系
+EBILLS.PA_CORPLEVELQPFAV   用于管理该机构级别汇率优惠信息
+IMBS.T_QZJFT_MX  衢州缴费通(发往衢州地区)
+CORE.BLFMCONG  合同辅助文件
+2、修复IBS.CB_CST_INF、XDZX.IN_FI_CUST_INFO、EBILLS.PA_CORPLELVE表数据问题
+公告发布时间
+2016-04-13
+公告最后更新时间
+2016-04-13 13:31:39
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+XDZX.CHARACT_PRODUCT_ORGNIZATION  特色产品机构表
+XDZX.CHARACT_PRODUCT  特色产品表
+XDZX.CHAR_PRODUCT_RELATION  特色产品关系
+EBILLS.PA_CORPLEVELQPFAV   用于管理该机构级别汇率优惠信息
+IMBS.T_QZJFT_MX  衢州缴费通(发往衢州地区)
+CORE.BLFMCONG  合同辅助文件
+2、全量过滤表清单增加CCRD.AUTH
+公告发布时间
+2016-04-13
+公告最后更新时间
+2016-04-13 13:31:20
+附件
+标准化文档-20160413.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+CORE.BDFMHQFP	 短信转帐签约信息
+CORE.BDFMHQFR	 短信转帐结果明细表
+XDZX.UN_INFORMAL	 非正式客户信息表
+TOSI2.YD_USER	 移动用户表
+TOSI2.LT_USER	      联通用户表
+ZZQZ.DEV_BASE_INFO	设备基础信息表
+ZZQZ.T_BSMS_JRNL	     市民卡交易流水表
+IBS.MB_PB_TRANFLOW_DH	手机银行定活互转流水表
+IMBS.T_DTSF_JRNL	洞头水费流水表(发往洞头联社)
+IMBS.T_DTSF_BAT	洞头水费批量表(发往洞头联社)
+IMBS.T_YKZJJS_SIGN	诊间结算签约信息表(发往金华地区)
+IMBS.T_TLZXC_CHK	     对账记录表(发往桐庐合作银行)
+IMBS.T_TLZXC_SIGN	自行车签约表(发往桐庐合作银行)
+IMBS.T_BAT_ACC	批量代发明细表
+IMBS.T_BAT_CZPT	财政公共代发表(发往绍兴地区)
+IMBS.T_SYSB_JRNL	社保流水表(发往上虞农商银行)
+IMBS.T_ZJSMK_OPEN	社保卡批量数据获取表(增加发往湖州、杭州、金华、丽水、绍兴地区)
+IMBS.T_BHSF_BAT	批量流水表(发往绍兴地区)
+IMBS.T_FSSR_MX	非税收入明细表(增加发往湖州、杭州、金华、丽水、衢州、绍兴、台州地区)
+IMBS.T_TX	交易码表
+公告发布时间
+2016-03-23
+公告最后更新时间
+2016-03-23 17:06:17
+附件
+标准化文档-20160323.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160323全量包说明
+公告内容
+本次全量数据范围：
+1、新增的核心2张表、信贷1张表、易充值2张表、自助前置2张表、网银1张表、中间业务12张表
+2、数据修复表：
+IMBS.T_SIGN_FYSB
+ 
+提取路径：/S-999000/ODS/ALL/20160323/
+公告发布时间
+2016-03-23
+公告最后更新时间
+2016-03-23 15:27:11
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160323升级说明
+公告内容
+1、新增下发表： 
+CORE.BDFMHQFP	 短信转帐签约信息
+CORE.BDFMHQFR	 短信转帐结果明细表
+XDZX.UN_INFORMAL 非正式客户信息表
+TOSI2.YD_USER	 移动用户表
+TOSI2.LT_USER	      联通用户表
+ZZQZ.DEV_BASE_INFO	设备基础信息表
+ZZQZ.T_BSMS_JRNL	  市民卡交易流水表
+IBS.MB_PB_TRANFLOW_DH	手机银行定活互转流水表
+IMBS.T_DTSF_JRNL	洞头水费流水表(发往洞头联社)
+IMBS.T_DTSF_BAT	洞头水费批量表(发往洞头联社)
+IMBS.T_YKZJJS_SIGN	诊间结算签约信息表(发往金华地区)
+IMBS.T_TLZXC_CHK 	对账记录表(发往桐庐合作银行)
+IMBS.T_TLZXC_SIGN	自行车签约表(发往桐庐合作银行)
+IMBS.T_BAT_ACC	批量代发明细表
+IMBS.T_BAT_CZPT	财政公共代发表(发往绍兴地区)
+IMBS.T_SYSB_JRNL	社保流水表(发往上虞农商银行)
+IMBS.T_ZJSMK_OPEN	社保卡批量数据获取表(增加发往湖州、杭州、金华、丽水、绍兴地区)
+IMBS.T_BHSF_BAT	批量流水表(发往绍兴地区)
+IMBS.T_FSSR_MX	非税收入明细表(增加发往湖州、杭州、金华、丽水、衢州、绍兴、台州地区)
+IMBS.T_TX	交易码表
+2、修复IMBS.T_SIGN_FYSB表数据问题
+公告发布时间
+2016-03-23
+公告最后更新时间
+2016-03-23 15:26:46
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160302全量包说明
+公告内容
+本次全量数据范围：
+1、新增的中间业务31张表、核心1张表
+2、数据修复表：
+CCRD.AUTH
+CCRD.PTLOG
+EBILLS.PA_CORP
+
+提取路径：/S-999000/ODS/ALL/20160302/
+公告发布时间
+2016-03-02
+公告最后更新时间
+2016-03-02 17:03:07
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160302升级说明
+公告内容
+1、新增下发表： 
+CORE.BDFMHQHA    会计流水补充文件
+IMBS.t_wxzf_zfpzzf    吴兴集中支付支付凭证作废表（增加发往嘉兴、金华、湖州地区）
+IMBS.t_wxzf_qszh    吴兴集中支付清算账号表（发往温州、衢州、嘉兴、金华地区）
+IMBS.t_wxzf_js_jrnl    吴兴财政集中支付结算业务流水表（发往衢州、嘉兴、金华、温州地区）
+IMBS.t_wxzf_gwk_qtk    吴兴财政支付公务卡启/停表（发往温州、金华、湖州地区）
+IMBS.t_wxzf_df_para    吴兴集中支付代发配置表（发往温州、湖州地区）
+IMBS.t_wxzf_df_task    吴兴集中支付代发任务表（发往温州地区）
+IMBS.t_wxzf_bat_acc    批量代发明细表（发往温州地区）
+IMBS.t_wxzf_dwgwk_qtk    吴兴单位公务卡启停表（发往温州地区）
+IMBS.t_wxzf_gwk_jrnl    吴兴财政集中支付公务卡交易流水表（发往温州、金华、湖州地区）
+IMBS.t_wxzf_gwk_qtkdjb    吴兴财政集中支付公务卡启停卡登记表（发往温州、金华、湖州地区）
+IMBS.t_wxzf_dwgwk_mx    吴兴财政单位公务卡交易明细表（发往温州地区）
+IMBS.t_wxzf_dwgwk_mx_tmp    吴兴财政单位公务卡交易明细临时表（发往温州地区）
+IMBS.t_wxzf_czdmdjb    吴兴集中支付财政代码对照表（发往温州地区）
+IMBS.t_wxsb_batctl    吴兴社保批量控制表（发往湖州地区）
+IMBS.t_wxsb_bat_detail    吴兴社保批量明细表（发往湖州地区）
+IMBS.T_LQSF_BAT    水费批扣表（发往台州地区）
+IMBS.T_BAT_TRAN    禾城非联网批量转帐表（增加发往嘉兴地区）
+IMBS.ZJHS_BAT    浙江华数批扣表（增加发往衢州地区）
+IMBS.T_HCSB_BATDETAIL    禾城社保明细表（发往嘉兴地区）
+IMBS.T_HCZF_GWK_JRNL    禾城支付公务卡流水表（发往禾城农商行）
+IMBS.T_HCZF_JS_JRNL    禾城支付结算流水表（发往嘉兴地区）
+IMBS.T_HCZF_WTSK    禾城支付委托收款明细表（发往嘉兴地区）
+IMBS.T_HCZF_Z_WTSK    禾城财政直接支付委托收款（发往嘉兴地区）
+IMBS.T_JXGJJ_BATDETAIL    嘉兴公积金批量代扣表（发往嘉兴地区）
+IMBS.T_JXGJJ_BATFAF    嘉兴公积金批量发放表（发往嘉兴地区）
+IMBS.T_JXSMK_JRNL    嘉兴市民卡流水表（发往嘉兴地区）
+IMBS.T_JXSMK_SIGN    嘉兴市民卡签约表（发往嘉兴地区）
+IMBS.T_JXSMK_SIGN_HIST    嘉兴市民卡签约历史表（发往嘉兴地区）
+IMBS.T_WXZF_LYEZGZH    吴兴集中支付预算单位零余额暂挂账号表（增加发往杭州、湖州、金华、嘉兴、衢州地区）
+IMBS.T_WXZF_DKTKZH    吴兴集中支付垫款退款账号表（增加发往杭州、湖州、金华、嘉兴、衢州地区）
+IMBS.T_WXZF_CHK_ERR    吴兴集中支付对账差错表（增加发往湖州地区）
+2、去除CCRD.AUTH表的CARD_NAME受卡方名称地址字段中存在的双引号
+3、去除CCRD.PTLOG表的DESC_LINE交易描述或者积分描述字段中存在的双引号
+公告发布时间
+2016-03-02
+公告最后更新时间
+2016-03-02 16:10:46
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+CORE.BDFMHQHA 会计流水补充文件
+IMBS.t_wxzf_zfpzzf 吴兴集中支付支付凭证作废表
+IMBS.t_wxzf_qszh 吴兴集中支付清算账号表
+IMBS.t_wxzf_js_jrnl 吴兴财政集中支付结算业务流水表
+IMBS.t_wxzf_gwk_qtk 吴兴财政支付公务卡启/停表
+IMBS.t_wxzf_df_para 吴兴集中支付代发配置表
+IMBS.t_wxzf_df_task 吴兴集中支付代发任务表
+IMBS.t_wxzf_bat_acc 批量代发明细表
+IMBS.t_wxzf_dwgwk_qtk 吴兴单位公务卡启停表
+IMBS.t_wxzf_gwk_jrnl 吴兴财政集中支付公务卡交易流水表
+IMBS.t_wxzf_gwk_qtkdjb 吴兴财政集中支付公务卡启停卡登记表
+IMBS.t_wxzf_dwgwk_mx 吴兴财政单位公务卡交易明细表
+IMBS.t_wxzf_dwgwk_mx_tmp 吴兴财政单位公务卡交易明细临时表
+IMBS.t_wxzf_czdmdjb 吴兴集中支付财政代码对照表
+IMBS.t_wxsb_batctl 吴兴社保批量控制表
+IMBS.t_wxsb_bat_detail 吴兴社保批量明细表
+IMBS.T_LQSF_BAT 水费批扣表
+IMBS.T_BAT_TRAN 禾城非联网批量转帐表
+IMBS.ZJHS_BAT 浙江华数批扣表
+IMBS.T_HCSB_BATDETAIL 禾城社保明细表
+IMBS.T_HCZF_GWK_JRNL 禾城支付公务卡流水表
+IMBS.T_HCZF_JS_JRNL 禾城支付结算流水表
+IMBS.T_HCZF_WTSK 禾城支付委托收款明细表
+IMBS.T_HCZF_Z_WTSK 禾城财政直接支付委托收款
+IMBS.T_JXGJJ_BATDETAIL 嘉兴公积金批量代扣表
+IMBS.T_JXGJJ_BATFAF 嘉兴公积金批量发放表
+IMBS.T_JXSMK_JRNL 嘉兴市民卡流水表
+IMBS.T_JXSMK_SIGN 嘉兴市民卡签约表
+IMBS.T_JXSMK_SIGN_HIST 嘉兴市民卡签约历史表
+IMBS.T_WXZF_LYEZGZH 吴兴集中支付预算单位零余额暂挂账号表
+IMBS.T_WXZF_DKTKZH 吴兴集中支付垫款退款账号表
+IMBS.T_WXZF_CHK_ERR 吴兴集中支付对账差错表
+公告发布时间
+2016-03-02
+公告最后更新时间
+2016-03-02 16:10:22
+附件
+标准化文档-20160302.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160217全量包说明
+公告内容
+本次全量数据范围：
+1、新增的核心1张表、信贷中心1张表
+2、表结构变更表
+IMBS.T_FSSR_MX
+IMBS.T_FSSR_JRNL
+3、数据修复表：
+EBILLS.PA_CORP
+IMBS.T_GTAX_JRNL
+ 
+提取路径：/S-999000/ODS/ALL/20160217/
+公告发布时间
+2016-02-17
+公告最后更新时间
+2016-02-17 15:45:52
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160217升级说明
+公告内容
+1、新增下发表： 
+CORE.BBFWCHDJ 机构现金超限额监督
+XDZX.CONTRACT_EXT  业务受理.贷款合同.关联信息
+2、表结构变更
+IMBS.T_FSSR_MX非税收入明细表bill_code字段类型由char(4)调整为char(8)
+IMBS.T_FSSR_JRNL非税业务流水表bill_code字段类型由char(4)调整为char(8)
+3、调整EBILLS.PA_CORP客户信息管理、IMBS.T_GTAX_JRNL国税业务信息表数据下发拆分规则
+4、修复BTOP如下表中文乱码问题(部分数据可能还存在乱码情况，彻底解决涉及到重新启停综合前端数据库，需后续协调升级)
+BTOP_PUB_IPPIPE_OPERLOG   IP/通道号维护日志表
+BTOP_PUB_IPPIPE_RELATION  IP/通道号关系表
+BTOP_TASK_AUTHLOG  已授权柜员表
+BTOP_TASK_TRADELOG 交易流水表
+公告发布时间
+2016-02-17
+公告最后更新时间
+2016-02-17 16:18:57
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+CORE.BBFWCHDJ 机构现金超限额监督
+XDZX.CONTRACT_EXT 业务受理.贷款合同.关联信息
+2、表结构变更
+IMBS.T_FSSR_MX非税收入明细表bill_code字段类型由char(4)调整为char(8)
+IMBS.T_FSSR_JRNL非税业务流水表bill_code字段类型由char(4)调整为char(8)
+3、EPAY.FT_USER_PRO_SIGNINFO表的BIND_SERIAL_NO字段中文名称改为“推广人柜员号”
+4、EPAY系统FT_USER_PRO_SIGNINFO、OT_SUB_TRANS表添加字段说明
+公告发布时间
+2016-02-17
+公告最后更新时间
+2016-02-17 15:45:01
+附件
+标准化文档-20160217.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2016年2月17日表结构变更预告
+公告内容
+1、IMBS.T_FSSR_MX非税收入明细表bill_code字段类型由char(4)调整为char(8)
+2、IMBS.T_FSSR_JRNL非税业务流水表bill_code字段类型由char(4)调整为char(8)
+公告发布时间
+2016-01-20
+公告最后更新时间
+2016-01-20 14:22:42
+附件
+表结构变更预告-20160217.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160120全量包说明
+公告内容
+本次全量数据范围：
+1、新增的中间业务3张表、综合前端1张表、微信银行1张表、E支付2张表、资金业务6张表、国际业务2张表、新信用卡5张表
+2、数据修复表：
+GAS.BIDW_GL_BALANCE_YO3_APP 
+GAS.BIDW_PROFIT_YO3_APP
+RCBP.ZPS_HDL
+IMBS.T_LSSBK_LX
+ 
+提取路径：/S-999000/ODS/ALL/20160120/
+公告发布时间
+2016-01-20
+公告最后更新时间
+2016-01-20 14:21:40
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20160120升级说明
+公告内容
+1、新增下发表： 
+IMBS.T_CNSF_BAT    灵溪水费批扣明细表(发往温州地区)
+IMBS.T_ELE_BAT    电力批扣表(增加接入T_ELE_BAT_8761表)
+IMBS.ZJHS_BAT      浙江华数批扣表(增加发往嘉兴地区)
+BTOP.BTOP_TASK_TASKINFO    交易任务主表
+WEIXIN.WXUSER      绑定客户统计
+EPAY.OT_SUB_TRANS    互联网支付交易流水表
+EPAY.FT_USER_PRO_SIGNINFO    客户协议支付签约信息
+TBS.TTRD_BOOKKEEPING_OBJ    记账科目余额
+TBS.TTRD_DAILY_CURVE    债券利率曲线明细表
+TBS.TTRD_DAILY_GIBORATE    全球同业拆放利率表
+TBS.TTRD_IBDEPO_ACC_PRODUCT    同业存放活期账户产品类型表
+TBS.TTRD_INSTITUTION    机构表
+TBS.TTRD_OTC_INSTRUMENT_EVAL    金融工具估值表
+EBILLS.IM_LGISSUEINFO    保函开立信息表
+EBILLS.PA_ORGCORPREL    机构客户关联表
+CCRD.TRDEF 交易类型代码表
+CCRD.AUTH    授权明细日志记录
+CCRD.DDAC    自扣关系表
+CCRD.MPAU    分期付款申请件
+CCRD.PTLOG    积分明细日志
+2、GAS.CUX_GL_DAILY_BALANCE日余额表所有金额字段类型由DECIMAL(17,2)调整为DECIAML(22,2)
+3、数据修复 
+GAS.BIDW_GL_BALANCE_YO3_APP 资产负债表（行社、年）（仓库数据刷新）
+GAS.BIDW_PROFIT_YO3_APP  利润表（行社、年）（仓库数据刷新） 
+4、调整RCBP.ZPS_HDL汇兑来帐登记簿、IMBS.T_LSSBK_LX丽水社保卡拆分规则
+5、新增下发机构：683000仙居富民村镇银行
+公告发布时间
+2016-01-20
+公告最后更新时间
+2016-01-20 14:19:52
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+IMBS.T_CNSF_BAT 灵溪水费批扣明细表(发往温州地区)
+IMBS.T_ELE_BAT 电力批扣表(增加接入T_ELE_BAT_8761表)
+IMBS.ZJHS_BAT 浙江华数批扣表(增加发往嘉兴地区)
+BTOP.BTOP_TASK_TASKINFO 交易任务主表
+WEIXIN.WXUSER 绑定客户统计
+EPAY.OT_SUB_TRANS 互联网支付交易流水表
+EPAY.FT_USER_PRO_SIGNINFO 客户协议支付签约信息
+TBS.TTRD_BOOKKEEPING_OBJ 记账科目余额
+TBS.TTRD_DAILY_CURVE 债券利率曲线明细表
+TBS.TTRD_DAILY_GIBORATE 全球同业拆放利率表
+TBS.TTRD_IBDEPO_ACC_PRODUCT 同业存放活期账户产品类型表
+TBS.TTRD_INSTITUTION 机构表
+TBS.TTRD_OTC_INSTRUMENT_EVAL 金融工具估值表
+EBILLS.IM_LGISSUEINFO 保函开立信息表
+EBILLS.PA_ORGCORPREL 机构客户关联表
+CCRD.TRDEF 交易类型代码表
+CCRD.AUTH 授权明细日志记录
+CCRD.DDAC 自扣关系表
+CCRD.MPAU 分期付款申请件
+CCRD.PTLOG 积分明细日志
+2、GAS.CUX_GL_DAILY_BALANCE日余额表所有金额字段类型由DECIMAL(17,2)调整为DECIAML(22,2)
+公告发布时间
+2016-01-20
+公告最后更新时间
+2016-01-20 14:19:23
+附件
+标准化文档-20160120.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2016年01月20日表结构变更预告
+公告内容
+1、GAS.CUX_GL_DAILY_BALANCE日余额表如下金额字段类型由DECIMAL(17,2)调整为DECIAML(22,2)
+BEGIN_BALANCE_DR    原币期初借方
+BEGIN_BALANCE_CR    原币期初贷方
+DAY_NET_DR    原币当日借方发生额
+DAY_NET_CR    原币当日贷方发生额
+END_BALANCE_DR    原币期末借方
+END_BALANCE_CR    原币期末贷方
+MONTH_AGGREGATE_DR    原币月累计借方余额
+MONTH_AGGREGATE_CR    原币月累计贷方余额
+QUARTER_AGGREGATE_DR    原币季累计借方余额
+QUARTER_AGGREGATE_CR    原币季累计贷方余额
+YEAR_AGGREGATE_DR    原币年累计借方余额
+YEAR_AGGREGATE_CR    原币年累计贷方余额
+FUNCTIONAL_BEGIN_BALANCE_DR    本位币期初借方
+FUNCTIONAL_BEGIN_BALANCE_CR    本位币期初贷方
+FUNCTIONAL_DAY_NET_DR    本位币当日借方发生额
+FUNCTIONAL_DAY_NET_CR    本位币当日贷方发生额
+FUNCTIONAL_END_BALANCE_DR    本位币期末借方
+FUNCTIONAL_END_BALANCE_CR    本位币期末贷方
+FUN_MONTH_AGGREGATE_DR    本位币月累计借方余额
+FUN_MONTH_AGGREGATE_CR    本位币月累计贷方余额
+FUN_QUARTER_AGGREGATE_DR    本位币季累计借方余额
+FUN_QUARTER_AGGREGATE_CR    本位币季累计贷方余额
+FUN_YEAR_AGGREGATE_DR    本位币年累计借方余额
+FUN_YEAR_AGGREGATE_CR    本位币年累计贷方余额
+公告发布时间
+2016-01-06
+公告最后更新时间
+2016-01-06 15:28:01
+附件
+表结构变更预告-20160120.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20151209全量包说明
+公告内容
+本次全量数据范围：
+1、新增的中间业务14张表
+2、表结构变更表：FMS.FMS_CUSTINFO_DEL客户销户表
+3、配合移动营销下发表：
+CCRD.CUGRY客户灰名单表
+CORE.BBFMORGA机构信息表
+ 
+提取路径：/S-999000/ODS/ALL/20151209/
+公告发布时间
+2015-12-09
+公告最后更新时间
+2015-12-09 15:10:42
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20151209升级说明
+公告内容
+1、新增下发表： 
+IMBS.T_YWSMK_OPEN 市民卡开户信息表(发往义乌农商行)
+IMBS.T_YWSMK_MSG 义乌市民卡卡信息表(发往义乌农商行)
+IMBS.T_YWSMK_GS 市民卡挂失登记薄(发往义乌农商行)
+IMBS.T_YWSMK_JRNL 义乌市民卡流水表(发往义乌农商行)
+IMBS.T_YWSMK_YKH 预开户信息表(发往义乌农商行)
+IMBS.T_YWSMK_FILE 文件操作登记表(发往义乌农商行)
+IMBS.T_BAT_ACC_CZ 批量代发明细表(发往定海农商行)
+IMBS.T_LSSBK_BAT_DETAIL 丽水社保卡批量业务表(发往丽水地区)
+IMBS.T_WZZTB_JRNL 温州网上招标流水表(发往温州地区)
+IMBS.T_WZZTB_ZRMX 温州网上招标明细表(发往温州地区)
+IMBS.T_WZCSC_JRNL 温州菜市场项目流水表(发往温州地区)
+IMBS.T_WZCSC_BAT 温州菜市场项目批量业务表(发往温州地区)
+IMBS.T_HZSBKQC_JRNL 杭州社保卡私有流水表(发往杭州地区)
+IMBS.T_TZSZTV_BAT 三门数字电视代理(增加发往三门联社)
+2、FMS.FMS_CUSTINFO_DEL客户销户表增加DEPOSIT_ACCT varchar（32）字段 
+3、XDZX.IND_CUST_EXPD_INFO对私客户扩展信息WORK字段类型改为CHARACTER(3)
+4、XDZX.IND_LTC_CUST_EXPD_INFO对私潜在客户扩展信息表WORK字段类型改为CHARACTER(3) 
+5、XDZX.IND_FMY_INFO对私客户家庭成员信息表PRF字段类型改为CHARACTER(3) 
+6、XDZX.IND_FMY_SRY_ICM对私客户家庭薪金收入信息表OCCUPATION字段类型改为CHARACTER(3)
+7、新增下发机构：613000鄱阳恒通村镇银行、615000九江恒通村镇银行
+公告发布时间
+2015-12-09
+公告最后更新时间
+2015-12-09 15:10:18
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+IMBS.T_YWSMK_OPEN        市民卡开户信息表(发往义乌农商行)
+IMBS.T_YWSMK_MSG         义乌市民卡卡信息表(发往义乌农商行)
+IMBS.T_YWSMK_GS          市民卡挂失登记薄(发往义乌农商行)
+IMBS.T_YWSMK_JRNL        义乌市民卡流水表(发往义乌农商行)
+IMBS.T_YWSMK_YKH         预开户信息表(发往义乌农商行)
+IMBS.T_YWSMK_FILE        文件操作登记表(发往义乌农商行)
+IMBS.T_BAT_ACC_CZ        批量代发明细表(发往定海农商行)
+IMBS.T_LSSBK_BAT_DETAIL  丽水社保卡批量业务表(发往丽水地区)
+IMBS.T_WZZTB_JRNL        温州网上招标流水表(发往温州地区)
+IMBS.T_WZZTB_ZRMX        温州网上招标明细表(发往温州地区)
+IMBS.T_WZCSC_JRNL        温州菜市场项目流水表(发往温州地区)
+IMBS.T_WZCSC_BAT         温州菜市场项目批量业务表(发往温州地区)
+IMBS.T_HZSBKQC_JRNL      杭州社保卡私有流水表(发往杭州地区)
+IMBS.T_TZSZTV_BAT        三门数字电视代理(增加发往三门联社)
+2、FMS.FMS_CUSTINFO_DEL客户销户表增加DEPOSIT_ACCT varchar（32）字段 
+3、XDZX.IND_CUST_EXPD_INFO对私客户扩展信息WORK字段类型改为CHARACTER(3)
+4、XDZX.IND_LTC_CUST_EXPD_INFO对私潜在客户扩展信息表WORK字段类型改为CHARACTER(3)      
+5、XDZX.IND_FMY_INFO对私客户家庭成员信息表PRF字段类型改为CHARACTER(3)       
+6、XDZX.IND_FMY_SRY_ICM对私客户家庭薪金收入信息表OCCUPATION字段类型改为CHARACTER(3)
+公告发布时间
+2015-12-09
+公告最后更新时间
+2015-12-09 15:09:48
+附件
+标准化文档-20151209.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2015年12月09日表结构变更预告
+公告内容
+1、FMS.FMS_CUSTINFO_DEL客户销户表增加DEPOSIT_ACCT varchar（32）字段
+2、XDZX.IND_CUST_EXPD_INFO对私客户扩展信息WORK字段类型改为CHARACTER(3)
+3、XDZX.IND_LTC_CUST_EXPD_INFO对私潜在客户扩展信息表WORK字段类型改为CHARACTER(3)      
+4、XDZX.IND_FMY_INFO对私客户家庭成员信息表PRF字段类型改为CHARACTER(3)       
+5、XDZX.IND_FMY_SRY_ICM对私客户家庭薪金收入信息表OCCUPATION字段类型改为CHARACTER(3)
+公告发布时间
+2015-11-25
+公告最后更新时间
+2015-11-25 13:58:56
+附件
+表结构变更预告-20151209.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20151125全量包说明
+公告内容
+本次全量数据范围：
+1、新增的中间业务4张表、理财1张表、易充值1张表、电话POS 2张表
+2、表结构变更表：
+IMBS.T_SIGN
+BTOP.BTOP_TASK_TRADELOG（近三个月全量）
+3、数据修正表：
+BTOP.BTOP_TELLER_TELLERLOGIN
+ 
+提取路径：/S-999000/ODS/ALL/20151125/
+公告发布时间
+2015-11-25
+公告最后更新时间
+2015-11-25 13:58:31
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20151125升级说明
+公告内容
+1、新增下发表： 
+IMBS.ZJHS_BAT       浙江华数批扣表（增加发往金华地区）
+IMBS.T_SIGN_WLSF    温岭水费签约表（发往台州地区）
+IMBS.T_WLSF_BAT     温岭水费批扣表（发往温岭合行）
+IMBS.T_FIN_ASSIGN   非税资金清算表（增加发往温岭合行）
+FMS.FMS_RPT_DAY_BAL_DETAIL    交易网点明细
+TOSI2.YCZ_BOOK      易充值登记薄
+POSP.T_AUTH_LINE_YL    银联交易流水表
+POSP.T_ORGANIZATION    机构信息管理表
+2、IMBS.T_SIGN公共签约信息表增加RMRK1、RMRK2、RMRK3、RMRK4、RMRK5、RMRK6、RMRK7备注字段
+3、BTOP.BTOP_TASK_TRADELOG交易流水表增加SERVERTIME、NOTE2、NOTE3字段
+4、BTOP.BTOP_TELLER_TELLERLOGIN柜台登录信息流水表CLIENTIP字段完整下发
+公告发布时间
+2015-11-25
+公告最后更新时间
+2015-11-25 13:58:12
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增下发表： 
+IMBS.ZJHS_BAT       浙江华数批扣表（增加发往金华地区）
+IMBS.T_SIGN_WLSF    温岭水费签约表（发往台州地区）
+IMBS.T_WLSF_BAT     温岭水费批扣表（发往温岭合行）
+IMBS.T_FIN_ASSIGN   非税资金清算表（增加发往温岭合行）
+FMS.FMS_RPT_DAY_BAL_DETAIL   交易网点明细
+TOSI2.YCZ_BOOK        易充值登记薄
+POSP.T_AUTH_LINE_YL   银联交易流水表
+POSP.T_ORGANIZATION   机构信息管理表
+2、IMBS.T_SIGN公共签约信息表增加RMRK1、RMRK2、RMRK3、RMRK4、RMRK5、RMRK6、RMRK7备注字段
+3、BTOP.BTOP_TASK_TRADELOG交易流水表增加SERVERTIME、NOTE2、NOTE3字段
+公告发布时间
+2015-11-25
+公告最后更新时间
+2015-11-25 13:57:47
+附件
+标准化文档-20151125.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2015年11月25日表结构变更预告
+公告内容
+1、IMBS.T_SIGN公共签约信息表增加如下字段：
+RMRK1 CHAR(20) 
+RMRK2 CHAR(20) 
+RMRK3 CHAR(20) 
+RMRK4 CHAR(20) 
+RMRK5 CHAR(20) 
+RMRK6 CHAR(60) 
+RMRK7 CHAR(80)
+2、BTOP.BTOP_TASK_TRADELOG交易流水表增加如下字段：
+SERVERTIME VARCHAR(10)
+NOTE2 VARCHAR(20)
+NOTE3 VARCHAR(20)
+公告发布时间
+2015-11-12
+公告最后更新时间
+2015-11-16 12:36:39
+附件
+表结构变更预告-20151125.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20151112全量包说明
+公告内容
+本次全量数据范围：
+1、新增的综合前端3张表、核心4张表、网银1张表、信用卡3张表
+2、配合事后监督、理财资管及移动营销系统下发如下表：
+BTOP.BTOP_TASK_TRADELOG
+BTOP.BTOP_TELLER_TELLERLOGIN
+CCRD.ACCT
+CCRD.CUSTR
+CCRD.PRMCD
+CORE.BBFMORGA
+CORE.BBFMSTLR
+GAS.GL_CODE_COMBINATIONS
+TBS.TBND
+TBS.TBND_EXT_RATING
+提取路径：/S-999000/ODS/ALL/20151112/
+公告发布时间
+2015-11-12
+公告最后更新时间
+2015-11-12 11:16:25
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20151112升级说明
+公告内容
+1、新增综合前端如下表： 
+BTOP.BTOP_TASK_AUTHLOG           已授权柜员表
+BTOP.BTOP_PUB_IPPIPE_RELATION    IP/通道号关系表
+BTOP.BTOP_PUB_IPPIPE_OPERLOG     IP/通道号维护日志表
+2、新增核心如下表：
+CORE.BFFMDQCJ                    大额存单发行信息登记簿
+CORE.BFFMDQCP                    大额存单提前支取多档次利率定义表
+CORE.BFFMDQCL                    大额存单产品信息登记簿
+CORE.BDFMHQGO                    点对点冻结解冻登记簿
+3、新增网银如下表：
+IBS.PB_LOAN_REPAYFLOW            个人网银贷款还贷流水表
+4、新增信用卡如下表：
+CCRD.CUGRY                       灰名单数据
+CCRD.PRMFE                       年费代码定义参数表
+CCRD.PRMCT                       有效账单日参数定义表
+公告发布时间
+2015-11-12
+公告最后更新时间
+2015-11-12 11:15:59
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增综合前端如下表：
+BTOP.BTOP_TASK_AUTHLOG           已授权柜员表
+BTOP.BTOP_PUB_IPPIPE_RELATION    IP/通道号关系表
+BTOP.BTOP_PUB_IPPIPE_OPERLOG     IP/通道号维护日志表
+2、新增核心如下表：
+CORE.BFFMDQCJ                    大额存单发行信息登记簿
+CORE.BFFMDQCP                    大额存单提前支取多档次利率定义表
+CORE.BFFMDQCL                    大额存单产品信息登记簿
+CORE.BDFMHQGO                    点对点冻结解冻登记簿
+3、新增网银如下表：
+IBS.PB_LOAN_REPAYFLOW            个人网银贷款还贷流水表
+4、新增信用卡如下表：
+CCRD.CUGRY                       灰名单数据
+CCRD.PRMFE                       年费代码定义参数表
+CCRD.PRMCT                       有效账单日参数定义表
+公告发布时间
+2015-11-12
+公告最后更新时间
+2015-11-12 11:15:36
+附件
+标准化文档-20151112.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20151028全量包说明
+公告内容
+本次全量数据范围：
+1、新增的信贷中心9张表、国际业务7张表
+2、配合审计系统下发如下表：
+XDZX.EXPORT_CREDIT_INSURANCE
+XDZX.EXPORT_INVOICE_FINANCING
+XDZX.EXPORT_TRADE
+XDZX.IMPORT_BILL_ADVANCE
+XDZX.IMPORT_ISSUE
+XDZX.IMPORT_PAID
+XDZX.INTER_CREDIT_RELATION
+XDZX.INTERNATIONAL_BILL_DISCOUNT
+XDZX.INTERNATIONAL_SYSTEM_PARAMETER
+XDZX.LETTER_GUARANTEE
+EBILLS.SB_SWSRSBD
+EBILLS.SB_SWSRSBD_SBXX
+EBILLS.NT_OUTWARDREMITARV
+提取路径：/S-999000/ODS/ALL/20151028/
+公告发布时间
+2015-10-28
+公告最后更新时间
+2015-10-28 14:46:56
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20151028升级说明
+公告内容
+1、新增信贷中心如下表：
+XDZX.SAND_CALC_APPROVAL_RSLT    利率测算审批结果
+XDZX.SAND_ADJUST_INFO           利率调整信息表
+XDZX.AGATE_CRE_OPER_INFO        CRE授信操作记录信息
+XDZX.AGATE_CRE_APP_INFO         CRE授信审批结果信息
+XDZX.AGATE_CRE_GUARAN           CRE授信资料担保关系
+XDZX.AR_CREDIT_RISK_GRD         AR信贷资产风险分类
+XDZX.AR_CREDIT_RISK_GRD_DTL     AR信贷资产风险明细
+XDZX.AR_PERS_BAT_RMC            AR自然人批量风险分类
+XDZX.AR_PERS_BAT_RMC_DTL        AR自然人批量风险分类明细
+2、新增国际业务如下表：
+EBILLS.BU_SPFEDETAIL            结售汇明细表
+EBILLS.IM_DFAPPLYARV            海外代付信息归档表
+EBILLS.BU_LOANARV              融资归档表
+EBILLS.BU_ACCTLIST              分录信息表
+EBILLS.PA_ACCTNOINFOIN          用于管理核心系统表内帐户详细信息
+EBILLS.IM_TTINVOICELOANINFO      进口发票汇融资对象INFO表
+EBILLS.PA_CONTRACTLIMIT          合同信息表
+3、停止下发POSP.T_ONLINETERMINAL在线终端信息管理表
+公告发布时间
+2015-10-28
+公告最后更新时间
+2015-10-28 14:46:32
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增信贷中心如下表：
+XDZX.SAND_CALC_APPROVAL_RSLT     利率测算审批结果
+XDZX.SAND_ADJUST_INFO            利率调整信息表
+XDZX.AGATE_CRE_OPER_INFO         CRE授信操作记录信息
+XDZX.AGATE_CRE_APP_INFO          CRE授信审批结果信息
+XDZX.AGATE_CRE_GUARAN            CRE授信资料担保关系
+XDZX.AR_CREDIT_RISK_GRD          AR信贷资产风险分类
+XDZX.AR_CREDIT_RISK_GRD_DTL      AR信贷资产风险明细
+XDZX.AR_PERS_BAT_RMC             AR自然人批量风险分类
+XDZX.AR_PERS_BAT_RMC_DTL         AR自然人批量风险分类明细
+2、新增国际业务如下表：
+EBILLS.BU_SPFEDETAIL             结售汇明细表
+EBILLS.IM_DFAPPLYARV             海外代付信息归档表
+EBILLS.BU_LOANARV                融资归档表
+EBILLS.BU_ACCTLIST               分录信息表
+EBILLS.PA_ACCTNOINFOIN           用于管理核心系统表内帐户详细信息
+EBILLS.IM_TTINVOICELOANINFO      进口发票汇融资对象INFO表
+EBILLS.PA_CONTRACTLIMIT          合同信息表
+公告发布时间
+2015-10-28
+公告最后更新时间
+2015-10-28 14:46:08
+附件
+标准化文档-20151028.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2015年10月28日表结构变更预告
+公告内容
+1、停止下发POSP.T_ONLINETERMINAL在线终端信息管理表（改为POSP.T_TERMINAL终端信息管理表，新表数据包含撤机及在线的数据，可以通过终端状态区分）
+公告发布时间
+2015-10-14
+公告最后更新时间
+2015-10-14 15:06:35
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20151014全量包说明
+公告内容
+本次全量数据范围：
+1、新增表
+IMBS.T_JSSF_BAT    金沙水费批扣表
+IMBS.T_JSSF_JRNL   金沙水费流水表
+POSP.T_TERMINAL    终端信息管理表
+2、数据修复表
+IMBS.T_SIGN        公共签约信息表（增加接入T_SIGN_661表）
+3、配合移动营销系统下发如下表：
+CORE.BBFMBCPR
+CORE.BBFMCGNO
+CORE.BBFMORGA
+CORE.BBFMSTLR
+提取路径：/S-999000/ODS/ALL/20151014/
+公告发布时间
+2015-10-14
+公告最后更新时间
+2015-10-14 15:06:11
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20151014升级说明
+公告内容
+1、新增中间业务如下表：
+IMBS.T_JSSF_BAT    金沙水费批扣表（发往温州地区）
+IMBS.T_JSSF_JRNL   金沙水费流水表（发往温州地区）
+2、新增电话POS如下表：
+POSP.T_TERMINAL    终端信息管理表
+3、IMBS.T_SIGN公共签约信息表增加接入T_SIGN_661表数据
+公告发布时间
+2015-10-14
+公告最后更新时间
+2015-10-14 15:05:49
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增中间业务如下表：
+IMBS.T_JSSF_BAT    金沙水费批扣表（发往温州地区）
+IMBS.T_JSSF_JRNL   金沙水费流水表（发往温州地区）
+2、新增电话POS如下表：
+POSP.T_TERMINAL    终端信息管理表
+公告发布时间
+2015-10-14
+公告最后更新时间
+2015-10-14 15:05:29
+附件
+标准化文档-20151014.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150923全量包说明
+公告内容
+本次全量数据范围：
+1、新增表IMBS.T_LHSB_PAY
+2、数据修复表：IMBS.T_ZSSF_BAT、IMBS.T_SIGN_YHT
+3、配合审计系统及移动营销系统下发如下表：
+CORE.BFFMDQBA
+CCRD.CODES
+CCRD.SCODE
+CCRD.CLOCD
+CORE.BBFMBCPR
+CORE.BBFMCGNO
+CORE.BBFMORGA
+CORE.BBFMSTLR
+提取路径：/S-999000/ODS/ALL/20150923/
+公告发布时间
+2015-09-23
+公告最后更新时间
+2015-09-23 15:24:53
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150923升级说明
+公告内容
+1、新增中间业务如下表： 
+IMBS.T_LHSB_PAY（增加发往玉环农村合作银行）
+2、修复如下表数据缺失问题：
+IMBS.T_ZSSF_BAT
+IMBS.T_SIGN_YHT
+3、XDZX.CREDIT_CUST_BASE_INFO信贷客户基础信息表由公共档改为拆分档
+公告发布时间
+2015-09-23
+公告最后更新时间
+2015-09-23 15:23:59
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增中间业务如下表： 
+IMBS.T_LHSB_PAY（增加发往玉环农村合作银行）
+公告发布时间
+2015-09-23
+公告最后更新时间
+2015-09-23 15:23:04
+附件
+标准化文档-20150923.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150909全量包说明
+公告内容
+1、新增表IMBS.T_GSETC_DET_ACC
+2、数据修复表：IMBS.T_FSSR_JRNL、IMBS.T_ZSRQ_BAT
+
+提取路径：/S-999000/ODS/ALL/20150909/
+公告发布时间
+2015-09-09
+公告最后更新时间
+2015-09-09 15:13:46
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150909升级说明
+公告内容
+1、新增中间业务如下表： 
+T_GSETC_DET_ACC     ETC联机扣款明细表
+2、修复如下表数据缺失问题：
+IMBS.T_FSSR_JRNL   
+IMBS.T_ZSRQ_BAT
+公告发布时间
+2015-09-09
+公告最后更新时间
+2015-09-09 15:11:51
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增中间业务如下表： 
+T_GSETC_DET_ACC     ETC联机扣款明细表
+公告发布时间
+2015-09-09
+公告最后更新时间
+2015-09-09 15:09:45
+附件
+标准化文档-20150909.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150826全量包说明
+公告内容
+本次全量数据范围：
+1、新增中间业务4张表
+2、新增网银2张表
+3、配合审计系统下发14张表
+提取路径：/S-999000/ODS/ALL/20150826/
+公告发布时间
+2015-08-26
+公告最后更新时间
+2015-08-26 15:02:37
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150826升级说明
+公告内容
+1、CORE.BBFTTLPC柜员特殊登记簿修改为无主键表
+2、新增中间业务如下表：
+IMBS.T_TELE_BAT_DETAIL（发往杭州、温州、丽水、衢州、金华、绍兴、湖州、嘉兴地区）
+IMBS.T_TELE_JRNL（发往杭州、温州、衢州、金华、绍兴、台州、嘉兴、丽水地区）
+IMBS.T_ZJSB_JRNL（发往湖州、嘉兴、丽水、温州地区）
+IMBS.T_LWLC_JRNL（只发温州龙湾）
+3、新增网银如下表：
+EB_CHANNEL_OPEN    网银渠道开通表
+MB_TRANS_LOG           交易日志表
+公告发布时间
+2015-08-26
+公告最后更新时间
+2015-08-26 15:02:17
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、CORE.BBFTTLPC柜员特殊登记簿修改为无主键表 
+2、新增中间业务如下表：
+IMBS.T_TELE_BAT_DETAIL（发往杭州、温州、丽水、衢州、金华、绍兴、湖州、嘉兴地区）
+IMBS.T_TELE_JRNL（发往杭州、温州、衢州、金华、绍兴、台州、嘉兴、丽水地区）
+IMBS.T_ZJSB_JRNL（发往湖州、嘉兴、丽水、温州地区）
+IMBS.T_LWLC_JRNL（只发温州龙湾）
+3、新增网银如下表：
+EB_CHANNEL_OPEN 网银渠道开通表
+MB_TRANS_LOG 交易日志表
+公告发布时间
+2015-08-26
+公告最后更新时间
+2015-08-26 15:01:57
+附件
+标准化文档-20150826.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2015年8月26日表结构变更预告
+公告内容
+1、CORE.BBFTTLPC柜员特殊登记簿修改为无主键表 
+具体表结构请见附件
+公告发布时间
+2015-08-12
+公告最后更新时间
+2015-08-12 14:42:12
+附件
+表结构变更预告-20150826.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150812全量包说明
+公告内容
+本次全量数据为配合审计系统需要而下发：
+CORE.BDFMHQEA
+CORE.BBFMLBCK
+XDZX.LOAN_CENTER_CHECK
+CCRD.INTR
+CORE.BFFMDQAH
+EBILLS.EX_CREDITLOANARV
+EBILLS.EX_INVOICELOANARV
+EBILLS.EX_PURCHASEARV
+EBILLS.FI_DEALSPFEINFO
+EBILLS.IM_LCISSUEINFO
+EBILLS.NT_INWARDREMITARV
+EBILLS.PA_TRADETYPE
+EBILLS.EX_LCBPADDINFO
+EBILLS.EX_LCBPINFO
+EBILLS.EX_PLLCNOARV
+EBILLS.IM_IMPORTFINANCE
+EBILLS.BU_ACCOUNTINFO
+EBILLS.SB_DWFKCDTZS
+EBILLS.SB_DWFKCDTZS_SBXX
+EBILLS.IM_LCCLOSE
+EBILLS.EX_LAYBACKBILLARV
+CORE.BDFMHQET
+EBILLS.PA_ORG
+CORE.AFFMSPTS
+CORE.BWFMDCIM
+XDZX.EN_RLSP_GROUP_INFO
+提取路径：/S-999000/ODS/ALL/20150812/
+公告发布时间
+2015-08-12
+公告最后更新时间
+2015-08-12 14:41:41
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150730全量包说明
+公告内容
+本次全量数据范围：
+1、新增支付宝4张表、中间业务24张表、核心3张表、理财系统2张表、国际业务1张表
+提取路径：/S-999000/ODS/ALL/20150730/
+公告发布时间
+2015-07-30
+公告最后更新时间
+2015-07-30 09:52:40
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150730升级说明
+公告内容
+1、因支付宝系统切换，数据交换平台将同步进行改造：
+   迁移前                                    迁移后
+IMBS.T_ALIPAY_BAT             停用
+IMBS.T_ALIPAY_KJ                ZFB.T_ALI_KJ
+IMBS.T_JRNL_ALIPAY            ZFB.T_ALI_JRNL
+IMBS.T_SIGN_ALIPAY_HIST   ZFB.T_ALI_SIGN_HIS
+IMBS.T_SIGN_ALIPAY            ZFB.T_ALI_SIGN
+即停止下发如上5张IMBS表，同时新增4张ZFB系统表
+2、新增接入中间业务如下表
+IMBS.T_ZJZF_YSDW
+IMBS.T_ZJZF_YSKM
+IMBS.T_ZJZF_ZJXZ
+IMBS.T_ZJZF_CZDM
+IMBS.T_ZJZF_SQZFED
+IMBS.T_ZJZF_SQZFED_MX
+IMBS.T_ZJZF_SQZFED_HEAD
+IMBS.T_ZJZF_DKTKZH
+IMBS.T_ZJZF_LYEZGZH
+IMBS.T_ZJZF_ZFZL
+IMBS.T_ZJZF_ZFZL_MX
+IMBS.T_ZJZF_JRNL
+IMBS.T_ZJZF_ZFPZHD
+IMBS.T_ZJZF_CHK_ERR
+IMBS.T_ZJZF_ZFPZZF
+IMBS.T_ZJZF_QSZH
+IMBS.T_ZJZF_JS_JRNL
+IMBS.T_ZJZF_HMHH
+IMBS.T_ZJZF_WEB_BAT
+IMBS.T_TXZF_DWGWK_QTK（嘉兴、温州）
+IMBS.T_GTAX_JRNL（金华、嘉兴）
+IMBS.T_HYSB_JRNL（嘉兴）
+IMBS.YC_JRNL（丽水、温州、金华、舟山、台州、湖州、绍兴、嘉兴）
+IMBS.ZJHS_JRNL（温州、金华、嘉兴）
+3、新增核心如下表
+CORE.BDFMHQFU    定活互转定期状态登记簿
+CORE.BLFMPJZY    票据转移登记簿
+CORE.BIFMACIR    银行/帐户利率表
+4、新增理财系统如下表
+FMS.FMS_CFG_DIMENSION_RATECODE  产品多维计算码配置表
+FMS.FMS_CFG_PROD_RATECODE    产品收益率计算码配置表
+5、新增国际业务如下表
+EBILLS.PA_LOADCONTRACTAC         借据信息表
+6、删除中间业务如下表：
+IMBS.T_ALIPAY_BAT
+IMBS.T_ALIPAY_KJ
+IMBS.T_JRNL_ALIPAY
+IMBS.T_SIGN_ALIPAY_HIST
+IMBS.T_SIGN_ALIPAY
+7、全量数据过滤表清单增加
+IMBS.T_TELE_BAT_DETAIL
+CCRD.CUPLG
+CORE.BDFMHQDI
+GAS.GAS_BIDW_BUSINESS_COND_MO3_APP
+GAS.GAS_BIDW_BUSINESS_COND_MO6_APP
+PYMT.T_HVPS_BOOK
+IMBS.T_YHT_BAT_DETAIL
+8、修改国际业务如下表
+EBILLS.BU_TRANSACTIONINFO业务交易详细表MEMO备注字段长度由VARCHAR(240)调整为VARCHAR(300)
+公告发布时间
+2015-07-30
+公告最后更新时间
+2015-07-30 09:52:16
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增ZFB如下表：
+ZFB.T_ALI_KJ
+ZFB.T_ALI_JRNL
+ZFB.T_ALI_SIGN_HIS
+ZFB.T_ALI_SIGN
+2、新增中间业务如下表
+IMBS.T_ZJZF_YSDW
+IMBS.T_ZJZF_YSKM
+IMBS.T_ZJZF_ZJXZ
+IMBS.T_ZJZF_CZDM
+IMBS.T_ZJZF_SQZFED
+IMBS.T_ZJZF_SQZFED_MX
+IMBS.T_ZJZF_SQZFED_HEAD
+IMBS.T_ZJZF_DKTKZH
+IMBS.T_ZJZF_LYEZGZH
+IMBS.T_ZJZF_ZFZL
+IMBS.T_ZJZF_ZFZL_MX
+IMBS.T_ZJZF_JRNL
+IMBS.T_ZJZF_ZFPZHD
+IMBS.T_ZJZF_CHK_ERR
+IMBS.T_ZJZF_ZFPZZF
+IMBS.T_ZJZF_QSZH
+IMBS.T_ZJZF_JS_JRNL
+IMBS.T_ZJZF_HMHH
+IMBS.T_ZJZF_WEB_BAT
+IMBS.T_TXZF_DWGWK_QTK（嘉兴、温州）
+IMBS.T_GTAX_JRNL（金华、嘉兴）
+IMBS.T_HYSB_JRNL（嘉兴）
+IMBS.YC_JRNL（丽水、温州、金华、舟山、台州、湖州、绍兴、嘉兴）
+IMBS.ZJHS_JRNL（温州、金华、嘉兴）
+3、新增核心如下表
+CORE.BDFMHQFU 定活互转定期状态登记簿
+CORE.BLFMPJZY 票据转移登记簿
+CORE.BIFMACIR 银行/帐户利率表
+4、新增理财系统如下表
+FMS.FMS_CFG_DIMENSION_RATECODE 产品多维计算码配置表
+FMS.FMS_CFG_PROD_RATECODE 产品收益率计算码配置表
+5、新增国际业务如下表
+EBILLS.PA_LOADCONTRACTAC 借据信息表
+6、删除中间业务如下表：
+IMBS.T_ALIPAY_BAT
+IMBS.T_ALIPAY_KJ
+IMBS.T_JRNL_ALIPAY
+IMBS.T_SIGN_ALIPAY_HIST
+IMBS.T_SIGN_ALIPAY
+7、全量数据过滤表清单增加
+IMBS.T_TELE_BAT_DETAIL
+CCRD.CUPLG
+CORE.BDFMHQDI
+GAS.GAS_BIDW_BUSINESS_COND_MO3_APP
+GAS.GAS_BIDW_BUSINESS_COND_MO6_APP
+PYMT.T_HVPS_BOOK
+IMBS.T_YHT_BAT_DETAIL
+ZFB.T_ALI_JRNL
+8、修改国际业务如下表
+EBILLS.BU_TRANSACTIONINFO业务交易详细表MEMO备注字段长度由VARCHAR(240)调整为VARCHAR(300)
+公告发布时间
+2015-07-30
+公告最后更新时间
+2015-07-30 11:00:34
+附件
+标准化文档-20150730.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2015年7月30日支付宝系统迁移表结构变更预告
+公告内容
+因支付宝系统切换，数据交换平台将同步于7月30号白天进行升级：
+   迁移前                       迁移后
+IMBS.T_ALIPAY_BAT           停用
+IMBS.T_ALIPAY_KJ            ZFB.T_ALI_KJ
+IMBS.T_JRNL_ALIPAY          ZFB.T_ALI_JRNL
+IMBS.T_SIGN_ALIPAY_HIST     ZFB.T_ALI_SIGN_HIS
+IMBS.T_SIGN_ALIPAY          ZFB.T_ALI_SIGN
+即停止下发如上5张IMBS表，同时新增4张ZFB系统表
+
+具体表结构请见附件
+公告发布时间
+2015-07-14
+公告最后更新时间
+2015-07-14 09:13:19
+附件
+数据标准化拆分-支付宝-发布版20150730.xls
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2015年7月29日表结构变更预告
+公告内容
+1、EBILLS.BU_TRANSACTIONINFO业务交易详细表MEMO备注字段长度由VARCHAR(240)调整为VARCHAR(300) 
+具体表结构请见附件
+公告发布时间
+2015-07-08
+公告最后更新时间
+2015-07-08 15:10:51
+附件
+表结构变更预告-20150729.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150708全量包说明
+公告内容
+本次全量数据范围：
+1、新增大总账4张表
+提取路径：/S-999000/ODS/ALL/20150708/
+公告发布时间
+2015-07-08
+公告最后更新时间
+2015-07-08 15:10:26
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150708升级说明
+公告内容
+1、新增大总账如下表：
+BIDW_PROFIT_YO3_APP                利润表（行社、年）
+BIDW_PROFIT_QO3_APP               利润表（行社、季）
+BIDW_GL_BALANCE_YO3_APP      资产负债表（行社、年）
+BIDW_GL_BALANCE_QO3_APP     资产负债表（行社、季）
+公告发布时间
+2015-07-08
+公告最后更新时间
+2015-07-08 15:10:04
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增大总账如下表：
+BIDW_PROFIT_YO3_APP                利润表（行社、年）
+BIDW_PROFIT_QO3_APP               利润表（行社、季）
+BIDW_GL_BALANCE_YO3_APP      资产负债表（行社、年）
+BIDW_GL_BALANCE_QO3_APP     资产负债表（行社、季）
+公告发布时间
+2015-07-08
+公告最后更新时间
+2015-07-08 15:09:44
+附件
+标准化文档-20150708.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150624全量包说明
+公告内容
+本次全量数据范围：
+1、新增中间业务5张表、网银1张表、资金业务1张表、信贷中心1张表、信用卡1张表
+2、表结构变更表：XDZX.LOAN_REQUISITION_PUBLIC
+3、数据修复表
+FMS.FMS_CUST_INFO
+提取路径：/S-999000/ODS/ALL/20150624/
+公告发布时间
+2015-06-24
+公告最后更新时间
+2015-06-24 15:58:23
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150624升级说明
+公告内容
+1、新增中间业务如下表：
+    T_CXSB2_BAT（湖州地区,台州地区）
+    T_SIGN_HIST
+    T_SXTV_BAT（绍兴地区）
+    T_SIGN_HS（绍兴地区）
+    T_LWDHBJF_JRNL（只发852）
+2、新增网银EB_DIRPAY_PAYMENT_ORDER网上轻纺城流水表
+3、新增资金业务TTRD_ACC_CASH_CUSTOMER活期同业存放账户表
+4、新增信贷CUST_CREDIT_CHECKS表
+5、新增信用卡ICCD芯片卡脱机余额管理表
+6、XDZX.LOAN_REQUISITION_PUBLIC借款申请.公共资料增加INVEST_VIEWS调查人意见字段 VARCHAR(1024)
+7、修复FMS.FMS_CUST_INFO数据缺失问题
+公告发布时间
+2015-06-24
+公告最后更新时间
+2015-06-24 15:58:04
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增中间业务如下表：
+    T_CXSB2_BAT
+    T_SIGN_HIST
+    T_SXTV_BAT
+    T_SIGN_HS
+    T_LWDHBJF_JRNL
+2、新增网银EB_DIRPAY_PAYMENT_ORDER网上轻纺城流水表
+3、新增资金业务TTRD_ACC_CASH_CUSTOMER活期同业存放账户表
+4、新增信贷CUST_CREDIT_CHECKS表
+5、新增信用卡ICCD芯片卡脱机余额管理表
+6、XDZX.LOAN_REQUISITION_PUBLIC借款申请.公共资料增加INVEST_VIEWS调查人意见字段 VARCHAR(1024)
+公告发布时间
+2015-06-24
+公告最后更新时间
+2015-06-24 15:57:44
+附件
+标准化文档-20150624.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2015年6月24日表结构变更预告
+公告内容
+1、XDZX.LOAN_REQUISITION_PUBLIC借款申请.公共资料增加INVEST_VIEWS调查人意见字段 VARCHAR(1024)
+公告发布时间
+2015-06-10
+公告最后更新时间
+2015-06-10 14:51:49
+附件
+表结构变更预告-20150624.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150610全量包说明
+公告内容
+1、数据修复表
+CORE.BYFDATLTF
+CORE.BRFMPOCM
+提取路径：/S-999000/ODS/ALL/20150610/
+公告发布时间
+2015-06-10
+公告最后更新时间
+2015-06-10 14:51:12
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150610升级说明
+公告内容
+1、停止下发XDZX.WORKFLOW_EXAMINATION_LOG表 
+2、修复BYFDATLTF、BRFMPOCM数据不准确问题
+3、EBILLS.RWM_TRANS_TXN国际业务交易OTHERACCT字段长度由VARCHAR(30)改成VARCHAR(32)
+公告发布时间
+2015-06-10
+公告最后更新时间
+2015-06-10 14:50:49
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、EBILLS.RWM_TRANS_TXN国际业务交易OTHERACCT字段长度由VARCHAR(30)改成VARCHAR(32)
+公告发布时间
+2015-06-10
+公告最后更新时间
+2015-06-10 14:50:28
+附件
+标准化文档-20150610.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2015年6月10日表结构变更预告
+公告内容
+1、停止下发XDZX.WORKFLOW_EXAMINATION_LOG表
+公告发布时间
+2015-05-27
+公告最后更新时间
+2015-05-27 14:06:28
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150527全量包说明
+公告内容
+本次全量数据范围：
+1、新增桐乡版乡镇国库集中支付相关表
+2、新增资金业务表：TTRD_ACCOUNTING_SECU_CHG_HIS、TTRD_BOOKKEEPING_SECU_CHG_HIS
+3、数据修复表
+CORE.BBFMPYTP
+IMBS.T_SIGN
+
+提取路径：/S-999000/ODS/ALL/20150527/
+公告发布时间
+2015-05-27
+公告最后更新时间
+2015-05-27 14:05:47
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150527升级说明
+公告内容
+1、新增接入桐乡版乡镇国库集中支付相关表 
+T_TXZF_SYS
+T_TXZF_ZFZL
+T_TXZF_JRNL
+T_TXZF_JS_JRNL
+T_TXZF_AUTO
+T_TXZF_YSDW
+T_TXZF_RCVBWT
+T_TXZF_SQZFED
+T_TXZF_SQZFED_MX
+T_TXZF_ZFPZZF
+T_TXZF_PRT
+T_TXZF_ERR
+T_TXZF_ZSJGDM
+T_TXZF_PARA
+T_TXZF_QSDZB
+T_TXZF_LOAD_ERR
+T_TXZF_GWK_JRNL
+T_TXZF_GWK_QTKDJB
+T_TXZF_GWK_QTK
+T_TXZF_GWK_CRT_BAT
+T_BAT_CRT_TASK
+T_TXZF_DWGWK_QTK（只发嘉兴）
+T_TXZF_DWGWK_MX（只发嘉兴）
+2、新增资金业务如下表：
+TTRD_ACCOUNTING_SECU_CHG_HIS
+TTRD_BOOKKEEPING_SECU_CHG_HIS
+3、EBILLS.IM_LCABINFO信用证来单信息BLNO字段长度由VARCHAR(200)改成VARCHAR(500)
+4、修复CORE.BBFMPYTP、IMBS.T_SIGN数据缺失问题
+公告发布时间
+2015-05-27
+公告最后更新时间
+2015-05-27 14:05:20
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增桐乡版乡镇国库集中支付相关表，清单如下：
+T_TXZF_SYS
+T_TXZF_ZFZL
+T_TXZF_JRNL
+T_TXZF_JS_JRNL
+T_TXZF_AUTO
+T_TXZF_YSDW
+T_TXZF_RCVBWT
+T_TXZF_SQZFED
+T_TXZF_SQZFED_MX
+T_TXZF_ZFPZZF
+T_TXZF_PRT
+T_TXZF_ERR
+T_TXZF_ZSJGDM
+T_TXZF_PARA
+T_TXZF_QSDZB
+T_TXZF_LOAD_ERR
+T_TXZF_GWK_JRNL
+T_TXZF_GWK_QTKDJB
+T_TXZF_GWK_QTK
+T_TXZF_GWK_CRT_BAT
+T_BAT_CRT_TASK
+T_TXZF_DWGWK_QTK
+T_TXZF_DWGWK_MX
+2、新增资金业务如下表：
+TTRD_ACCOUNTING_SECU_CHG_HIS
+TTRD_BOOKKEEPING_SECU_CHG_HIS
+3、EBILLS.IM_LCABINFO信用证来单信息BLNO字段长度由VARCHAR(200)改成VARCHAR(500)
+公告发布时间
+2015-05-27
+公告最后更新时间
+2015-05-27 14:04:41
+附件
+标准化文档-20150527.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2015年5月27日表结构变更预告
+公告内容
+1、EBILLS.IM_LCABINFO信用证来单信息BLNO字段长度由VARCHAR(200)
+改成VARCHAR(500)
+
+具体表结构请见附件
+公告发布时间
+2015-05-13
+公告最后更新时间
+2015-05-13 14:28:54
+附件
+表结构变更预告-20150527.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150513全量包说明
+公告内容
+本次全量数据范围：
+1、新增字段表
+CCRD.ACCT
+EBILLS.EX_RECVINFO
+FMS.FMS_TRANS_LOG
+2、数据修复表
+IMBS.T_JRNL（近一个月全量）
+ 
+提取路径：/S-999000/ODS/ALL/20150513/
+公告发布时间
+2015-05-13
+公告最后更新时间
+2015-05-13 14:28:31
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150513升级说明
+公告内容
+1、CCRD.ACCT人民币贷记帐户表增加字段：BAL_CMPFEE表外核算费用余额 
+2、EBILLS.EX_RECVINFO出口收汇表增加字段：MEMO 备注
+3、FMS.FMS_TRANS_LOG 交易流水表 增加字段：MACHINE_DATE 机器日期
+4、修复T_JRNL数据缺失问题
+公告发布时间
+2015-05-13
+公告最后更新时间
+2015-05-13 14:28:09
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、CCRD.ACCT人民币贷记帐户表增加字段：BAL_CMPFEE表外核算费用余额 
+2、EBILLS.EX_RECVINFO出口收汇表增加字段：MEMO 备注
+3、FMS.FMS_TRANS_LOG 交易流水表 增加字段：MACHINE_DATE 机器日期
+4、IMBS.T_JRNL增加字段ENTR_NO为主键
+5、全量数据过滤表清单增加IMBS.T_JRNL
+公告发布时间
+2015-05-13
+公告最后更新时间
+2015-05-13 14:27:40
+附件
+标准化文档-20150513.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2015年5月13日表结构变更预告
+公告内容
+1、CCRD.ACCT人民币贷记帐户表增加字段：BAL_CMPFEE表外核算费用余额
+2、EBILLS.EX_RECVINFO出口收汇表增加字段：MEMO 备注
+3、FMS.FMS_TRANS_LOG 交易流水表 增加字段：MACHINE_DATE 机器日期
+ 
+具体表结构请见附件
+公告发布时间
+2015-04-22
+公告最后更新时间
+2015-04-22 13:39:42
+附件
+表结构变更预告-20150513.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150422全量包说明
+公告内容
+本次全量数据范围：
+1、新增接入表：
+XDZX.IN_FI_CUST_INFO_CONS 普惠金融客户消费类信息附表
+XDZX.IN_FI_CUST_INFO_MANA 普惠金融客户经营类信息附表
+XDZX.IN_FI_CUST_PARAM 普惠金融客户参数表
+XDZX.IN_FI_CUST_CAPNUM 普惠金融客户本行股金余额表
+XDZX.INFI_EVALUATE_RESULT 普惠客户评价结果表
+IBS.EB_ALIPAY_PAYMENT_ORDER 支付宝支付流水表
+2、数据修复表：IMBS.T_ELE_BAT（近三个月全量）
+提取路径：/S-999000/ODS/ALL/20150422/
+公告发布时间
+2015-04-22
+公告最后更新时间
+2015-04-22 13:39:14
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150422升级说明
+公告内容
+1、新增下发表
+信贷中心：
+    IN_FI_CUST_INFO_CONS    普惠金融客户消费类信息附表
+    IN_FI_CUST_INFO_MANA    普惠金融客户经营类信息附表
+    IN_FI_CUST_PARAM    普惠金融客户参数表
+    IN_FI_CUST_CAPNUM    普惠金融客户本行股金余额表
+    INFI_EVALUATE_RESULT    普惠客户评价结果表
+网银：
+    EB_ALIPAY_PAYMENT_ORDER    支付宝支付流水表
+2、修复嘉兴平湖T_ELE_BAT表缺少数据问题
+3、CCRD.EVENT表限定全量为近三个月全量
+4、CARD系统中的CDSXFLS、CDTYSHZL、GGSBZL表迁移到CCPT清算中心（具体表字段没有变更，包名和文件名做了相应调整）
+公告发布时间
+2015-04-22
+公告最后更新时间
+2015-04-22 13:38:41
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、CARD系统中的CDSXFLS、CDTYSHZL、GGSBZL表迁移到CCPT清算中心
+2、全量数据过滤表清单增加CCRD.EVENT
+3、新增如下表表结构
+信贷中心：
+    IN_FI_CUST_INFO_CONS 普惠金融客户消费类信息附表
+    IN_FI_CUST_INFO_MANA 普惠金融客户经营类信息附表
+    IN_FI_CUST_PARAM 普惠金融客户参数表
+    IN_FI_CUST_CAPNUM 普惠金融客户本行股金余额表
+    INFI_EVALUATE_RESULT 普惠客户评价结果表
+网银：
+    EB_ALIPAY_PAYMENT_ORDER 支付宝支付流水表
+公告发布时间
+2015-04-22
+公告最后更新时间
+2015-04-22 13:38:20
+附件
+标准化文档-20150422.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2015年4月22日表结构变更预告
+公告内容
+1、CARD系统中的CDSXFLS、CDTYSHZL、GGSBZL表迁移到CCPT清算中心（具体表字段没有变更，包名和文件名做了相应调整）
+具体表结构请见附件
+公告发布时间
+2015-04-08
+公告最后更新时间
+2015-04-08 15:26:39
+附件
+数据标准化拆分-清算中心-发布版20150422.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150408全量包说明
+公告内容
+本次全量数据范围：
+1、表结构变更表：CCRD.EVENT帐务交易流水表
+提取路径：/S-999000/ODS/ALL/20150408/
+公告发布时间
+2015-04-08
+公告最后更新时间
+2015-04-08 15:26:11
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150408升级说明
+公告内容
+1、CCRD.EVENT增加字段：BRANCH 归属机构，同时调整拆分规则为归属机构
+2、EBILLS.NT_OUTWARDREMITARV表BENEFCORPACCT字段长度由varchar(30)变成varchar(32)
+公告发布时间
+2015-04-08
+公告最后更新时间
+2015-04-08 15:25:53
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、CCRD.EVENT增加字段：BRANCH 归属机构
+2、EBILLS.NT_OUTWARDREMITARV表BENEFCORPACCT字段长度由varchar(30)变成varchar(32)
+3、IMBS.T_BAT_TASK增加字段ENTR_NO为主键
+公告发布时间
+2015-04-08
+公告最后更新时间
+2015-04-08 15:25:13
+附件
+标准化文档-20150408.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2015年4月8日表结构变更预告
+公告内容
+1、CCRD.EVENT增加字段：BRANCH 归属机构
+2、EBILLS.NT_OUTWARDREMITARV表BENEFCORPACCT字段长度由varchar(30)变成varchar(32)
+ 
+具体表结构请见附件
+公告发布时间
+2015-03-25
+公告最后更新时间
+2015-03-25 13:43:01
+附件
+20150408表结构变更.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150325全量包说明
+公告内容
+本次全量数据范围：
+   1、新增的中间业务表、资金业务5张表、信贷中心1张表、基金代销1张表、信用卡2张表；
+   2、表结构变更表：TBS.TTRD_BOOKKEEPING_ENTRY记账分录表、XDZX.IND_CAR_ASSETS
+   3、数据修复表：CARD.CDSXFLS（只是20141224-20150112数据）、IMBS.T_SIGN_TELE、CORE.BLFMCDUI、FDS.FUND_DAYVOL_SUMMARY、FMS.FMS_BATCH_CAPITAL_LOG
+   4、BBFDXTJQ系统假期表（OCR、审计使用）
+ 
+   提取路径：/S-999000/ODS/ALL/20150325/
+公告发布时间
+2015-03-25
+公告最后更新时间
+2015-03-25 14:07:31
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150325升级说明
+公告内容
+1、本次主要接入湖州、绍兴、台州、舟山地区中间业务数据，资金业务5张表，信贷中心1张表，基金代销1张表，信用卡2张表
+   2、如下表表结构变更
+      TBS.TTRD_BOOKKEEPING_ENTRY记账分录表新增字段： CHG_ID 会计变动ID
+      FMS.FMS_H_BATCH_CAPITAL_LOG表名修改为FMS.FMS_BATCH_CAPITAL_LOG
+       XDZX.IND_CAR_ASSETS 的CAR_MODEL字段长度由varchar(30)变成了varchar(90)
+   3、停止下发CORE.BBFMHODY表（核心已经停用，迁移到BBFDXTJQ_系统假期表）
+   4、补发CARD.CDSXFLS表20141224-20150112数据（该表当天全量只是20141224-20150112数据），修复IMBS.T_SIGN_TELE、CORE.BLFMCDUI、FDS.FUND_DAYVOL_SUMMARY、FMS.FMS_BATCH_CAPITAL_LOG数据缺失问题
+公告发布时间
+2015-03-25
+公告最后更新时间
+2015-03-25 14:07:10
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、本次主要接入湖州、绍兴、台州、舟山地区中间业务数据，具体清单如下：T_AGT_ACCRULE1
+T_BAT_ACC
+T_BAT_TRAN
+T_BUSI
+T_FIN_ASSIGN
+T_FIN_BILL
+T_FIN_CLEAR
+T_FIN_COM
+T_FIN_COM_TYE
+T_FIN_JTFK
+T_FIN_PAY_JNL
+T_FIN_PROJ
+T_FSSR_MX
+T_JXJJFK_JRNL
+T_NEW_JTFK_JRNL
+T_TELE_BAT_DETAIL
+T_TELE_JRNL
+T_TRAN_LOG
+T_VAL_PARA
+T_ZJCZPT_FIL
+T_ZJSMK_OPEN
+UPAY_BAT
+UPAY_JRNL
+YC_JRNL
+T_BAT_TASK
+T_APP_PARA
+T_JRNL
+TZ_LQSF_JRNL
+TZ_YXT_JRNL
+T_AGTDATA_FMT
+T_AGTDATA_ITEM
+T_AGTRPT_FMT
+T_AGTRPT_ITEM
+T_AGT_OUT
+T_AJSB_BAT
+T_AJSB_JRNL
+T_CHK_ERR
+T_CXSB_BAT
+T_DQSB_BAT
+T_DQSB_HAND
+T_DQSB_JRNL
+T_ENTR_MAP
+T_FINBILL_ERR
+T_FINLIST_ERR
+T_FIN_COM_BIL
+T_FIN_COM_PRJ
+T_FIN_EDIT
+T_FIN_RELA
+T_HZYLZS_BAT
+T_HZYLZS_JRNL
+T_KQMQF_BAT
+T_KQMQF_JRNL
+T_KQSB_JRNL
+T_LASB_DRAW
+T_LASB_JRNL
+T_LHSB_KOU
+T_LHSB_PAY
+T_LQSF_BAT
+T_LSTV_BAT
+T_LSTV_JRNL
+T_PTSB_JRNL
+T_RFMQF_BAT
+T_RFMQF_JRNL
+T_RFYXT_JRNL
+T_SMK_JRNL
+T_SXBUS_JRNL
+T_SXSSB_BAT
+T_SXSSB_JRNL
+T_SXTV_JRNL
+T_SYSB2_JRNL
+T_SYSB_BAT
+T_SYSF_BAT
+T_SZSB2_JRNL
+T_TX
+T_TZSZTV_BAT
+T_YCMQF_BAT
+T_YCMQF_JRNL
+T_YCSF_BAT
+T_YCSF_JRNL
+T_YHT_DEBIT_CHK
+T_ZJDTV_BAT
+T_ZJDTV_JRNL
+T_ZJSMK_JRNL
+T_ZJSSB_BAT
+T_ZJSSB_JRNL
+T_ZJWATER_JRNL
+T_ZSRQ_BAT
+T_ZSRQ_JRNL
+T_ZSSF_BAT
+      注：本次对中间业务的标准化文档进行了调整，“标准化字段”sheet页中的表为公共表，各地区拆分表都在相关带地区名的sheet页中，且在文档的最后一列标注了下发的机构。
+   2、其他新增下发表
+资金业务：
+    TTRD_BOOKKEEPING_MAPPING    记账映射表
+    TTRD_BOOKKEEPING_MAPPING_OBJ    记账对象表
+    TCOMPANY    公司表
+    TCOMPANY_RATING    公司信用评级表
+    TTRD_OTC_INSTITUTIONTYPE    客户分类
+信贷中心：
+    IN_FI_CUST_INFO    普惠金融客户信息表
+基金代销：
+    FUND_DAYVOL_DETAOL    客户份额明细表
+信用卡（OCR使用）：
+    CLOCD   关帐/销户代码表
+    NCHG    黑名单灰名单数据操作日志表
+   3、TBS.TTRD_BOOKKEEPING_ENTRY记账分录表新增字段：CHG_ID  会计变动ID
+   4、FMS.FMS_H_BATCH_CAPITAL_LOG表名修改为FMS.FMS_BATCH_CAPITAL_LOG
+   5、XDZX.IND_CAR_ASSETS 的CAR_MODEL字段长度由varchar(30)变成了 varchar(90)
+公告发布时间
+2015-03-25
+公告最后更新时间
+2015-03-25 14:07:55
+附件
+标准化文档-20150325.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150325日晚升级预告
+公告内容
+1、TBS.TTRD_BOOKKEEPING_ENTRY记账分录表新增字段：CHG_ID 会计变动ID
+    2、停止下发CORE.BBFMHODY表（核心已经停用，迁移到BBFDXTJQ_系统假期表）
+    3、FMS.FMS_H_BATCH_CAPITAL_LOG表名修改为FMS.FMS_BATCH_CAPITAL_LOG
+    4、XDZX.IND_CAR_ASSETS 的CAR_MODEL字段长度由varchar(30)变成了 varchar(90)
+公告发布时间
+2015-03-11
+公告最后更新时间
+2015-03-11 15:36:04
+附件
+数据标准化拆分-发布版20150325.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150123全量包说明
+公告内容
+本次全量数据范围为本次新增中间业务表和核心BDFMHQBB、BDFMHQBC、BDFMHQBQ3张表
+提取路径：/S-999000/ODS/ALL/20150123/
+公告发布时间
+2015-01-23
+公告最后更新时间
+2015-01-23 14:15:26
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20150123升级说明
+公告内容
+1.本次主要接入金华、衢州地区中间业务数据，萧山农商行社保数据
+2.修改LLKG_JRNL（连连科技）表为全省拆分
+3.修复BDFMHQBB、BDFMHQBC、BDFMHQBQ表2014.12.27-2014.12.29无数据问题。
+公告发布时间
+2015-01-23
+公告最后更新时间
+2015-01-23 14:15:01
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1）本次主要接入金华、衢州地区中间业务数据，具体清单如下：
+yc_jrnl
+upay_bat
+t_zjsmk_open
+t_ywyb_bat 
+t_ywgs_jrnl
+t_ywcz_bat
+t_tran_log
+t_tele_jrnl
+t_tele_bat_detail
+t_qzxyb_jrnl
+t_qzxyb_bat
+t_qzsb_jrnl
+t_qzsb_bat
+t_qzgd_jrnl
+t_qzgd_bat
+t_qjsf_jrnl
+t_qjsf_bat
+t_nywsf_jrnl
+t_nywsf_bat
+t_kcsf_jrnl
+t_kcsf_bat
+t_jhsf_jrnl
+t_gtax_jrnl
+t_fin_jtfk
+t_bat_acc
+T_SIGN_TELE
+T_BAT_TASK
+T_JRNL
+2）萧山农商行新增社保相关表：
+T_XSSB_BATCTL
+T_XSSB_BATDET
+T_XSSB_ZHHM
+T_XSSBD_BOOK
+T_XSSBD_INFO
+3）LLKG_JRNL（连连科技）表改为全省拆分
+      注：由于中间业务相关表结构比较多，且每个行社都不一样，因此我们在标准化文档中用sheet页来区分各个地区的表。全省统一的表在名为“标准化字段”sheet页中，各地区的表在相关带地区名的sheet页中，且在文档的最后一列标注了下发的机构。
+4）T_BAT_ACC添加字段PLAT_DATE,BAT_SEQ,SERI_NO为主键
+公告发布时间
+2015-01-23
+公告最后更新时间
+2015-01-23 14:14:25
+附件
+标准化文档-20150123.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20141224全量包说明
+公告内容
+本次全量数据范围为本次新增中间业务表
+提取路径：/S-999000/ODS/ALL/20141224/
+公告发布时间
+2014-12-24
+公告最后更新时间
+2014-12-24 14:18:29
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+表结构新增：
+本此新增温州、嘉兴、丽水地方特色中间业务表清单如下：
+T_HCZF_JRNL
+T_JXJJFK_JRNL
+YHTDZB
+ZJHS_BATCTL
+T_FSSR_JRNL
+T_JYWT_BAT
+T_JYWT_JRNL
+T_LQWT_BAT
+T_LQWT_JRNL
+T_LSJJFK_JRNL
+T_LSSBK_LX
+T_LSWT_BAT
+T_LSWT_JRNL
+T_SCWT_BAT
+T_SCWT_JRNL
+T_SYWT_BAT
+T_SYWT_JRNL
+T_ZJSB_BAT
+YC_JRNL
+T_WXZF_PARA
+T_WZGJJ_DZXX
+T_AGT_ACCRULE1
+T_CZZJ_BWTDJB
+T_CZZJ_ERR
+T_CZZJ_JYMX
+T_CZZJ_PARA
+T_CZZJ_ZFDJB
+T_CZZJ_ZHMX
+T_DAY_TOT
+T_FIN_ASSIGN
+T_FIN_CLEAR
+T_FIN_COM
+T_FIN_JTFK
+T_FSSR_BAT_ACC
+T_FSSR_MX
+T_HZH_BAT
+T_HZWT_BAT
+T_HZWT_JRNL
+T_IC_LCMQF_JRNL
+T_LCGD_BAT
+T_LCGD_JRNL
+T_LCMQF_BAT
+T_LCMQF_JRNL
+T_LCMQFN_JRNL
+T_LCSF_BAT
+T_LCSF_JRNL
+T_LWJRT_JRNL
+T_LWJXCZ_BWTDJB
+T_LWJXCZ_ERR
+T_LWJXCZ_JYMX
+T_LWJXCZ_PARA
+T_LWJXCZ_ZFDJB
+T_LWJXCZ_ZHMX
+T_LWSF_BAT
+T_LWSF_JRNL
+T_LWXOMQF_JRNL
+T_LWXXQC_JRNL
+T_NEW_JTFK_JRNL
+T_OHSF_BAT
+T_OHSF_JRNL
+T_RASF_BAT
+T_RASF_ERR
+T_RASF_JRNL
+T_RASFN_BAT
+T_RASFN_JRNL
+T_RATV_BAT
+T_TSGD_BAT
+T_TSGD_JRNL
+T_TSGD_JRNL_DETAIL
+T_WATER_JRNL
+T_WXZF_CHK_ERR
+T_WXZF_CZDM
+T_WXZF_DKTKZH
+T_WXZF_ERR
+T_WXZF_JRNL
+T_WXZF_LYEZGZH
+T_WXZF_RCVBWT
+T_WXZF_SYS
+T_WXZF_YSDW
+T_WXZF_YSKM
+T_WXZF_ZFPZHD
+T_WXZF_ZFPZZF
+T_WXZF_ZFZL
+T_WXZF_ZFZL_MX
+T_WXZF_ZJXZ
+T_WZFEY_JRNL
+T_WZGJJ_BAT
+T_WZGJJ_CONTRACT
+T_WZGJJ_JRNL
+T_WZSBK_LOG
+T_WZSBK_MATCH
+T_WZSBK_RECE
+T_WZSBKQC_JRNL
+T_WZSF_BAT
+T_WZSF_JRNL
+T_YQGT
+T_YQWT_BAT
+T_YQWT_JRNL
+T_ZHGJ_BAT
+T_ZJCZPT_FIL
+T_ZJSMK_OPEN
+ZJHS_BAT
+ZJHS_JRNL
+SYS_ORG_INFO
+T_BAT_OPEN
+T_ELE_BAT
+T_ELE_JRNL
+T_YHT_BAT_DETAIL
+T_YHT_DJRNL
+T_YHT_PRT_FMT
+T_BAT_ACC
+T_FIN_PAY_JNL
+T_VAL_PARA
+T_TELE_BAT_DETAIL
+T_FIN_BILL
+UPAY_BAT
+T_TELE_JRNL
+公告发布时间
+2014-12-24
+公告最后更新时间
+2014-12-24 14:17:56
+附件
+标准化文档-20141224.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20141210全量包说明
+公告内容
+本次全量数据范围为本次新增的2张表和数据修正的2张表，总共4张(台州地区5张)
+提取路径：/S-999000/ODS/ALL/20141210/
+公告发布时间
+2014-12-10
+公告最后更新时间
+2014-12-10 09:47:46
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+关于20141130 BGFDKHDZ表主键冲突问题说明
+公告内容
+经和源系统确认，该表的主键为：KHDBACID 核算码，标准化文档无需变更。我们已经通过修改程序来解决此主键冲突问题。
+公告发布时间
+2014-12-10
+公告最后更新时间
+2014-12-10 09:47:27
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20141210升级说明
+公告内容
+1).表结构新增：
+核心系统 BCFMCRSI 客户关系信息表
+资金业务 TTRD_ACC_BALANCE_CASH_CUST 活期同业存放余额表
+中间业务 T_BAT_ACC 批量代发明细（台州地区）
+
+2).数据修正
+BGFMDBTH.DBCARMRK 去除数据中的双引号
+BGFMDBAL.DBCARMRK 去除数据中的双引号
+公告发布时间
+2014-12-10
+公告最后更新时间
+2014-12-10 09:47:11
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+表结构新增：
+核心系统 BCFMCRSI 客户关系信息表
+资金业务 TTRD_ACC_BALANCE_CASH_CUST 活期同业存放余额表
+中间业务 T_BAT_ACC 批量代发明细（台州地区）
+
+表结构变更：
+CCRD.CUPLG 增加主键字段：OR_FLAG
+
+码表：
+CCRD.MPUR增加STATUS字段码值说明
+公告发布时间
+2014-12-10
+公告最后更新时间
+2014-12-10 09:46:46
+附件
+标准化文档-20141210.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20141126全量包说明
+公告内容
+本次全量数据范围为本次新增的7张表（台州地区8张）
+
+提取路径：/S-999000/ODS/ALL/20141126/
+公告发布时间
+2014-11-26
+公告最后更新时间
+2014-11-26 16:19:06
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20141126升级说明
+公告内容
+新增下发表：
+核心系统
+BBFMLGOP 轮岗柜员操作额度定义表
+BBFMOPLM 代班操作额度登记簿
+BBFMLGAU 轮岗柜员交易授权额度定义表
+BBFMAULM 代班授权额度登记簿
+BGFMDBTH 内部账销账登记簿
+BGFMDBAL 内部账挂账登记簿
+
+信贷中心
+AGATE_CRE_GRO_INFO 集团（关联）客户授信信息表
+
+中间业务
+T_BAT_ACC 批量代发明细(本次上线暂时取消，改为12月份上线，原杭州地区数据继续正常下发)
+T_YHT_BAT_DETAIL 一户通批量借记明细表(增加台州地区下发)
+
+网银表结构变更：
+PB_TRANFLOW.TRF_BATNO 由VARCHAR(10)改为VARCHAR(15)
+
+抽数规则修改：
+网银CB_ACC_INF、PB_ACCINF表抽数规则修改，修正之前无法下发销户数据问题。修改当天下发的增量文件即为全量。
+公告发布时间
+2014-11-26
+公告最后更新时间
+2014-11-26 16:18:47
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+表结构新增：
+核心系统
+BBFMLGOP 轮岗柜员操作额度定义表
+BBFMOPLM 代班操作额度登记簿
+BBFMLGAU 轮岗柜员交易授权额度定义表
+BBFMAULM 代班授权额度登记簿
+BGFMDBTH 内部账销账登记簿
+BGFMDBAL 内部账挂账登记簿
+
+信贷中心
+AGATE_CRE_GRO_INFO 集团（关联）客户授信信息表
+
+中间业务
+T_BAT_ACC 批量代发明细（本次上线暂时取消，改为12月份上线，原杭州地区数据继续正常下发）
+T_YHT_BAT_DETAIL 一户通批量借记明细表（增加台州地区下发）
+公告发布时间
+2014-11-26
+公告最后更新时间
+2014-11-26 16:18:20
+附件
+标准化文档-20141126.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2014年11月26日表结构变更预告
+公告内容
+网银系统将于2014年11月26日修改PB_TRANFLOW表的表结构:
+TRF_BATNO 字段由VARCHAR(10)改为VARCHAR(15)
+届时请各行社做好程序修改工作.
+公告发布时间
+2014-11-12
+公告最后更新时间
+2014-11-12 13:53:30
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20141112全量包说明
+公告内容
+本次全量数据范围为本次所有新增表
+提取路径：/S-999000/ODS/ALL/20141112/
+公告发布时间
+2014-11-12
+公告最后更新时间
+2014-11-12 13:49:35
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20141112升级说明
+公告内容
+新增下发表：
+中间业务：
+T_LASF_BAT 临安水费批扣流水表（只发临安）
+T_LASF_JRNL 临安水费缴费流水（只发临安）
+T_YHSF_JRNL 余杭水费缴费流水（只发余杭）
+T_ENTR 代理单位管理表 
+T_SIGN_YHT 一户通签约资料
+
+码表：
+信用卡
+CUSTR    OCC_CATGRY码值调整
+公告发布时间
+2014-11-12
+公告最后更新时间
+2014-11-12 13:49:17
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+表结构新增：
+中间业务新增：
+T_LASF_BAT 临安水费批扣流水表（只发临安）
+T_LASF_JRNL 临安水费缴费流水（只发临安）
+T_YHSF_JRNL 余杭水费缴费流水（只发余杭）
+T_ENTR 代理单位管理表 
+T_SIGN_YHT 一户通签约资料
+
+码表：
+信用卡
+CUSTR    OCC_CATGRY码值调整
+公告发布时间
+2014-11-12
+公告最后更新时间
+2014-11-12 13:48:49
+附件
+标准化文档-20141112.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20141029全量包说明
+公告内容
+本次全量数据范围为本次新增6张表
+提取路径：/S-999000/ODS/ALL/20141029/
+公告发布时间
+2014-10-29
+公告最后更新时间
+2014-10-29 15:29:44
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20141029升级说明
+公告内容
+1）.新增下发表：
+支付平台：
+T_BEPS_CNTRCT 小额协议表
+T_SET_AFFBOOK 事务登记簿
+农信银:
+ZPS_FREE 自由格式登记簿
+ZPS_CXCF 查询查复登记簿
+信用卡:
+ICLG 芯片卡交易日志
+理财系统:
+FMS_CFG_PROD_NAV 产品净值表
+
+2）.新增村镇银行下发：
+626000 惠水恒升村镇银行
+627000 关岭恒升村镇银行
+628000 贵定恒升村镇银行
+629000 黄岩恒升村镇银行
+686000 正定恒升村镇银行
+687000 鹿泉恒升村镇银行
+688000 藁城恒升村镇银行
+689000 晋州恒升村镇银行
+公告发布时间
+2014-10-29
+公告最后更新时间
+2014-10-29 15:29:17
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+表结构新增：
+支付平台：
+T_BEPS_CNTRCT 小额协议表
+T_SET_AFFBOOK 事务登记簿
+
+农信银:
+ZPS_FREE 自由格式登记簿
+ZPS_CXCF 查询查复登记簿
+
+信用卡:
+ICLG 芯片卡交易日志
+
+理财系统:
+FMS_CFG_PROD_NAV 产品净值表
+公告发布时间
+2014-10-29
+公告最后更新时间
+2014-10-29 15:28:49
+附件
+标准化文档-20141029.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20141015全量包说明
+公告内容
+本次全量数据范围为本次所有新增表
+
+提取路径：/S-999000/ODS/ALL/20141015/
+公告发布时间
+2014-10-15
+公告最后更新时间
+2014-10-15 15:41:59
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20141015升级说明
+公告内容
+1）新增下发表：
+核心系统：
+BCFMCCNI BC-对公客户渠道信息表
+BCFMPCNI BC-个人客户渠道信息表
+BLFMZJKM 信贷资金支付明细登记簿
+
+中间业务：
+T_AGT_DATA_NBCXSB 宁波慈溪社保代扣明细
+T_SIGN_LHSMK 市民卡签约表
+T_SIGN_SB 社保卡签约表
+T_SIGN_TZSZTV 数字电视签约表
+T_SIGN_YC 烟草签约表
+T_SIGN_YCSF 越城水费签约表
+T_WZSF_SIGN 水费签约表
+
+基金代销：
+H_FUNDNAV 每日基金净值归档表
+
+信用卡：
+ACCA 账户附加信息
+
+
+停止下发表清单：
+XDZX.CONTRACT
+XDZX.LOAN_DUE_BILL
+XDZX.EQUIPMENT_INFO
+XDZX.GRADE_SCORE_RANGE
+XDZX.LOAN_INFO
+XDZX.MORTGAGE_INFO
+XDZX.PREMISES_INFO
+XDZX.SHARES_SITUATION
+公告发布时间
+2014-10-15
+公告最后更新时间
+2014-10-15 15:41:33
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+表结构新增：
+核心系统：
+BCFMCCNI BC-对公客户渠道信息表
+BCFMPCNI BC-个人客户渠道信息表
+BLFMZJKM 信贷资金支付明细登记簿
+
+中间业务：
+T_AGT_DATA_NBCXSB 宁波慈溪社保代扣明细（只发822）
+T_SIGN_LHSMK 市民卡签约表（只发965）
+T_SIGN_SB 社保卡签约表（只发台州和绍兴地区）
+T_SIGN_TZSZTV 数字电视签约表（只发台州地区）
+T_SIGN_YC 烟草签约表（只发台州和宁波地区）
+T_SIGN_YCSF 越城水费签约表（只发897）
+T_WZSF_SIGN 水费签约表（只发温州地区）
+
+基金代销：
+H_FUNDNAV 每日基金净值归档表
+
+信用卡：
+ACCA 账户附加信息
+
+支付平台
+T_BEPS_BOOK、T_HVPS_BOOK补充字段说明
+
+自助终端
+T_BSMP_JRNL、T_BSMP_NODE、T_BSMP_TERM_ACCOUNT补充字段说明
+公告发布时间
+2014-10-15
+公告最后更新时间
+2014-10-15 15:41:02
+附件
+标准化文档-20141015.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2014年10月15日信贷系统删除表清单
+公告内容
+CONTRACT
+LOAN_DUE_BILL
+EQUIPMENT_INFO
+GRADE_SCORE_RANGE
+LOAN_INFO
+MORTGAGE_INFO
+PREMISES_INFO
+SHARES_SITUATION
+公告发布时间
+2014-09-17
+公告最后更新时间
+2014-09-17 16:17:05
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140917全量包说明
+公告内容
+本次全量包括5张表的全量数据：
+自助终端：
+T_BSMP_JRNL
+T_BSMP_NODE
+T_BSMP_TERM_ACCOUNT
+T_BSMP_TX
+
+核心系统
+AFFMSIPM
+公告发布时间
+2014-09-17
+公告最后更新时间
+2014-09-17 16:16:43
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140917升级说明
+公告内容
+1）新增下发表：
+自助终端（ZZQZ）：
+T_BSMP_JRNL 自助终端交易流水对照表
+T_BSMP_NODE 终端信息表
+T_BSMP_TERM_ACCOUNT 设备账号关联信息表
+T_BSMP_TX 交易码信息表
+
+大总账（GAS）
+BI_CUX_LOAN_CHECK_DTL_V 标准余额表
+2）国际业务（EBILLS） EX_CREDITLOANARV 出口信用保险融资归档表 字段：PROPORTION 由 double修改成DECIMAL（3，2）
+3）基金代销（FDS） CFG_FUND 改为拆分表
+4）核心系统（CORE） AFFMSIPM 修改为公共表
+公告发布时间
+2014-09-17
+公告最后更新时间
+2014-09-17 16:16:20
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1）新增下发表：
+自助终端：
+T_BSMP_JRNL 自助终端交易流水对照表
+T_BSMP_NODE 终端信息表
+T_BSMP_TERM_ACCOUNT 设备账号关联信息表
+T_BSMP_TX 交易码信息表
+
+大总账
+BI_CUX_LOAN_CHECK_DTL_V 标准余额表
+
+2）国际业务 EX_CREDITLOANARV 出口信用保险融资归档表 
+字段：PROPORTION 由 double修改成DECIMAL（3，2）
+公告发布时间
+2014-09-17
+公告最后更新时间
+2014-09-17 16:15:50
+附件
+标准化文档-20140917.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2014年9月17日表结构变更预告
+公告内容
+EBILLS包中EX_CREDITLOANARV表 PROPORTION 字段由double改为decimal
+具体表结构请见附件
+公告发布时间
+2014-09-03
+公告最后更新时间
+2014-09-03 14:18:59
+附件
+数据标准化拆分-国际业务-发布版20140917.xls
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140903全量包说明
+公告内容
+本次全量包括3张表的全量数据：
+卡中心：
+CDTMKDA 吞没卡信息表
+
+综合前端：
+BTOP_TELLER_TELLERLOGIN 柜台登录信息流水表
+
+核心系统：
+BYFDATLTF 柜员交易授权额度定义
+
+提取路径：/S-999000/ODS/ALL/20140903/
+公告发布时间
+2014-09-03
+公告最后更新时间
+2014-09-03 14:18:29
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140903升级说明
+公告内容
+1）新增下发表：
+卡中心：
+CDTMKDA 吞没卡信息表
+
+2）BTOP_TELLER_TELLERLOGIN 柜台登录信息流水表 
+新增字段：CLIENTIP 客户端IP
+
+3）更新核心系统 BTFMSBRT表的字段说明
+
+4）核心BYFDATLTF表刷新全量数据，解决有多余数据问题
+
+5）中间业务 T_AGT_DATA 修改为全省拆分
+公告发布时间
+2014-09-03
+公告最后更新时间
+2014-09-03 14:18:01
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1）新增下发表：
+卡中心：
+CDTMKDA 吞没卡信息表
+
+2）BTOP_TELLER_TELLERLOGIN 柜台登录信息流水表 
+新增字段：CLIENTIP 客户端IP
+
+3）更新核心系统 BTFMSBRT表的字段说明
+公告发布时间
+2014-09-03
+公告最后更新时间
+2014-09-03 14:17:17
+附件
+标准化文档-20140903.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140823（二代支付改造）升级说明
+公告内容
+表结构变更：
+核心系统
+BPFMJSZZ 大额即时转账来帐登记簿
+BPFMOUDE 大额往来账登记簿
+
+新增下发：
+核心系统
+BTFMSBRT 小额往来业务登记簿
+支付平台
+T_SET_BANK 支付系统统一行名行号表
+T_SET_BRCH 参与机构信息表
+T_SET_JRNL 支付结算交易流水表
+T_BEPS_BOOK 小额明细登记簿
+T_HVPS_BOOK 大额明细登记薄
+
+停止下发表：
+支付平台
+BEP_BANK
+BEP_BRCH
+BEP_DJTH_L
+BEP_DJTH_W
+BEP_PTDJ_L
+BEP_PTDJ_W
+BEP_PTJJ_L
+BEP_SSDJ_L
+BEP_SSDJ_W
+BEP_SSJJ_L
+T_HVP_LBOOK
+T_HVP_WBOOK
+T_HVP_CXUBOOK
+T_HVP_ZYBOOK
+BEP_PTJJ_W
+核心系统
+BPFMBECK、BPFMBERE
+
+注：本次改造无需提供全量数据。
+公告发布时间
+2014-08-23
+公告最后更新时间
+2014-08-23 09:15:08
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新（二代支付改造）
+公告内容
+表结构变更：
+核心系统
+BPFMJSZZ 大额即时转账来帐登记簿
+BPFMOUDE 大额往来账登记簿
+
+新增下发表：
+核心系统
+BTFMSBRT 小额往来业务登记簿
+支付平台
+T_SET_BANK 支付系统统一行名行号表
+T_SET_BRCH 参与机构信息表
+T_SET_JRNL 支付结算交易流水表
+T_BEPS_BOOK 小额明细登记簿
+T_HVPS_BOOK 大额明细登记薄
+公告发布时间
+2014-08-23
+公告最后更新时间
+2014-08-23 09:14:32
+附件
+标准化文档-20140823.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2014年9月3日表结构变更预告
+公告内容
+BTOP数据包中BTOP_TELLER_TELLERLOGIN表增加CLIENTIP字段。
+表结构请见附件。
+公告发布时间
+2014-08-20
+公告最后更新时间
+2014-08-20 16:04:48
+附件
+数据标准化拆分-综合前端-BTOP_TELLER_TELLERLOGIN-20140903.xls
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140820全量包说明
+公告内容
+本次全量包括6张表的全量数据：
+信用卡
+ACHG 客户资料、申请信息修改日志记录
+SCODE 系统代码表
+CODES 用户代码表
+
+网上银行
+CB_BSNDEF 企业网银交易定义表
+MB_BSNDEF 手机银行交易定义表
+PB_BSNDEF 个人网银交易定义表
+
+提取路径：/S-999000/ODS/ALL/20140820/
+公告发布时间
+2014-08-20
+公告最后更新时间
+2014-08-20 16:04:11
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140820升级说明
+公告内容
+1.新增下发表：
+信用卡
+ACHG 客户资料、申请信息修改日志记录
+SCODE 系统代码表
+CODES 用户代码表
+
+网上银行
+CB_BSNDEF 企业网银交易定义表
+MB_BSNDEF 手机银行交易定义表
+PB_BSNDEF 个人网银交易定义表
+
+2.码表维护：
+新增部分码值
+
+3.拆分规则修改：
+1)中间业务：
+UPAY_BAT 改为杭州地区拆分
+T_SIGN 去除重复数据
+
+2)网银
+MB_PB_CSTINF_PRO表解决销户后记录无法下发问题。
+公告发布时间
+2014-08-20
+公告最后更新时间
+2014-08-20 16:03:43
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+新增下发表：
+信用卡
+ACHG 客户资料、申请信息修改日志记录
+SCODE 系统代码表
+CODES 用户代码表
+
+网上银行
+CB_BSNDEF 企业网银交易定义表
+MB_BSNDEF 手机银行交易定义表
+PB_BSNDEF 个人网银交易定义表
+
+码表维护：
+新增部分码值
+公告发布时间
+2014-08-20
+公告最后更新时间
+2014-08-20 16:03:10
+附件
+标准化文档-20140820.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140723全量包说明
+公告内容
+本次全量包括4张表（富阳7张）的全量数据：
+中间业务：T_FYSB_DRAW 、T_FYSF_BAT 、T_FYSF_JRNL （只发富阳）
+中间业务：T_SIGN
+资金业务：TIR_SERIES
+核心系统：BWFMECTRT
+信用卡：JORJ
+提取路径：/S-999000/ODS/ALL/20140723/
+公告发布时间
+2014-07-23
+公告最后更新时间
+2014-07-23 16:12:54
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140723升级说明
+公告内容
+1.新增下发表：
+中间业务：
+T_FYSB_DRAW 富阳社保批量代扣表（只发富阳）
+T_FYSF_BAT 富阳水费批扣流水表（只发富阳）
+T_FYSF_JRNL 富阳水费缴费流水（只发富阳）
+资金业务：TIR_SERIES 利率行情表
+核心系统：BWFMECTRT 电子现金账户表（登记薄）
+
+2.新增字段
+信用卡：
+FCHG 当日修改类固定格式日志表 新增8个字段
+CHGS 卡片帐户修改日志记录 新增2个字段
+
+3.码表修改
+XDZX MORTGAGE_LAND表 LAND_USUFRUCT_TYPE字段码值 1为国有出让，2为国有划拨
+
+4.标准化文档修改：
+1）修正资金业务文档中中文表名不正确的问题；
+2）补充无中文名字段的中文说明；
+3）补充XDZX部分码值
+
+5. 拆分规则改造：
+IMBS T_AGT_DATA   批量代扣表   
+IMBS T_BAT_ACC    批量代发明细表
+IMBS T_BAT_OPEN   批量开户明细表
+IMBS T_ELE_BAT     电力批量明细表
+4张表修改为拆分表，目前只发杭州地区行社。
+CCRD JORJ 拆分规则修改
+IMBS  T_SIGN 拆分规则修改
+
+6.POSP  T_AUTH_HISTORY_NX_REPORT 修改抽取规则，解决增量无数据问题。由于数据量较大，暂不提供全量数据。
+公告发布时间
+2014-07-23
+公告最后更新时间
+2014-07-23 16:12:32
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+新增下发表：
+中间业务：T_FYSB_DRAW    富阳社保批量代扣表（只发富阳）
+               T_FYSF_BAT    富阳水费批扣流水表（只发富阳）
+               T_FYSF_JRNL    富阳水费缴费流水（只发富阳）
+资金业务：TIR_SERIES    利率行情表
+核心系统：BWFMECTRT    电子现金账户表（登记薄）
+
+新增字段：
+信用卡：
+FCHG 当日修改类固定格式日志表 新增8个字段
+CHGS 卡片帐户修改日志记录 新增2个字段
+
+码表维护：
+XDZX MORTGAGE_LAND表 LAND_USUFRUCT_TYPE字段码值 1为国有出让，2为国有划拨
+
+码表补充：
+XDZX AR_RISK_DTL_SUM   AR贷后风险分类细项综合表    SYSTEM_GRADE 系统分类结果
+XDZX ASSURE_INFOMATION 担保信息维护.担保关系登记簿 ASSURE_TYPE 担保类型
+
+另：修正资金业务文档中中文表名不正确的问题；
+补充无中文名字段的中文说明；
+公告发布时间
+2014-07-23
+公告最后更新时间
+2014-07-23 16:11:46
+附件
+标准化文档-20140723.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+201408二代支付升级数据交换平台相关变更说明
+公告内容
+二代支付系统将于8月22日晚进行升级，涉及核心业务系统、支付平台数据表结构的变更，其中会计日期8月22日的数据不变，会计日期8月23日下发的数据采用新结构，请各行社根据以下内容，提前做好相关改造工作，确保数据平稳过渡。
+1.表结构变更：
+CORE
+BPFMJSZZ	大额即时转账来帐登记簿
+BPFMOUDE	大额往来账登记簿
+
+2.新增下发：
+CORE
+BTFMSBRT	小额往来业务登记簿
+
+PYMT
+T_SET_BANK	支付系统统一行名行号表
+T_SET_BRCH	参与机构信息表
+T_SET_JRNL	支付结算交易流水表
+T_BEPS_BOOK	小额明细登记簿
+T_HVPS_BOOK	大额明细登记薄
+
+
+3.停止下发：
+PYMT
+BEP_BANK	支付系统行号表
+BEP_BRCH	机构对照表
+BEP_DJTH_L	贷记退汇来账明细
+BEP_DJTH_W	贷记退汇往账明细
+BEP_PTDJ_L	普通贷记来账明细
+BEP_PTDJ_W	普通贷记往账明细
+BEP_PTJJ_L	普通借记来账明细
+BEP_SSDJ_L	实时贷记来账明细
+BEP_SSDJ_W	实时贷记往账明细
+BEP_SSJJ_L	实时借记来账明细
+T_HVP_LBOOK	大额来账登记簿
+T_HVP_WBOOK	大额往账登记簿
+T_HVP_CXUBOOK	大额支付查询登记簿
+T_HVP_ZYBOOK	大额支付自由格式登记簿
+BEP_PTJJ_W	普通借记往账明细
+
+CORE
+BPFMBECK	小额对帐表
+BPFMBERE	小额冲帐补充表
+公告发布时间
+2014-07-22
+公告最后更新时间
+2014-07-22 09:25:13
+附件
+数据标准化拆分-二代支付相关表结构变更.zip
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2014年7月23日表结构变更预告
+公告内容
+2014年7月23日晚升级将修改信用卡数据包中以下2张表的表结构
+信用卡：
+FCHG 当日修改类固定格式日志表 （新增8个字段）
+CHGS 卡片帐户修改日志记录 （新增2个字段）
+本次修改将不提供全量数据。
+具体新增内容请见附件。
+
+附件：数据标准化拆分-新信用卡-发布版-20140723变更.xls
+公告发布时间
+2014-07-08
+公告最后更新时间
+2014-07-08 16:50:21
+附件
+数据标准化拆分-新信用卡-发布版-20140723变更.xls
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新-农信银改造
+公告内容
+核心相关表结构变更：
+BPFMBLLS	票据丧失处理登记簿
+BPFMBLPN	结算罚款登记簿
+BPFMELEX	农信银电子汇兑登记簿
+BPFMIDPM	结算机构清算途径参数表
+BPFMTRAN	农信银通存通兑登记簿
+BPFMTRBK	结算调账登记簿
+BRFMPOBR	三省一市汇票行号参数表
+BRFMPOCF	银行汇票签发待确认登记簿
+BRFMPOPM	银行汇票参数表
+BRFMPOPY	银行汇票付款登记簿
+BRFMPOWT	银行汇票签发登记簿
+新增下发表：
+BRFMFRRT	全国汇票索权登记簿
+BRFMJXWQ	结算久悬未取登记簿
+---------------------------------------------------
+新增RCBP数据包，其中新增表清单如下：
+ZPS_SSDJ_W
+ZPS_SSDJ_L
+ZPS_SSJJ_W
+ZPS_SSJJ_L
+ZPS_HDW
+ZPS_HDL
+ZPS_BANK
+ZPS_BRCH
+
+原PYMT包中删除表清单如下：
+CPS_SSDJ_W
+CPS_SSDJ_L  
+CPS_SSJJ_W   
+CPS_SSJJ_L  
+CPS_HDW 
+CPS_HDL  
+CPS_BANK
+CPS_BRCH
+
+说明
+ZPS_SSDJ_W 对应旧表 CPS_SSDJ_W
+ZPS_SSDJ_L 对应旧表 CPS_SSDJ_L
+ZPS_SSJJ_W 对应旧表 CPS_SSJJ_W
+ZPS_SSJJ_L 对应旧表 CPS_SSJJ_L
+ZPS_HDW 对应旧表    CPS_HDW
+ZPS_HDL 对应旧表    CPS_HDL
+ZPS_BANK 对应旧表   CPS_BANK
+ZPS_BRCH 对应旧表   CPS_BRCH
+公告发布时间
+2014-06-14
+公告最后更新时间
+2014-06-14 11:21:12
+附件
+标准化文档-20140614.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140611全量包的说明
+公告内容
+本次全量包括6张表的全量数据：
+核心系统：BLFMCSRT
+综合前端：BTOP_TELLER_TELLERLOGIN 
+网上银行：PB_PAY2_TRANFLOW、CB_PAY2_TRANFLOW
+电话POS：T_AUTH_HISTORY_NX_REPORT
+资金业务：TTRD_SET_INSTRUCTION_SECU
+提取路径：/S-999000/ODS/ALL/20140611/
+公告发布时间
+2014-06-11
+公告最后更新时间
+2014-06-11 14:36:56
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140611升级说明
+公告内容
+1）新增下发表
+核心系统：
+BLFMCSRT 贷款通知书登记文件
+综合前端：
+BTOP_TELLER_TELLERLOGIN 柜员登录信息流水表 
+网上银行：
+PB_PAY2_TRANFLOW 超级网银个人转账流水表、CB_PAY2_TRANFLOW 超级网银企业转账流水表
+电话POS：
+T_AUTH_HISTORY_NX_REPORT 农信历史流水表
+
+2）中间业务 T_SIGN由杭州地区拆分，改为全省拆分
+3）资金业务TTRD_SET_INSTRUCTION_SECU 证券结算指令表 全量刷新
+4）中间业务 T_YHT_PRT_FMT 增加803机构拆分
+公告发布时间
+2014-06-11
+公告最后更新时间
+2014-06-11 14:36:28
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+新增下发表：
+核心系统：
+BLFMCSRT 贷款通知书登记文件
+
+综合前端：
+BTOP_TELLER_TELLERLOGIN 柜员登录信息流水表 
+
+网上银行：
+PB_PAY2_TRANFLOW 超级网银个人转账流水表
+CB_PAY2_TRANFLOW 超级网银企业转账流水表
+
+电话POS：
+T_AUTH_HISTORY_NX_REPORT 农信历史流水表
+公告发布时间
+2014-06-11
+公告最后更新时间
+2014-06-11 14:35:58
+附件
+标准化文档-20140611.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+农信银改造-数据下发标准化文档相关变动说明（20140606调整）
+公告内容
+之前的农信银标准化文档(核心部分)有误，请大家以此份文档为准，重新建表。
+带来不便，敬请谅解，谢谢!
+公告发布时间
+2014-06-09
+公告最后更新时间
+2014-06-09 09:43:46
+附件
+农信银-标准化文档20140606.zip
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+农信银改造-数据下发标准化文档相关说明内容（20140528调整）
+公告内容
+BRFMPOCF 表主键改为：
+PCAPDATE 申请日期
+PCCFSN08 确认序号
+PCRDRDST 记录状态
+公告发布时间
+2014-05-28
+公告最后更新时间
+2014-05-28 16:05:12
+附件
+农信银-标准化文档20140528.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140528全量包的说明
+公告内容
+本次全量包包括如下表的全量数据：
+核心系统 BDFMHQZK 、BWFMPSSD
+资金业务 TTRD_SET_INSTRUCTION_CASH
+中间业务 T_YHT_DJRNL(只发杭州地区)
+提取路径：/S-999000/ODS/ALL/20140528/
+公告发布时间
+2014-05-28
+公告最后更新时间
+2014-05-28 16:04:29
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140528升级说明
+公告内容
+1）新增下发表
+核心系统：
+BDFMHQZK 资金系统账户利息明细表
+BWFMPSSD POS收单文件
+
+资金业务：
+TTRD_SET_INSTRUCTION_CASH 资金指令表
+
+2）中间业务T_YHT_DJRNL全量刷新
+解决由于源系统升级造成的5月14日，5月15日数据有误问题。
+
+3）资金业务TTRD_SET_INSTRUCTION_SECU 证券结算指令表
+由原来的公共档改为拆分档
+
+4）新增下发680000上虞富民村镇银行
+公告发布时间
+2014-05-28
+公告最后更新时间
+2014-05-28 16:03:22
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1）新增下发表：
+核心系统：
+BDFMHQZK  资金系统账户利息明细表
+BWFMPSSD  POS收单文件
+
+资金业务：
+TTRD_SET_INSTRUCTION_CASH 资金指令表
+
+2）增加全量数据过滤表清单
+此文档内容为全量数据中有过滤的表清单
+公告发布时间
+2014-05-28
+公告最后更新时间
+2014-05-28 16:02:46
+附件
+标准化文档-20140528.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+农信银改造-数据下发标准化文档相关说明
+公告内容
+省联社农信银系统改造预计于2014年6月13日进行，数据交换平台也将同步更新下发数据，请各行社根据以下内容，做好相关改造工作，确保数据平稳过渡。
+核心相关：
+表结构变更：
+BPFMBLLS	票据丧失处理登记簿
+BPFMBLPN	结算罚款登记簿
+BPFMELEX	农信银电子汇兑登记簿
+BPFMIDPM	结算机构清算途径参数表
+BPFMTRAN	农信银通存通兑登记簿
+BPFMTRBK	结算调账登记簿
+BRFMPOBR	三省一市汇票行号参数表
+BRFMPOCF	银行汇票签发待确认登记簿
+BRFMPOPM	银行汇票参数表
+BRFMPOPY	银行汇票付款登记簿
+BRFMPOWT	银行汇票签发登记簿
+新增：
+BRFMFRRT	全国汇票索权登记簿
+BRFMJXWQ	结算久悬未取登记簿
+----------------------------------------------
+农信银改造后，下发数据包中将新增一个RCBP数据包。
+RCBP新增表：
+ZPS_SSDJ_W
+ZPS_SSDJ_L
+ZPS_SSJJ_W
+ZPS_SSJJ_L
+ZPS_HDW
+ZPS_HDL
+ZPS_BANK
+ZPS_BRCH
+
+从原PYMT包中删除表
+CPS_SSDJ_W
+CPS_SSDJ_L  
+CPS_SSJJ_W   
+CPS_SSJJ_L  
+CPS_HDW 
+CPS_HDL  
+CPS_BANK
+CPS_BRCH
+
+说明
+ZPS_SSDJ_W 对应旧表 CPS_SSDJ_W
+ZPS_SSDJ_L 对应旧表 CPS_SSDJ_L
+ZPS_SSJJ_W 对应旧表 CPS_SSJJ_W
+ZPS_SSJJ_L 对应旧表 CPS_SSJJ_L
+ZPS_HDW 对应旧表    CPS_HDW
+ZPS_HDL 对应旧表    CPS_HDL
+ZPS_BANK 对应旧表   CPS_BANK
+ZPS_BRCH 对应旧表   CPS_BRCH
+-----------------------------------------------------
+公告发布时间
+2014-05-19
+公告最后更新时间
+2014-05-19 16:37:06
+附件
+农信银-标准化文档201405.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140514全量包的说明
+公告内容
+本次全量包括11张表的全量数据：
+核心系统 BGFWTPDJ、BDFMHQAQ、BLFMTXTL
+信用卡 APGU、MPUR
+网银 PB_LOGON_CTRL、CB_LOGON_CTRL、MB_PB_LOGON_CTRL、EB_PAYMENT_ORDER、PB_FINPRO_FLOW、MB_PB_TRANFLOW
+提取路径：/S-999000/ODS/ALL/20140514/
+公告发布时间
+2014-05-14
+公告最后更新时间
+2014-05-14 14:00:56
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140514升级说明
+公告内容
+新增下发表：
+核心系统：
+BGFWTPDJ 传票套平登记簿
+信用卡：
+APGU 申请担保人及其他资料
+MPUR 分期付款交易记录
+网银：
+EB_PAYMENT_ORDER B2C支付流水表
+PB_FINPRO_FLOW 个人网银理财产品交易流水表
+PB_LOGON_CTRL 个人客户登陆控制表
+CB_LOGON_CTRL 企业用户登陆控制表
+MB_PB_LOGON_CTRL 手机银行客户登陆控制表
+----------------------------------------------
+新增字段：
+网银：
+MB_PB_TRANFLOW 手机银行交易流水表 
+新增字段：TRF_BSNCODE 网银交易代码
+----------------------------------------------
+核心系统：
+BLFMTXTL 数据全量刷新
+BDFMHQAQ.AQ23NO20 乱码修改
+----------------------------------------------
+公告发布时间
+2014-05-14
+公告最后更新时间
+2014-05-14 14:00:20
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+新增下发表：
+核心系统：
+BGFWTPDJ 传票套平登记簿
+信用卡：
+APGU 申请担保人及其他资料
+MPUR 分期付款交易记录
+网银：
+EB_PAYMENT_ORDER B2C支付流水表
+PB_FINPRO_FLOW 个人网银理财产品交易流水表
+PB_LOGON_CTRL 个人客户登陆控制表
+CB_LOGON_CTRL 企业用户登陆控制表
+MB_PB_LOGON_CTRL 手机银行客户登陆控制表
+-------------------------------------------
+新增字段：
+网银：
+MB_PB_TRANFLOW 手机银行交易流水表 
+新增字段：TRF_BSNCODE 网银交易代码
+-------------------------------------------
+增加主键:
+TPDM TS_DLCG_KHXX 客户信息表 
+增加主键字段：QYBZ 签约标志
+-------------------------------------------
+码表：
+基金代销系统 BUSINESSCODE码值更新
+-------------------------------------------
+公告发布时间
+2014-05-14
+公告最后更新时间
+2014-05-14 13:59:42
+附件
+标准化文档-20140514.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140514变更预告
+公告内容
+MB_PB_TRANFLOW 手机银行交易流水表
+增加字段：TRF_BSNCODE 网银交易代码
+具体表结构请见附件。
+公告发布时间
+2014-04-16
+公告最后更新时间
+2014-04-16 15:36:45
+附件
+IBS-MB_PB_TRANFLOW.xlsx
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140416全量包的说明
+公告内容
+本次全量包括3张表的全量数据：
+资金业务：TTRD_ACC_CURRENT_RATE_LOG 利率调整信息表；
+基金代销：H_ACK_TRANS 交易确认历史表
+信贷中心：BLACK_LIST_INFO 黑名单信息维护
+提取路径：/S-999000/ODS/ALL/20140416/
+公告发布时间
+2014-04-16
+公告最后更新时间
+2014-04-16 15:36:06
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140416升级说明
+公告内容
+资金业务新增表：
+TTRD_ACC_CURRENT_RATE_LOG 利率调整信息表；
+
+基金代销：
+H_ACK_TRANS 交易确认历史表新增13个字段：
+TRANSACTIONACCOUNTID 交易帐号
+FUNDCODE 基金代码
+SHARETYPE 收费方式
+APPLICATIONVOL 申请基金份数 初始申报
+APPLICATIONAMOUNT 申请金额 初始申报
+NAV 基金单位净值
+CONFIRMEDVOL 交易确认份数
+CONFIRMEDAMOUNT 交易确认金额
+TARGETDISTRIBUTORCODE 对方销售商代码
+TARGETTRANSACTIONACCOUNTID 对方交易帐号
+TARGETBRANCHCODE 对方网点号
+TARGETFUNDCODE 对方目标基金代码
+TARGETSHARETYPE 对方目标收费方式；
+公告发布时间
+2014-04-16
+公告最后更新时间
+2014-04-16 15:35:25
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+资金业务新增表：
+TTRD_ACC_CURRENT_RATE_LOG 利率调整信息表
+
+基金代销：
+H_ACK_TRANS 交易确认历史表新增13个字段：
+TRANSACTIONACCOUNTID 交易帐号
+FUNDCODE 基金代码
+SHARETYPE 收费方式
+APPLICATIONVOL 申请基金份数  初始申报
+APPLICATIONAMOUNT 申请金额 初始申报
+NAV 基金单位净值
+CONFIRMEDVOL 交易确认份数
+CONFIRMEDAMOUNT 交易确认金额
+TARGETDISTRIBUTORCODE 对方销售商代码
+TARGETTRANSACTIONACCOUNTID 对方交易帐号
+TARGETBRANCHCODE 对方网点号
+TARGETFUNDCODE 对方目标基金代码
+TARGETSHARETYPE 对方目标收费方式
+公告发布时间
+2014-04-16
+公告最后更新时间
+2014-04-16 15:34:45
+附件
+标准化文档-20140416.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140402全量包的说明
+公告内容
+本次全量数据包括以下3张表：
+大总账：
+BIDW_PROFIT_MO3_APP 利润表（行社）
+
+中间业务：
+T_CKSY_SZMX
+
+理财系统：
+FMS_FM_ACCT 
+
+全量路径：/S-999000/ODS/ALL/20140402/ODS_6位机构号_20140402_ALL.tar
+公告发布时间
+2014-04-02
+公告最后更新时间
+2014-04-02 10:49:45
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140402升级说明
+公告内容
+1.大总账新增下发表：
+BIDW_PROFIT_MO3_APP 利润表（行社）
+
+2.中间业务：
+T_CKSY_SZMX 主键字段调整为TAXVOUNO、PROJECTID、BAT_SEQ、TAXSTARTDATE、TAXENDDATE
+
+3.网上银行：
+PB_CHARGE_RECORD.CRC_CORPNAME字段长度扩展到100
+
+4.基金代销：
+BAL_FUND改为发送全部行社  
+
+5.理财系统FMS_FM_ACCT 表下发程序修正。
+公告发布时间
+2014-04-02
+公告最后更新时间
+2014-04-02 10:49:09
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+大总账新增下发表：
+BIDW_PROFIT_MO3_APP 利润表（行社）
+
+中间业务：
+T_CKSY_SZMX 主键字段调整为TAXVOUNO、PROJECTID、BAT_SEQ、TAXSTARTDATE、TAXENDDATE
+
+网上银行：
+PB_CHARGE_RECORD.CRC_CORPNAME字段长度扩展到100
+公告发布时间
+2014-04-02
+公告最后更新时间
+2014-04-02 10:48:41
+附件
+标准化文档-20140402.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140319全量包的说明
+公告内容
+本次全量包包括14张表（新增13张+中间业务T_CKSY_SZMX）的全量：
+核心系统：
+BWFMSTIF 卡特殊转帐控制信息表
+BWFMECDL 电子现金账户明细表
+
+国际业务：
+sb_ckshhxl_jn_hxxx 出口收汇核销联境内核销信息表
+sb_dwfkcdtzs_hxxx 对外付款承兑通知书核销信息表
+sb_dwfkcdtzs_sbxx 对外付款承兑通知书申报信息表
+sb_jnhks_hxxx 境内汇款书核销信息表
+sb_jwhks_hxxx 境外汇款书核销信息表
+sb_jwhks_sbxx 境外汇款书申报信息表
+sb_swsrsbd_sbxx 涉外收入申报单申报信息
+
+基金代销：
+BAL_FUND 份额汇总表
+FUND_DAYVOL_SUMMARY 基金份额余额日表
+
+资金业务：
+TIRCURVE 利率曲线表
+TIRCURVE_RATES 利率曲线区间利率表
+
+中间业务：
+T_CKSY_SZMX 财库税银批扣税种明细表
+
+全量数据提取路径：/S-999000/ODS/ALL/20140319/ODS_6位机构号_20140319_ALL.tar
+公告发布时间
+2014-03-19
+公告最后更新时间
+2014-03-19 15:19:11
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140319升级说明
+公告内容
+1.新增下发表：
+核心系统新增表：
+BWFMSTIF 卡特殊转帐控制信息表
+BWFMECDL 电子现金账户明细表
+
+国际业务新增表：
+sb_ckshhxl_jn_hxxx 出口收汇核销联境内核销信息表
+sb_dwfkcdtzs_hxxx 对外付款承兑通知书核销信息表
+sb_dwfkcdtzs_sbxx 对外付款承兑通知书申报信息表
+sb_jnhks_hxxx 境内汇款书核销信息表
+sb_jwhks_hxxx 境外汇款书核销信息表
+sb_jwhks_sbxx 境外汇款书申报信息表
+sb_swsrsbd_sbxx 涉外收入申报单申报信息
+
+基金代销新增表：
+BAL_FUND 份额汇总表
+FUND_DAYVOL_SUMMARY 基金份额余额日表
+
+资金业务新增表：
+TIRCURVE 利率曲线表
+TIRCURVE_RATES 利率曲线区间利率表
+
+中间业务 主键变更：
+T_CKSY_SZMX 财库税银批扣税种明细表
+增加主键字段TAXTYPENAME、TAXSTARTDATE
+
+2.开通682000上栗富民村镇银行数据下发。
+公告发布时间
+2014-03-19
+公告最后更新时间
+2014-03-19 15:18:33
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+核心系统新增表：
+BWFMSTIF 卡特殊转帐控制信息表
+BWFMECDL 电子现金账户明细表
+
+国际业务新增表：
+sb_ckshhxl_jn_hxxx 出口收汇核销联境内核销信息表
+sb_dwfkcdtzs_hxxx 对外付款承兑通知书核销信息表
+sb_dwfkcdtzs_sbxx 对外付款承兑通知书申报信息表
+sb_jnhks_hxxx 境内汇款书核销信息表
+sb_jwhks_hxxx 境外汇款书核销信息表
+sb_jwhks_sbxx 境外汇款书申报信息表
+sb_swsrsbd_sbxx 涉外收入申报单申报信息
+
+基金代销新增表：
+BAL_FUND 份额汇总表
+FUND_DAYVOL_SUMMARY 基金份额余额日表
+
+资金业务新增表：
+TIRCURVE 利率曲线表
+TIRCURVE_RATES 利率曲线区间利率表
+
+中间业务 主键变更：
+T_CKSY_SZMX 财库税银批扣税种明细表
+增加主键字段TAXTYPENAME、TAXSTARTDATE
+公告发布时间
+2014-03-19
+公告最后更新时间
+2014-03-19 15:17:16
+附件
+标准化文档-20140319.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140305全量包的说明
+公告内容
+本次全量包包括如下16张表的全量：
+资金业务：
+TTRD_ACCOUNTING_SECU_OBJ 券核算对象当前表
+TTRD_OTC_IBDEPO_FIXEDTERM 存放同业定期、同业存放定期及拆借和调剂
+TTRD_OTC_OUTRIGHT 买断式回购表
+TTRD_ACC_BALANCE_CASH 资金账户余额表
+TTRD_ACC_BALANCE_SECU 券当前持仓余额表
+TTRD_BOOKKEEPING_ENTR 记账分录表
+
+基金代销：
+CFG_FUND 基金信息表
+
+国际业务：
+PT_TASKDOWNLOAD 打印任务表
+
+信用卡：
+INTR 推荐人资料表
+
+理财系统：
+FMS_SUMMARY_CLEARLOG 清算数据表
+
+网银系统：
+CB_ACC_INF 企业账户信息
+PB_ACCINF 个人客户注册账户表
+PB_CHARGE_RECORD 手机银行-缴费支付交易信息表
+CB_WAGE_FLOW 代发工资差旅流水表
+CB_TRANFLOW 企业网银普通转账指令流水表
+PB_TRANFLOW 个人网银交易流水表
+全量数据提取路径：/S-999000/ODS/ALL/[DATE]/ODS_6位机构号_[DATE]_ALL.tar
+公告发布时间
+2014-03-05
+公告最后更新时间
+2014-03-05 14:03:58
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140305升级说明
+公告内容
+资金业务新增表：
+TTRD_ACCOUNTING_SECU_OBJ 券核算对象当前表
+TTRD_OTC_IBDEPO_FIXEDTERM 存放同业定期、同业存放定期及拆借和调剂
+TTRD_OTC_OUTRIGHT 买断式回购表
+TTRD_ACC_BALANCE_CASH 资金账户余额表
+TTRD_ACC_BALANCE_SECU 券当前持仓余额表
+
+基金代销新增表：
+CFG_FUND 基金信息表
+
+国际业务新增表：
+PT_TASKDOWNLOAD 打印任务表
+
+信用卡新增表：
+INTR 推荐人资料表
+
+理财系统新增表：
+FMS_SUMMARY_CLEARLOG 清算数据表
+
+资金业务：
+TTRD_BOOKKEEPING_ENTR 记账分录表增加字段：
+INST_ID 指令ID
+公告发布时间
+2014-03-05
+公告最后更新时间
+2014-03-05 14:03:23
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+资金业务新增表：
+TTRD_ACCOUNTING_SECU_OBJ 券核算对象当前表
+TTRD_OTC_IBDEPO_FIXEDTERM 存放同业定期、同业存放定期及拆借和调剂
+TTRD_OTC_OUTRIGHT 买断式回购表
+TTRD_ACC_BALANCE_CASH 资金账户余额表
+TTRD_ACC_BALANCE_SECU 券当前持仓余额表
+
+基金代销新增表：
+CFG_FUND 基金信息表
+
+国际业务新增表：
+PT_TASKDOWNLOAD 打印任务表
+
+信用卡新增表：
+INTR 推荐人资料表
+
+理财系统新增表：
+FMS_SUMMARY_CLEARLOG 清算数据表
+
+资金业务：
+TTRD_BOOKKEEPING_ENTR 记账分录表增加字段：
+INST_ID 指令ID
+公告发布时间
+2014-03-05
+公告最后更新时间
+2014-03-05 14:02:50
+附件
+标准化文档-20140305.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140219全量包的说明
+公告内容
+本次全量包包括如下11张表的全量：
+PA_FOREIGNRATE 外币汇率表
+BU_ACCOUNTINFO 账户信息表
+FI_TRANSDEALINFO 同名划转交易信息表
+FI_DEALSPFEINFO 手工结售汇信息表
+FMS_CUST_FIRST_RISK 客户首次风评
+T_HZJJFK_JRNL 杭州交警单笔流水表（只发杭州地区）
+TTRD_OTC_ORDER 审批单
+TBND_EXT_RATING 债券信用评级表
+TTRD_BOOKKEEPING_ENTRY 记账分录表
+TTRD_OTC_COUNTERPARTY 交易对手表
+T_HZRQ_BAT 杭州燃气批扣表(只发801机构)
+文件下发目录：基础目录/S-999000/ODS/ALL/20140219
+公告发布时间
+2014-02-19
+公告最后更新时间
+2014-02-19 13:49:04
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140219升级说明
+公告内容
+1.新增下发表：
+国际业务 
+PA_FOREIGNRATE 外币汇率表
+BU_ACCOUNTINFO 账户信息表
+FI_TRANSDEALINFO 同名划转交易信息表
+FI_DEALSPFEINFO 手工结售汇信息表
+
+理财系统 
+FMS_CUST_FIRST_RISK 客户首次风评
+
+中间业务 
+T_HZJJFK_JRNL 杭州交警单笔流水表
+
+资金业务 
+TTRD_OTC_ORDER 审批单
+TBND_EXT_RATING 债券信用评级表
+TTRD_BOOKKEEPING_ENTRY 记账分录表
+TTRD_OTC_COUNTERPARTY 交易对手表
+
+2.678000东阳富民村镇银行开通下发。
+公告发布时间
+2014-02-19
+公告最后更新时间
+2014-02-19 13:48:36
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+国际业务 
+PA_FOREIGNRATE 外币汇率表
+BU_ACCOUNTINFO 账户信息表
+FI_TRANSDEALINFO 同名划转交易信息表
+FI_DEALSPFEINFO 手工结售汇信息表
+
+理财系统 
+FMS_CUST_FIRST_RISK 客户首次风评
+
+中间业务 
+T_HZJJFK_JRNL 杭州交警单笔流水表
+
+资金业务 
+TTRD_OTC_ORDER 审批单
+TBND_EXT_RATING 债券信用评级表
+TTRD_BOOKKEEPING_ENTRY 记账分录表
+TTRD_OTC_COUNTERPARTY 交易对手表
+
+码表更新：理财系统 FMS_CFG_PROD.PROD_INVEST_TYPE字段的码值
+公告发布时间
+2014-02-19
+公告最后更新时间
+2014-02-19 13:47:53
+附件
+标准化文档-20140219.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140115全量包的说明
+公告内容
+本次全量包包括如下4张表截至到20140115的全量数据：
+BBFMSTLR
+BBFMORGA
+QRY_SETTLEMENT_MANAGER
+H_BATCH_CAPITAL_LOG
+注：BBFMSTLR和BBFMORGA这2张可以无需处理，QRY_SETTLEMENT_MANAGER为新增表，H_BATCH_CAPITAL_LOG修正了之前缺少数据的问题。
+文件下发目录：基础目录/S-999000/ODS/ALL/20140115
+公告发布时间
+2014-01-15
+公告最后更新时间
+2014-01-15 14:37:50
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20140115升级说明
+公告内容
+本次升级新增下发表：国际业务（EBILLS） QRY_SETTLEMENT_MANAGER 国际业务结算量按月按客户经理。
+为671000、677000机构开通下发。
+村镇银行新增下发表：AFFMYRPT 年度报表汇率文件、BBFMBCPR 杂类表、BBFMCYIF 货币代码表、BGFDKHDZ 新会计科目核算码对照表、BWFMDCIM 借记卡信息主档文件。
+公告发布时间
+2014-01-15
+公告最后更新时间
+2014-01-15 14:37:29
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+新增下发表：国际业务 QRY_SETTLEMENT_MANAGER 国际业务结算量按月按客户经理
+公告发布时间
+2014-01-15
+公告最后更新时间
+2014-01-15 14:36:59
+附件
+标准化文档-20140115.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20131211全量包的说明
+公告内容
+此全量包为如下表截至到20131211全量数据。
+文件下发目录：基础目录/S-999000/ODS/ALL/20131211
+CORE.BCFWUNTR
+IMBS.T_HZRQ_BAT(只发杭州联合银行)
+IMBS.T_SIGN_FYSB(只发富阳合行)
+FDS.ACCT_CUST
+FDS.H_ACK_ACCT
+FDS.H_ACK_TRANS
+CCRD.CHGS
+CCRD.PRMCN
+CCRD.PRMCD
+CCRD.CUPLG
+CCRD.CARD
+CCRD.BRNCH
+CCRD.APMA
+CCRD.ACCT
+CCRD.JORJ
+CCRD.FCHG
+CCRD.EVENT
+CCRD.CUSTR
+公告发布时间
+2013-12-11
+公告最后更新时间
+2013-12-11 15:51:35
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20131211升级说明
+公告内容
+1.核心系统新增下发：BCFWUNTR 客户信息合并策略表；
+2.中间业务新增下发：T_SIGN_FYSB 富阳社保（只发富阳合行）、T_HZRQ_BAT 杭州燃气批扣表（只发杭州联合银行）；
+3.新增基金代销系统：ACCT_CUST 客户信息表、H_ACK_ACCT 账户确认历史表、H_ACK_TRANS 交易确认历史表；
+4.客户信息表由公共档改为拆分档，改造之后核心系统中的客户信息将按机构进行拆分，涉及表包括：BCFMCADI BC-客户地址信息表、BCFMCIDI BC-客户证件信息表、BCFMCMBI BC-客户基本信息、BCFMCPNI BC-客户电话信息表；
+公告发布时间
+2013-12-11
+公告最后更新时间
+2013-12-11 15:30:09
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+核心系统新增表：BCFWUNTR 客户信息合并策略表；
+中间业务新增表：T_SIGN_FYSB 富阳社保、T_HZRQ_BAT 杭州燃气批扣表；
+新增基金代销系统：ACCT_CUST 客户信息表、H_ACK_ACCT 账户确认历史表、H_ACK_TRANS 交易确认历史表；
+     码表更新：对各系统码表重新进行了梳理，变更及新增部分都用黄色进行标注。
+公告发布时间
+2013-12-11
+公告最后更新时间
+2013-12-11 16:17:36
+附件
+标准化文档-20131211.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+重要:20131130_GAS数据包重新发送
+公告内容
+业务日期20131130总帐GAS数据包昨晚因数据加工有问题,中午重新生成了一份,请各行社重新获取.
+公告发布时间
+2013-12-01
+公告最后更新时间
+2013-12-01 13:43:15
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20131127全量包的说明
+公告内容
+此全量包为如下表截至到20131127全量数据。
+文件下发目录：基础目录/S-999000/ODS/ALL/20131127
+新接入表：
+IBS.PB_CHARGE_RECORD               缴费支付交易信息表
+IBS.MB_PB_CHARGE_RECORD           手机银行-缴费支付交易信息表
+XDZX.AGATE_CRE_BAS_SITUATION      CRE客户基本授信情况 (存储审批通过之后的有效基本授信数据)
+XDZX.AGATE_CRE_TEMP_SITUATION    CRE客户临时授信情况 (存储审批通过之后的有效临时授信数据)
+BTOP.BTOP_TASK_TRADELOG           交易流水表
+数据刷新表：
+IBS.PB_ACCINF                         个人客户注册账户表
+公告发布时间
+2013-11-27
+公告最后更新时间
+2013-11-27 16:01:48
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1、新增系统BTOP（综合前端）：
+BTOP_TASK_TRADELOG  交易流水表
+2、IBS（网银）新增表：
+PB_CHARGE_RECORD   缴费支付交易信息表
+MB_PB_CHARGE_RECORD   手机银行-缴费支付交易信息表
+3、XDZX（信贷中心）新增表：
+AGATE_CRE_BAS_SITUATION   CRE客户基本授信情况 (存储审批通过之后的有效基本授信数据)
+AGATE_CRE_TEMP_SITUATION   CRE客户临时授信情况 (存储审批通过之后的有效临时授信数据)
+公告发布时间
+2013-11-27
+公告最后更新时间
+2013-11-27 16:01:03
+附件
+标准化文档-20131127.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+总帐7张月表改为每天下发
+公告内容
+总帐7张月表原月末下发,现修改为每天下发
+公告发布时间
+2013-11-13
+公告最后更新时间
+2013-11-13 16:23:20
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20131113升级说明
+公告内容
+国际业务：IM_LCPAYMENT、EX_CREDITLOANARV 拆分规则修正；
+IM_LCISSUEINFO修正contractno字段为空的问题；
+中间业务：T_JRNL表修正之前无数据的问题；
+大总账： 修正GL_JE_BATCHES中字段DESCRIPTION中存在双引号问题。
+注：上线当晚会下发以上每张表的全量文件，请各行社注意提取路径：/S-999000/ODS/ALL/[DATE]/ODS_6位机构号_[DATE]_ALL.tar
+公告发布时间
+2013-11-13
+公告最后更新时间
+2013-11-13 15:09:06
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1.核心系统新增表：
+BDFMHQGK 集团账户主账户每日的日切余额表
+BDFTHQAZ  集团客户签约信息表
+
+2.去除核心系统中已经停止下发的46张表：
+ACFCCCBC、ACFCCCYM、ACFMCCAA、ACFMCCAB、ACFMCCAD、ACFMCCXA、ACFMCCXB、ACFMCCXC、ACFTCCAC、ACFTCCAF、ACFTCCAG、ACFTCCAH、ACFTCCAJ、ACFTCCAK、ACFTCCAQ、ACFTCCAR、ACFTCCAS、  ACFTCCTI、ACFTCCTR、BGFDBWGN、BGFDKMZB、BGFDLRGN、BGFDSYGN、BGFDSYGS、BGFDYWGN、BGFDYWGS、BGFDZCGN、BGFMDBAL、BGFMDBTH、BGFMKMTB、BGFMKMYB、BGFMYBJZ、BGFMYBLE、BGFTFJRN、BGFWBWSN、BGFWLRSN、BGFWSYJN、BGFWSYNB、BGFWSYSJ、BGFWSYSN、BGFWYWJZ、BGFWYWNB、BGFWYWSJ、BGFWYWSN、BGFWZCNB、BGFWZCSN
+公告发布时间
+2013-11-13
+公告最后更新时间
+2013-11-13 15:01:06
+附件
+标准化文档-20131113.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+总账和信用卡标准化文档
+公告内容
+总账和信用卡标准化文档20131101更新
+公告发布时间
+2013-11-01
+公告最后更新时间
+2013-11-01 14:42:34
+附件
+总账和信用卡标准化文档-20131101.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+总账和信用卡20131001测试数据及标准化文档
+公告内容
+总账和信用卡20131001测试数据已上传170FTP，请各行社下载核对。
+最新的标准化文档请见附件。
+公告发布时间
+2013-10-23
+公告最后更新时间
+2013-10-23 16:30:45
+附件
+总账和信用卡标准化文档-20131023更新.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1.信贷中心新增表：AR_RISK_DTL_SUM
+2.网银系统：MB_PB_ACCINF表MAIF_CORESTT字段、PB_ACCINF表AIF_CORESTT字段码值更新
+3.网银系统：
+MB_PB_ACCINF.MAIF_CORESTT
+PB_ACCINF.AIF_CORESTT
+PB_ACCINF_HIS.AIF_CORESTT
+字段类型由VARCHAR(2)调整为VARCAHR(6)
+
+注：此3个字段源系统将在2013年11月1日，即总账和信用卡上线后开始变动。各行社可以先将字段类型修改为VARCAHR(6)，不会影响数据的正常加载。
+公告发布时间
+2013-10-16
+公告最后更新时间
+2013-10-16 16:04:23
+附件
+标准化文档-20131016.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+大总账-3张维表测试数据和标准化文档
+公告内容
+大总账新增3张下发表：BIDW_LEDGER_D 、BIDW_ORG_LV3_DA 、BIDW_ORG_LV6_DA
+测试数据和表结构请见附件，请各行社下载测试，有问题及时反馈数据下发项目组。
+公告发布时间
+2013-10-11
+公告最后更新时间
+2013-10-11 15:12:24
+附件
+大总账-3张维表测试数据和标准化文档_20131011.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+信用卡、大总账标准化文档(初稿)_20130930更新
+公告内容
+信用卡、大总账新测试数据已经上传至170FTP,请各行社自行下载.
+公告发布时间
+2013-09-30
+公告最后更新时间
+2013-09-30 14:57:13
+附件
+总账、信用卡标准化文档(初稿)_20130930.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+信用卡、大总账标准化文档(初稿)_20130929更新
+公告内容
+附件为信用卡和大总账标准化文档(初稿)，20130929更新。测试数据已上传至170FTP，请各行社自行下载核对。
+附件：信用卡、总账标准化文档(初稿)_20130929更新.rar
+公告发布时间
+2013-09-29
+公告最后更新时间
+2013-09-29 09:44:09
+附件
+信用卡、总账标准化文档(初稿)_20130929更新.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+文件扫描SJFF_FILESCAN升级
+公告内容
+修正程序检测到文件存在后，在进行3次大小、时间检查期间，文件又发生变更而导致程序无法退出的BUG。
+公告发布时间
+2013-09-25
+公告最后更新时间
+2013-09-25 15:45:49
+附件
+文件扫描SJFF_FILESCAN升级.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20130925全量包的说明
+公告内容
+此全量包为如下表截至到20130925全量数据。
+文件下发目录：基础目录/S-999000/ODS/ALL/20130925
+数据刷新表：
+CORE.BBFMLBCK
+公告发布时间
+2013-09-25
+公告最后更新时间
+2013-09-25 15:45:12
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+标准化文档错误修正:
+核心BIFDPDIR表D2_RDATE字段类型修改为DATE
+核心BLFMJTMX表MXAUDATE字段类型修改为DATE
+公告发布时间
+2013-09-25
+公告最后更新时间
+2013-09-26 09:49:04
+附件
+标准化文档-20130925.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+信用卡、大总账标准化文档（初稿）
+公告内容
+附件为信用卡和大总账标准化文档(初稿)，后续可能会有变动，如有变动将通过公告系统发布。测试数据预计在9月26日左右上传至170FTP，请各位关注数据交换平台QQ群，数据上传后会第一时间在群里通知。
+公告发布时间
+2013-09-18
+公告最后更新时间
+2013-09-18 11:37:39
+附件
+信用卡、总账标准化文档(初稿).rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+文件传输SJFF_MFTPSVR升级
+公告内容
+文件传输服务端原接收到的文件权限固定为666，现修改为由用户默认文件权限进行控制（提示：如有特殊权限要求，先用umask设置权限后，再启动文件传输服务端即可。如：希望接收到的文件权限为664，则先在终端上执行umask 002后，再启动文件传输服务端。）
+公告发布时间
+2013-08-21
+公告最后更新时间
+2013-08-21 16:57:48
+附件
+文件传输SJFF_MFTPSVR升级.zip
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20130821全量包的说明
+公告内容
+此全量包为如下表截至到20130821全量数据。
+文件下发目录：基础目录/S-999000/ODS/ALL/20130821
+新增下发表：
+IMBS.T_FIN_PAY_JNL（发杭州地区）
+IMBS.T_ABC_JRNL（只发801）
+IMBS.T_HZRQ_JRNL（只发801）
+数据刷新表：
+IMBS.T_YHT_BAT_DETAIL（发杭州地区）
+IMBS.T_YHT_DJRNL（发杭州地区）
+IMBS.T_ENTR（发601、杭州地区）
+IMBS.T_SIGN_TELE（发杭州地区）
+IMBS.T_BAT_ACC（发杭州地区）
+IMBS.T_BAT_OPEN（发杭州地区）
+IMBS.T_SIGN（发杭州地区）
+IMBS.T_ELE_BAT（发杭州地区）
+IMBS.T_AGT_DATA（发杭州地区）
+IMBS.T_BAT_TRAN（发杭州地区）
+公告发布时间
+2013-08-21
+公告最后更新时间
+2013-08-21 16:57:15
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+中间业务新增：T_FIN_PAY_JNL 财政票据(缴款书)信息登记表（只下发杭州地区）、
+T_ABC_JRNL  烟草(批扣)（只下发杭州联合银行）、
+T_HZRQ_JRNL  杭州燃气单笔流水表（只下发杭州联合银行）
+核心系统：BLFMSXRL 属性科目关系表 增加字段: RLAAMKID 模块ID
+网上银行：PB_CSFINF_PRO表修改了抽取规则，修正了之前行社缺少数据的问题。
+公告发布时间
+2013-08-21
+公告最后更新时间
+2013-08-21 16:56:26
+附件
+标准化文档-20130821.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20130807全量包的说明
+公告内容
+此全量包为如下表截至到20130807全量数据。
+     文件下发目录：/S-999000/ODS/ALL/20130807
+新增下发表：
+IMBS.T_TRAN_LOG（只发杭州地区）
+IBS.PB_CSTINF_HISTORY
+数据刷新表：
+IMBS.T_BAT_ACC（只发杭州地区）
+IMBS.T_BAT_OPEN（只发杭州地区）
+IMBS.T_CKSY_SZMX（原为拆分表，现改为公共表）
+公告发布时间
+2013-08-07
+公告最后更新时间
+2013-08-07 15:56:23
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+中间业务新增：T_TRAN_LOG （交易日志表） 注：该表只发杭州地区
+网银新增：PB_CSTINF_HISTORY （网银个人客户基本信息历史表）
+调整核心标准化文档，将原《数据标准化拆分-核心系统-发布版(村镇银行).xls》合并至《数据标准化拆分-核心系统-发布版.xls》，村镇银行相关表结构请通过文档中“是否已下发村镇银行”列来过滤。
+公告发布时间
+2013-08-07
+公告最后更新时间
+2013-08-07 15:55:59
+附件
+标准化文档-20130807.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2013年8月21日变更预告
+公告内容
+核心系统：BLFMSXRL(属性科目关系表) 增加主键字段：”RLAAMKID” 模块ID 
+具体表结构请见附件。
+公告发布时间
+2013-08-07
+公告最后更新时间
+2013-08-07 15:55:31
+附件
+20130821上线预告-表结构变更.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20130724全量包的说明
+公告内容
+此全量包为如下表截至到20130724全量数据。路径为：基础目录/S-999000/ODS/ALL/20130724/
+新增下发表：
+GOLD_BAL,GOLD_CAPITAL_LOG,GOLD_H_CAPITAL_LOG,GOLD_H_PRICE,GOLD_H_STORE,GOLD_H_STORLOG,GOLD_H_TRANSLOG,GOLD_INVOICE,GOLD_PRICE,GOLD_PRODINFO,GOLD_STORE,GOLD_STORE_NO,GOLD_STORLOG,GOLD_TRANSLOG,GOLD_TURNSTORE,SB_CKSHHXL_JNSR,SB_SWSRSBD,SB_DWFKCDTZS,SB_JNFKCDTZS,SB_JNHKS,SB_JWHKS,SB_WHZHNGH,SB_WHZHNJH,T_INDIVIDUAL_CUSTOMER,T_ONLINETERMINAL
+结构变更表：CORE.BPFMFORM（新增BFUPDATE、BFUPSTAM字段）
+中文乱码表：CORE.BDFTHQTA,CORE.BBFMLBCK
+公告发布时间
+2013-07-24
+公告最后更新时间
+2013-07-24 17:02:07
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+核心系统：
+BPFMFORM增加字段：BFUPDATE,BFUPSTAM
+中间业务：
+T_ADB_JRNL(安贷宝业务数据表)增加字段：
+pro_add_amt ,add_amt,ins_flag,ins_type,pre_no
+国际业务:
+新增8张表:
+SB_CKSHHXL_JNSR,SB_SWSRSBD,SB_DWFKCDTZS,SB_JNFKCDTZS,SB_JNHKS,SB_JWHKS,SB_WHZHNGH,SB_WHZHNJH
+理财系统:
+新增15张黄金相关表:
+GOLD_BAL,GOLD_CAPITAL_LOG,GOLD_H_CAPITAL_LOG,GOLD_H_PRICE,GOLD_H_STORE,GOLD_H_STORLOG,GOLD_H_TRANSLOG,GOLD_INVOICE,GOLD_PRICE,GOLD_PRODINFO,GOLD_STORE,GOLD_STORE_NO,GOLD_STORLOG,GOLD_TRANSLOG,GOLD_TURNSTORE
+公告发布时间
+2013-07-24
+公告最后更新时间
+2013-07-24 16:54:51
+附件
+标准化文档-20130724.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2013年7月24日变更预告
+公告内容
+核心系统：
+BPFMFORM(结算回单) 增加字段："BFUPDATE" 最后更新日期、"BFUPSTAM" 最后更新时间戳。
+
+中间业务：
+T_ADB_JRNL(安贷宝业务数据表) 增加字段：
+"pro_add_amt" 附加险保险额度
+"add_amt" 附加险保费金额
+"ins_flag" 险种类别
+"ins_type" 是否丰收卡类别
+"pre_no" 投保单号
+请各行社届时同步修改程序，具体表结构请见附件。
+公告发布时间
+2013-07-10
+公告最后更新时间
+2013-07-10 15:47:45
+附件
+20130724上线预告-表结构变更.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+核心系统：
+BLFMDJDR 删除主键DRCZYAID，DRTAHTBH，DRCDXYBH
+BHFMCMRM 删除主键
+公告发布时间
+2013-07-10
+公告最后更新时间
+2013-07-10 15:47:15
+附件
+标准化文档-20130710.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20130626全量包的说明
+公告内容
+此全量包为如下表截至到20130626全量数据。
+新增下发表：
+CORE.BBFMLBCK
+CORE.BIFMAIRT
+EBILLS.QRY_SETTLEMENT_ORG
+IBS.PB_CSTINF_PRO_HISTORY
+IMBS.T_XSSB_BAT（只发802）
+IMBS.T_XSSB_JRNL（只发802）
+IMBS.T_XSSF_BAT（只发802）
+IMBS.T_XSSF_JRNL（只发802）
+PYMT.BEP_PTJJ_W
+XDZX.BLACK_LIST_INFO
+表结构变更：
+CORE.BPFMFORM（新增BFPTQTY5字段）
+EBILLS.NT_INWARDREMITARV（新增MEMO字段）
+EBILLS.NT_OUTWARDREMITARV（新增MEMO字段）
+公告发布时间
+2013-06-26
+公告最后更新时间
+2013-06-26 16:05:16
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+核心系统：
+BDFMHQAC 增加BTXMTXCD字段
+BPFMFORM 增加BFPTQTY5字段
+新增下发表 BBFMLBCK（查库登记簿）、BIFMAIRT（账户多档利率表）
+
+国际业务：
+NT_INWARDREMITARV   增加MEMO字段
+NT_OUTWARDREMITARV  增加MEMO字段
+新增下发表：QRY_SETTLEMENT_ORG（机构结算量报表）
+
+信贷系统：
+新增下发表BLACK_LIST_INFO（黑名单信息维护）
+
+中间业务：
+新增下发T_XSSB_BAT，T_XSSF_BAT，T_XSSB_JRNL，T_XSSF_JRNL 表（只发萧山合行）
+
+支付平台：
+新增下发：BEP_PTJJ_W（普通借记往账明细）
+
+网上银行：
+新增下发:PB_CSTINF_PRO_HISTORY（个人注册客户网银信息历史表）
+
+码表：
+新增BLACK_LIST_INFO码表
+公告发布时间
+2013-06-26
+公告最后更新时间
+2013-06-26 16:04:39
+附件
+标准化文档-20130626.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2013年6月26日变更预告
+公告内容
+核心系统：
+BDFMHQAC （活期存款账户交易明细表）增加字段： BTXMTXCD 交易码
+BPFMFORM （结算回单） 增加字段：BFPTQTY5 打印次数
+国际业务：
+NT_INWARDREMITARV （汇入汇出表）增加字段： MEMO 备注
+NT_OUTWARDREMITARV （汇出汇款表 ）增加字段：MEMO 备注
+公告发布时间
+2013-06-05
+公告最后更新时间
+2013-06-05 15:35:07
+附件
+20130622上线变更相关表结构.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20130605全量包的说明
+公告内容
+此全量包为BWFMDCIM新增下发字段CFLGCFLG截至到20130605全量数据.存放路径基础目录/S-999000/ODS/ALL/20130605/
+公告发布时间
+2013-06-05
+公告最后更新时间
+2013-06-05 15:34:39
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+核心系统：
+BWFMDCIM 表增加字段：CFLGCFLG 协议卡标志
+BLFMDJDR表更新主键字段：DRCZYAID，DRTAHTBH，DRCDXYBH
+BLFMPDPY表更新主键字段：PYAAHY12，PYAHSN03
+BYFTJRN表更新主键字段：BTX_JNO，ATX_JNO，TX_DATE
+
+中间业务：
+T_JRNL_ALIPAY 表更新主键字段：PLAT_DATE,SEQ_NO
+
+码表：
+核心系统：增加BWFMDCIM表CFLGCFLG字段的码值。
+信贷系统：IND_CUST_EXPD_INFO，IND_LTC_CUST_EXPD_INFO表
+DEGREE字段码值修正。
+公告发布时间
+2013-06-05
+公告最后更新时间
+2013-06-05 15:34:04
+附件
+标准化文档-20130605.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+2013年6月5日变更预告
+公告内容
+2013年6月5日核心系统 BWFMDCIM-借记卡信息主档文件 增加CFLGCFLG协议卡标志字段，请各行社同步修改程序，保证数据的顺利加载。 表结构请见附件，新增字段已标红。
+公告发布时间
+2013-05-22
+公告最后更新时间
+2013-05-22 15:14:43
+附件
+CORE_BWFMDCIM.xls
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+1.信贷中心PUB_FNC_DOC_INFO表主键变更；
+2.中间业务 杭州地区的数据将不再下发给其他地区行社，相关表结构单独归类。
+公告发布时间
+2013-05-22
+公告最后更新时间
+2013-05-22 15:14:06
+附件
+标准化文档-20130522.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+增加村镇银行标准化文档（核心系统）
+
+更新网银系统MB_PB_TRANFLOW,MB_PB_CSTINF_PRO,MB_PB_ACCINF相关码表
+公告发布时间
+2013-05-08
+公告最后更新时间
+2013-05-08 15:34:46
+附件
+标准化文档-20130508.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+20130417全量包的说明
+公告内容
+此全量包为本次上线新增的4张表截至到20130417全量数据。
+公告发布时间
+2013-04-17
+公告最后更新时间
+2013-04-17 15:51:40
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+中间业务新增1张表
+T_YBT_JRNL 国寿信保通保险业务数据表
+
+网银新增3张表
+MB_PB_ACCINF 手机银行个人客户注册账户表
+MB_PB_CSTINF_PRO 手机银行注册客户信息表
+MB_PB_TRANFLOW 手机银行交易流水表
+公告发布时间
+2013-04-17
+公告最后更新时间
+2013-04-17 15:51:03
+附件
+标准化文档-20130417.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+关于IP地址设置通知
+公告内容
+为保证各联社的数据能正常接收，请对省联社154.233.15.87、154.233.15.88、154.233.15.89 这三个IP地址开放，以免造成数据接收不成功，请知悉。
+公告发布时间
+2013-04-17
+公告最后更新时间
+2013-04-17 15:50:19
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+核心新增8张表
+BGFWCDTL 传票明细登记簿
+BGFWKDTL 跨机构转帐明细登记簿
+BTFMUHCR 应解汇款登记簿－跨机构临时销帐登记簿
+BLFMGJUA 公积金贷款发放申请表
+BLFMGJUB 银行主动发送还款实扣金额信息
+BLFMGJUC 主动发送贷款逾期累计信息
+BLFMGJUD 主动发送余额对账信息
+BLFMGJUE 主动发送贷款逾期明细信息
+
+中间业务新增3张表
+T_ALIPAY_KJ 支付宝快捷支付验证表
+T_CKSY_SZMX 财库税银批扣税种明细表
+T_SIGN_ALIPAY_HIST 支付宝签约历史表
+
+理财系统新增5张表
+FMS_ACCT_LOG 账户流水表
+FMS_BAL_DETAIL 份额明细表
+FMS_CUSTINFO_DEL 客户销户表
+FMS_TRANS_LOG 交易流水表
+SYS_DICTVALUE 数据字典表
+公告发布时间
+2013-03-20
+公告最后更新时间
+2013-03-20 16:13:59
+附件
+标准化文档-20130320.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+文件传输程序更新
+公告内容
+修正当服务端配置了"允许的IP地址范围"(即allowip)，用不在IP范围内的客户端连接，IP拒绝后，会导致在IP范围内的客户端也连接不上的问题。
+公告发布时间
+2013-03-20
+公告最后更新时间
+2013-03-20 16:13:11
+附件
+IP拒绝异常问题修正.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新
+公告内容
+核心系统：
+1）BLFMLNQY.QYAWBOOL 更新字段说明为：1-正常、2-逾期、3-呆滞、4-呆账
+2）BVFMOLDC去除主键
+3）BBFWXZDB去除主键
+4）BLFMACAT主键去掉ATADPTSN字段
+5）BLFMLNQY 主键去掉QYAGDATE字段
+
+第三方存管：
+TS_DLCG_CIBDZMX.XTGZH 长度改为12
+
+中间业务：
+T_SIGN_CKSY_HIST去除主键
+公告发布时间
+2013-02-27
+公告最后更新时间
+2013-02-27 16:13:48
+附件
+标准化文档-20130227.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+核心-标准化文档更新
+公告内容
+AFFMSPTS  去除原逻辑主键
+BBFWJYJD   去除原逻辑主键
+BHFMCSCD 去除原逻辑主键
+BHFMOFST 去除原逻辑主键
+BYFTAREGA去除原逻辑主键
+BYFTAREGB去除原逻辑主键
+BLFMDJDR 去除原物理主键
+BWFMDCIM 新增MECDMECD 字段
+公告发布时间
+2013-01-23
+公告最后更新时间
+2013-01-23 15:07:29
+附件
+数据标准化拆分-核心系统-发布版.xls
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+应用数据库建库注意事项
+公告内容
+请不要在moia数据库中建立数据导入的目标表，数据导入请单独建立数据库，并指定字符集为GBK
+db2 CREATE DATABASE $dbname USING CODESET GBK TERRITORY CN
+$dbname  为数据库名称
+公告发布时间
+2013-01-09
+公告最后更新时间
+2013-01-09 16:13:46
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+MOIA license 更新
+公告内容
+此license有效期至2099年12月31日，有安装moia平台的行社可以使用此license。
+使用方法：先启动moia后台服务，然后用sjff用户登录
+cd /home/sjff/moia_srv
+. ./setenv
+cd /home/sjff/moia_srv/bin
+MLicMng
+
+License内容：
+Product Name      : MOIA
+Product Version   : 4.4
+Authorize To      : ZJRCU
+Control Way       : CPU
+Control Number    : 999
+Generate Date     : 2012/12/06
+Start Date        : 2011/10/25
+Expire Date       : 2099/12/31
+Serial No         : 0047117000150000
+License           : QRUZGPAN
+公告发布时间
+2013-01-09
+公告最后更新时间
+2013-01-09 16:13:22
+附件
+
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+标准化文档更新(请根据最新的文档建表)
+公告内容
+核心系统：
+BFFMDQDB表 添加字段：DB55CSSG,DB56AMT,DB57BRNO,DB58NO40,DB59RATE
+国际业务：
+新增PA_MANAGERCORPINFO表下发
+理财系统：
+新增17张表
+信贷系统：
+PUB_FNC_DOC_INFO 表添加字段FA_RPT_TYP
+公告发布时间
+2013-01-09
+公告最后更新时间
+2013-01-10 10:50:50
+附件
+标准化文档-20130109.rar
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+数据标准化拆分-信贷中心
+公告内容
+更新数据标准化拆分-信贷中心
+公告发布时间
+2012-12-05
+公告最后更新时间
+2012-12-05 16:09:14
+附件
+数据标准化拆分-信贷中心-发布版.xls
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+核心系统BIFDPDIR表主键变更
+公告内容
+增加D2__BRNO字段作为BIFDPDIR表的主键
+公告发布时间
+2012-11-21
+公告最后更新时间
+2012-12-05 16:07:27
+附件
+数据标准化拆分-核心系统-发布版.xls
+
+
+发布机构
+浙江省农村信用社联合社
+公告标题
+IBM&微软软件下载
+公告内容
+IBM&微软软件下载
+公告发布时间
+2012-11-21
+公告最后更新时间
+2012-11-21 15:47:05
+附件
+IBM&微软软件下载.rar
+
+
