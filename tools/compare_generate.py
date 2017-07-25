@@ -20,6 +20,16 @@ class Logger:
         if self._logger is not None:
             self._logger.info(msg)
 
+def getInfluencedJob(tablestr):
+    ## 查找受影响的作业
+    sql = "Select distinct job_nm from ETL.JOB_SEQ where PRE_JOB IN ('LD_ODS_{tablestr}','AP_ODS_{tablestr}') and JOB_NM not in ('AP_ODS_{tablestr}','ODS_DONE')".format(tablestr=tablestr)
+    
+    cursor_dw.execute(sql)
+    rows = cursor_dw.fetchall()
+    for row in rows:
+        influencedJoblist.append(row[0])
+
+
 ## 新增表处理
 def deal_table_add(tablelist, date):
     read_me_log.log("增加下发表:\n"+', '.join(tablelist)+'\n')
@@ -27,6 +37,10 @@ def deal_table_add(tablelist, date):
         deal_table_all(tablename, date, tabspace)
         syscode, tablenm = tablename.split('.')
         tablestr = tablename.replace('.', '_')
+
+        ## 查找受影响的作业
+        getInfluencedJob(tablestr)
+
         job.log("--add table")
         job.log("INSERT INTO ETL.JOB_METADATA (JOB_NM,SCHD_PERIOD,JOB_TP,LOCATION,JOBCMD,PARAMS,PRIORITY,EST_WRKLD,MTX_GRP,INIT_FLAG,PPN_TSTMP,INIT_BATCH_NO,MAX_BATCH_NO,SRC_SYS_ID,JOB_DESC,SCHD_ENGIN_IP) VALUES ('LD_ODS_%s_INIT','DAY','CMD','L_ODSLD','load_from_files_to_nds.sh','%s %s $dateid ALL','5','1','LD_ODS_%s_INIT','Y',CURRENT TIMESTAMP,'1','1','%s','','%s');" %(tablestr,tablenm,syscode,tablestr,syscode,ip))
         job.log("INSERT INTO ETL.JOB_METADATA (JOB_NM,SCHD_PERIOD,JOB_TP,LOCATION,JOBCMD,PARAMS,PRIORITY,EST_WRKLD,MTX_GRP,INIT_FLAG,PPN_TSTMP,INIT_BATCH_NO,MAX_BATCH_NO,SRC_SYS_ID,JOB_DESC,SCHD_ENGIN_IP) VALUES ('AP_ODS_%s_INIT','DAY','SQL','L_ODS','AP_ODS_%s_INIT.SQL','EDW /etl/etldata/script/odssql','5','1','AP_ODS_%s_INIT','Y',CURRENT TIMESTAMP,'1','1','%s','','%s');" %(tablestr,tablestr,tablestr,syscode,ip))
@@ -36,7 +50,7 @@ def deal_table_add(tablelist, date):
         job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('LD_ODS_%s_INIT','UNCOMPRESS_INIT',CURRENT TIMESTAMP);" %tablestr)
         job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('LD_ODS_%s','UNCOMPRESS_%s',CURRENT TIMESTAMP);" %(tablestr,syscode))
         job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('AP_ODS_%s','LD_ODS_%s',CURRENT TIMESTAMP);" %(tablestr,tablestr))
-        job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('AP_ODS_%s','LD_ODS_%s_INIT',CURRENT TIMESTAMP);\n" %(tablestr,tablestr))
+        # 0719 修改 job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('AP_ODS_%s','LD_ODS_%s_INIT',CURRENT TIMESTAMP);\n" %(tablestr,tablestr))
         job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('AP_ODS_%s_INIT','LD_ODS_%s_INIT',CURRENT TIMESTAMP);" %(tablestr,tablestr))
         job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('ODS_DONE','AP_ODS_%s',CURRENT TIMESTAMP);" %tablestr)
         job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('ODS_DONE_INIT','AP_ODS_%s_INIT',CURRENT TIMESTAMP);" %tablestr)
@@ -44,6 +58,10 @@ def deal_table_add(tablelist, date):
         # 0712 修改 job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('AP_ODS_%s_YATOPUPDATE','UNCOMPRESS_INIT',CURRENT TIMESTAMP);" %tablestr)
         # 0712 修改 job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('AP_ODS_%s','AP_ODS_%s_YATOPUPDATE',CURRENT TIMESTAMP);" %(tablestr,tablestr))
         
+        ## 0719 新增
+        job.log("update etl.job_metadata set init_flag='N' WHERE JOB_NM ='AP_ODS_%s_INIT';" %tablestr)
+        job.log("update etl.job_metadata set init_flag='W' WHERE JOB_NM ='AP_ODS_%s';" %tablestr)
+
         job.log("UPDATE ETL.JOB_METADATA SET INIT_FLAG='N' WHERE JOB_NM ='UNCOMPRESS_INIT';")
         job.log("UPDATE ETL.JOB_METADATA SET INIT_FLAG='N' WHERE JOB_NM ='FTP_DOWNLOAD_INIT';")
         job.log("UPDATE ETL.JOB_METADATA SET INIT_FLAG='N' WHERE JOB_NM ='LD_ODS_%s_INIT';" %tablestr)
@@ -62,7 +80,7 @@ def deal_table_del(tablelist,date):
 def get_differ_table(olddate,newdate):
 
     old_tablelist = []
-    sql = "select distinct trim(src_stm_id)||'.'||trim(tab_code) from DSA.ORGIN_TABLE_DETAIL where change_date={0}".format(olddate)
+    sql = "select distinct trim(src_stm_id)||'.'||trim(tab_code) from DSA.ORGIN_TABLE_DETAIL where change_date={0} AND COMMENT NOT LIKE '%停止下发%'".format(olddate)
     cursor_dw.execute(sql)
     rows = cursor_dw.fetchall()
     for row in rows:
@@ -72,7 +90,7 @@ def get_differ_table(olddate,newdate):
 
 
     new_tablelist = []
-    sql = "select distinct trim(src_stm_id)||'.'||trim(tab_code) from DSA.ORGIN_TABLE_DETAIL where change_date={0}".format(newdate)
+    sql = "select distinct trim(src_stm_id)||'.'||trim(tab_code) from DSA.ORGIN_TABLE_DETAIL where change_date={0} AND COMMENT NOT LIKE '%停止下发%'".format(newdate)
     cursor_dw.execute(sql)
     rows = cursor_dw.fetchall()
     for row in rows:
@@ -212,6 +230,12 @@ def generate_delta_ddl(tablename,date,tabspace,tabletype):
     for row in rows:
         # print(row)
         field_code, filed_type, length, precsn, is_primary, table_comment, field_comment = row
+
+        table_comment = table_comment.replace('\'','\'\'')
+        table_comment = table_comment.replace('\"','\\\"')
+        field_comment = field_comment.replace('\'','\'\'')
+        field_comment = field_comment.replace('\"','\\\"')
+        
         field_code_list.append(field_code)
         # print(field_code, filed_type, is_primary, table_comment, field_comment)
         field_code_dict[field_code] = field_comment
@@ -288,6 +312,12 @@ def generate_ods_ddl(tablename,date,tabspace,tabletype):
     for row in rows:
         # print(row)
         field_code, filed_type, length, precsn, is_primary, table_comment, field_comment = row
+
+        table_comment = table_comment.replace('\'','\'\'')
+        table_comment = table_comment.replace('\"','\\\"')
+        field_comment = field_comment.replace('\'','\'\'')
+        field_comment = field_comment.replace('\"','\\\"')
+        
         field_code_list.append(field_code)
         # print(field_code, filed_type, is_primary, table_comment, field_comment)
         field_code_dict[field_code] = field_comment
@@ -386,6 +416,12 @@ def generate_his_ddl(tablename,date,tabspace,tabletype):
     for row in rows:
         # print(row)
         field_code, filed_type, length, precsn, is_primary, table_comment, field_comment = row
+
+        table_comment = table_comment.replace('\'','\'\'')
+        table_comment = table_comment.replace('\"','\\\"')
+        field_comment = field_comment.replace('\'','\'\'')
+        field_comment = field_comment.replace('\"','\\\"')
+        
         field_code_list.append(field_code)
         # print(field_code, filed_type, is_primary, table_comment, field_comment)
         field_code_dict[field_code] = field_comment
@@ -476,6 +512,12 @@ def deal_table_all(tablename,date,tabspace):
     for row in rows:
         # print(row)
         field_code, filed_type, length, precsn, is_primary, table_comment, field_comment = row
+
+        table_comment = table_comment.replace('\'','\'\'')
+        table_comment = table_comment.replace('\"','\\\"')
+        field_comment = field_comment.replace('\'','\'\'')
+        field_comment = field_comment.replace('\"','\\\"')
+        
         field_code_list.append(field_code)
         # print(field_code, filed_type, is_primary, table_comment, field_comment)
         field_code_dict[field_code] = field_comment
@@ -601,6 +643,10 @@ def deal_column_update(table, newdate, olddate, update_list, is_primary, new_col
         old_primary = old_type.split(',')[3]
         new_primary = new_type.split(',')[3]
         if old_primary == "N" and new_primary == "Y": ## 非主键变为主键
+            ## 查找受影响的作业
+            tablestr = table.replace('.','_')
+            getInfluencedJob(tablestr)
+
             print("这次变更为非主键字段变为主键字段")
             tabletype="add column"
             generate_delta_ddl(table,newdate,tabspace,tabletype)
@@ -648,7 +694,14 @@ def deal_column_update(table, newdate, olddate, update_list, is_primary, new_col
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='LD_ODS_%s';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
+            
+
         elif old_primary == "Y" and new_primary == "N": ##主键变为非主键
+
+            ## 查找受影响的作业
+            tablestr = table.replace('.','_')
+            getInfluencedJob(tablestr)
+
             tabletype="add column"
             generate_delta_ddl(table,newdate,tabspace,tabletype)
 
@@ -695,6 +748,7 @@ def deal_column_update(table, newdate, olddate, update_list, is_primary, new_col
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='LD_ODS_%s';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
+
         elif old_primary == new_primary: ##字段属性变更
             ##重新生成delta表
             tabletype="add column"
@@ -732,6 +786,11 @@ def deal_column_update(table, newdate, olddate, update_list, is_primary, new_col
         old_primary = old_type.split(',')[3]
         new_primary = new_type.split(',')[3]
         if old_primary == "N" and new_primary == "Y": ## 非主键变为主键
+
+            ## 查找受影响的作业
+            tablestr = table.replace('.','_')
+            getInfluencedJob(tablestr)
+
             print("这次变更为非主键字段变为主键字段")
             tabletype="add column"
             generate_delta_ddl(table,newdate,tabspace,tabletype)
@@ -868,6 +927,11 @@ def deal_column_del(table, newdate, olddate, del_list, is_primary, old_column_di
             generate_ap_sql(field_code_list,delta_tablename,table,newdate,his_tablename,column_primary_key_list)
 
         else: #(主键表删除主键字段)
+
+            ## 查找受影响的作业
+            tablestr = table.replace('.','_')
+            getInfluencedJob(tablestr)
+
             # read_me_log.log("\nDEL COLUMN(PRIMARY KEY):")
             print("primary_key in columns")
             ## 重新生成DELTA表
@@ -917,8 +981,6 @@ def deal_column_del(table, newdate, olddate, del_list, is_primary, old_column_di
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='LD_ODS_%s';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
-
-
 
     else: ## 无主键表
         print(table+ ' not has primary_key')
@@ -1107,6 +1169,11 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             # ftp_ap_sql('AP_ODS_'+table.replace('.','_')+'_UPDATE.SQL', newdate)
 
         else: # 主键表增加主键字段
+            
+            ## 查找受影响的作业
+            tablestr = table.replace('.','_')
+            getInfluencedJob(tablestr)
+
             # read_me_log.log("ADD COLLUMN(PRIMARY KEY) IN TABLE WITH PRIMARY:")
             print("primary_key in columns")
             ## 重新生成DELTA表
@@ -1157,7 +1224,7 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='LD_ODS_%s';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
-
+            
     else: #非主键表
         print(table+ ' not has primary_key')
         ## 判断添加字段中是否含有主键
@@ -1303,6 +1370,11 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
 
 
         else: #非主键表增加主键字段
+            
+            ## 查找受影响的作业
+            tablestr = table.replace('.','_')
+            getInfluencedJob(tablestr)
+
             # read_me_log.log("ADD COLLUMN(PRIMARY KEY) IN TABLE WITHOUT PRIMARY:")
             print("primary_key in columns")
             ## 重新生成DELTA表
@@ -1352,6 +1424,7 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='LD_ODS_%s';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
+
 
 # 获取字段级差异
 def deal_columns(need_tables,olddate,newdate):
@@ -1429,7 +1502,7 @@ def deal_add_schema(schema):
 
 ## 判断是否新增模式名
 def deal_schema(olddate,newdate):
-    sql="SELECT DISTINCT(trim(SRC_STM_ID)) FROM DSA.ORGIN_TABLE_DETAIL WHERE CHANGE_DATE = '{0}'".format(olddate)
+    sql="SELECT DISTINCT(trim(SRC_STM_ID)) FROM DSA.ORGIN_TABLE_DETAIL WHERE CHANGE_DATE = '{0}' AND COMMENT NOT LIKE '%停止下发%'".format(olddate)
     cursor_dw.execute(sql)
     rows = cursor_dw.fetchall()
     exists_schema_list = []
@@ -1437,7 +1510,7 @@ def deal_schema(olddate,newdate):
     for i in rows:
         exists_schema_list.append(i[0].strip())
 
-    sql="SELECT DISTINCT(trim(SRC_STM_ID)) FROM DSA.ORGIN_TABLE_DETAIL WHERE CHANGE_DATE = '{0}'".format(newdate)
+    sql="SELECT DISTINCT(trim(SRC_STM_ID)) FROM DSA.ORGIN_TABLE_DETAIL WHERE CHANGE_DATE = '{0}' AND COMMENT NOT LIKE '%停止下发%'".format(newdate)
     cursor_dw.execute(sql)
     rows = cursor_dw.fetchall()
     for i in rows:
@@ -1473,6 +1546,7 @@ if __name__=="__main__":
         cursor_dw = con.cursor()
 
         datestring = input("请输入一个日期或者是要对比的两个日期,以逗号隔开,若不需要,请输入Enter跳过:")
+        #datestring = ""
 
         if not datestring:
             sql = "select distinct change_date from DSA.ORGIN_TABLE_DETAIL order by change_date"
@@ -1515,6 +1589,9 @@ if __name__=="__main__":
         if not os.path.isdir(datelist[1]+'/AP'):
             os.makedirs(datelist[1]+'/AP')
 
+        ## 受影响的作业列表
+        influencedJoblist = []
+
         ## 日志处理
         delta_log = Logger('delta_log', datelist[1]+'/delta_tables.ddl')
         all_log = Logger('all_log', datelist[1]+'/ods_tables.ddl')
@@ -1550,6 +1627,10 @@ if __name__=="__main__":
         # result_file.close()
         # print("请确认变更情况是否正确，确认无误后请执行变更程序XXXX")
         read_me_log.log("请确认变更情况是否正确，确认无误后请执行变更程序sub_ftp.exe")
+
+        if influencedJoblist:
+            read_me_log.log("受影响的调度作业有:\n%s" % '\n'.join(influencedJoblist))
+
         answer = input("Enter Y to execute sub_ftp.exe or enter N to Exit:")
         if answer.upper() == "Y":
             subprocess.call("sub_ftp.exe")

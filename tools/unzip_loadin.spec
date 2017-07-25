@@ -4,10 +4,10 @@ block_cipher = None
 
 
 a = Analysis(['unzip_loadin.py'],
-             pathex=['E:\\work\\自动化运维工具4.0\\tools'],
+             pathex=['F:\\desktop\\自动化运维工具4.0\\tools'],
              binaries=[],
              datas=[],
-             hiddenimports=['sklearn.neighbors.typedefs'],
+             hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
              excludes=[],
