@@ -144,7 +144,17 @@ def generate_ap_sql_init(field_code_list,delta_tablename,tablename,date):
     file.write("DECLARE MYCUR CURSOR FOR SELECT "+src_str+delta_tablename+" S;\n")
 
     des_str = ','.join(field_code_list)
-    file.write("LOAD FROM MYCUR OF CURSOR REPLACE INTO "+tablename+'('+des_str+',EFF_DT,END_DT,JOB_SEQ_ID);\n')
+    if 'EFF_DT' not in field_code_list:
+        effDtCode = 'EFF_DT'
+    else:
+        effDtCode = 'EFF_DATE'
+    
+    if 'END_DT' not in field_code_list:
+        endDtCode = 'END_DT'
+    else:
+        endDtCode = 'END_DATE'
+
+    file.write("LOAD FROM MYCUR OF CURSOR REPLACE INTO "+tablename+'('+des_str+','+effDtCode+','+endDtCode+',JOB_SEQ_ID);\n')
     file.close()
 
     # ftp_ap_sql('AP_'+tablename.replace('.','_')+'_INIT.SQL', date)
@@ -153,8 +163,19 @@ def generate_ap_sql_init(field_code_list,delta_tablename,tablename,date):
 
 ## 生成apsql
 def generate_ap_sql(field_code_list,delta_tablename,tablename,date,his_tablename,primary_list):
+    if 'EFF_DT' not in field_code_list:
+        effDtCode = 'EFF_DT'
+    else:
+        effDtCode = 'EFF_DATE'
+    
+    if 'END_DT' not in field_code_list:
+        endDtCode = 'END_DT'
+    else:
+        endDtCode = 'END_DATE'
+
     print(tablename+":generate ap_sql")
-    field_code_str = ','.join(field_code_list)+',EFF_DT,END_DT,JOB_SEQ_ID'
+    field_code_str = ','.join(field_code_list)+','+effDtCode+','+endDtCode+',JOB_SEQ_ID'
+
     file = open(date+'/AP/AP_ODS_'+tablename.replace('.','_')+'.SQL','w')
     if primary_list: ## 如果为主键表 0712 修改 (更改)
         file.write("SELECT \'Rows updated:\',COUNT(1) FROM (SELECT 1 FROM "+delta_tablename+" WHERE ETL_FLAG IN (\'A\',\'D\')) S;\n\n")
@@ -170,7 +191,7 @@ def generate_ap_sql(field_code_list,delta_tablename,tablename,date,his_tablename
         file.write('SELECT \'Rows updated:\',COUNT(1) FROM NEW TABLE (\n')
         file.write('INSERT INTO '+his_tablename+'('+field_code_str+',NEW_JOB_SEQ_ID)\n')
         file.write('select '+field_code_str+',New_JOB_SEQ_ID\n from '+ tablename+' T\n')
-        file.write('WHERE T.END_DT=\'9999-12-31\' AND EXISTS ( SELECT 1 FROM '+delta_tablename+' S\n')
+        file.write('WHERE T.'+endDtCode+'=\'9999-12-31\' AND EXISTS ( SELECT 1 FROM '+delta_tablename+' S\n')
         if primary_list:
             primary_str = ' AND '.join("T.%s=S.%s" %(x,x) for x in primary_list)
         else:
@@ -179,7 +200,7 @@ def generate_ap_sql(field_code_list,delta_tablename,tablename,date,his_tablename
         file.write('--DROP ZIPPER\n')
         file.write('MERGE INTO '+tablename+' T \nUSING (SELECT * FROM '
             +delta_tablename+' WHERE ETL_FLAG IN (\'I\',\'D\',\'A\')) S\nON '
-            +primary_str+'  AND T.END_DT=\'9999-12-31\' \n   WHEN MATCHED THEN UPDATE SET \nT.END_DT=\'#DATEOFDATA#\', T.JOB_SEQ_ID= New_JOB_SEQ_ID;\n\n')
+            +primary_str+'  AND T.'+endDtCode+'=\'9999-12-31\' \n   WHEN MATCHED THEN UPDATE SET \nT.'+endDtCode+'=\'#DATEOFDATA#\', T.JOB_SEQ_ID= New_JOB_SEQ_ID;\n\n')
         file.write('--CREATE ZIPPER\nINSERT INTO '+tablename+'('+field_code_str+')\nselect '+','.join(field_code_list)+',\'#DATEOFDATA#\',\'9999-12-31\',New_JOB_SEQ_ID\n')
         file.write('from '+delta_tablename+' where ETL_FLAG in (\'A\',\'I\');\n\n')
         file.write('--CONFERM DATA INTEGRITY\n')
@@ -260,7 +281,11 @@ def generate_delta_ddl(tablename,date,tabspace,tabletype):
         num += 1
         delta_log.log(filed_line)
 
-    delta_log.log(",ETL_DT\tDATE")
+    if "ETL_DT" not in field_code_list:
+        delta_log.log(",ETL_DT\tDATE")
+    else:
+        delta_log.log(",ETL_DATE\tDATE")
+
     delta_log.log(",ETL_FLAG\tCHARACTER(1)\tWith Default 'I'")
     delta_log.log(') ' + ' IN ' + tabspace)
 
@@ -343,13 +368,23 @@ def generate_ods_ddl(tablename,date,tabspace,tabletype):
         num += 1
         all_log.log(filed_line)
     
-    all_log.log(",EFF_DT\tDATE\tNOT NULL")
-    all_log.log(",END_DT\tDATE")
+    if 'EFF_DT' not in field_code_list:
+        effDtCode = 'EFF_DT'
+    else:
+        effDtCode = 'EFF_DATE'
+    
+    if 'END_DT' not in field_code_list:
+        endDtCode = 'END_DT'
+    else:
+        endDtCode = 'END_DATE'
+
+    all_log.log(","+effDtCode+"\tDATE\tNOT NULL")
+    all_log.log(","+endDtCode+"\tDATE")
     all_log.log(",JOB_SEQ_ID\tINTEGER")
     all_log.log(') ' + ' IN ' + tabspace)
 
     tmp_primary_list = primary_list[:]
-    tmp_primary_list.append('EFF_DT')
+    tmp_primary_list.append(effDtCode)
 
     tmp_primary_str = ','.join(tmp_primary_list)
 
@@ -373,7 +408,7 @@ def generate_ods_ddl(tablename,date,tabspace,tabletype):
     all_log.log('--------------------------------------------------')
     all_log.log('create  Index '+tablename+'_'+date+'_1')
     all_log.log('   on '+tablename)
-    all_log.log('   (END_DT)    Allow Reverse Scans;\n')
+    all_log.log('   ('+endDtCode+')    Allow Reverse Scans;\n')
 
     all_log.log('--------------------------------------------------')
     all_log.log('-- Create Index '+tablename+'_'+date+'_2')
@@ -447,8 +482,18 @@ def generate_his_ddl(tablename,date,tabspace,tabletype):
         num += 1
         his_log.log(filed_line)
 
-    his_log.log(",EFF_DT\tDATE\tNOT NULL")
-    his_log.log(",END_DT\tDATE")
+    if 'EFF_DT' not in field_code_list:
+        effDtCode = 'EFF_DT'
+    else:
+        effDtCode = 'EFF_DATE'
+    
+    if 'END_DT' not in field_code_list:
+        endDtCode = 'END_DT'
+    else:
+        endDtCode = 'END_DATE'
+
+    his_log.log(","+effDtCode+"\tDATE\tNOT NULL")
+    his_log.log(","+endDtCode+"\tDATE")
     his_log.log(",JOB_SEQ_ID\tINTEGER")
     his_log.log(",NEW_JOB_SEQ_ID\tINTEGER")
     his_log.log(') ' + ' IN ' + tabspace)
@@ -545,15 +590,28 @@ def deal_table_all(tablename,date,tabspace):
         all_log.log(filed_line)
         his_log.log(filed_line)
     
-    all_log.log(",EFF_DT\tDATE\tNOT NULL")
-    all_log.log(",END_DT\tDATE")
+    if 'EFF_DT' not in field_code_list:
+        effDtCode = 'EFF_DT'
+    else:
+        effDtCode = 'EFF_DATE'
+    
+    if 'END_DT' not in field_code_list:
+        endDtCode = 'END_DT'
+    else:
+        endDtCode = 'END_DATE'
+
+    all_log.log(","+effDtCode+"\tDATE\tNOT NULL")
+    all_log.log(","+endDtCode+"\tDATE")
     all_log.log(",JOB_SEQ_ID\tINTEGER")
 
-    delta_log.log(",ETL_DT\tDATE")
+    if "ETL_DT" not in field_code_list:
+        delta_log.log(",ETL_DT\tDATE")
+    else:
+        delta_log.log(",ETL_DATE\tDATE")
     delta_log.log(",ETL_FLAG\tCHARACTER(1)\tWith Default 'I'")
 
-    his_log.log(",EFF_DT\tDATE\tNOT NULL")
-    his_log.log(",END_DT\tDATE")
+    his_log.log(","+effDtCode+"\tDATE\tNOT NULL")
+    his_log.log(","+endDtCode+"\tDATE")
     his_log.log(",JOB_SEQ_ID\tINTEGER")
     his_log.log(",NEW_JOB_SEQ_ID\tINTEGER")
 
@@ -563,7 +621,7 @@ def deal_table_all(tablename,date,tabspace):
     his_log.log(') ' + ' IN ' + tabspace)
 
     tmp_primary_list = primary_list[:]
-    tmp_primary_list.append('EFF_DT')
+    tmp_primary_list.append(effDtCode)
 
     tmp_primary_str = ','.join(tmp_primary_list)
 
@@ -597,7 +655,7 @@ def deal_table_all(tablename,date,tabspace):
     all_log.log('--------------------------------------------------')
     all_log.log('create  Index '+tablename+'_'+date+'_1')
     all_log.log('   on '+tablename)
-    all_log.log('   (END_DT)    Allow Reverse Scans;\n')
+    all_log.log('   ('+endDtCode+')    Allow Reverse Scans;\n')
 
     all_log.log('--------------------------------------------------')
     all_log.log('-- Create Index '+tablename+'_'+date+'_2')
@@ -1143,6 +1201,16 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
 
             all_column = ','.join(field_code_list)
 
+            if 'EFF_DT' not in field_code_list:
+                effDtCode = 'EFF_DT'
+            else:
+                effDtCode = 'EFF_DATE'
+            
+            if 'END_DT' not in field_code_list:
+                endDtCode = 'END_DT'
+            else:
+                endDtCode = 'END_DATE'
+
             f.write("--redo:\n")
             sql = "UPDATE {0} SET {1};\n".format(table,null_str)
             f.write(sql)
@@ -1150,7 +1218,7 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             sql = "DELETE FROM {0} WHERE JOB_SEQ_ID= (SELECT JOB_SEQ_ID FROM ETL.JOB_LOG WHERE TO_CHAR(DATA_PRD,'yyyymmdd')='{1}' AND JOB_NM ='AP_ODS_{2}');\n".format(table,newdate,table.replace('.','_'))
             f.write(sql)
 
-            sql = "INSERT INTO {0}({1},EFF_DT,END_DT,JOB_SEQ_ID) select {1},EFF_DT,END_DT,JOB_SEQ_ID from {2} WHERE NEW_JOB_SEQ_ID= (SELECT  JOB_SEQ_ID FROM ETL.JOB_LOG WHERE TO_CHAR(DATA_PRD,'yyyymmdd')='{3}' AND JOB_NM ='AP_ODS_{4}');\n".format(table,all_column,his_tablename,newdate,table.replace('.','_'))
+            sql = "INSERT INTO {0}({1},{5},{6},JOB_SEQ_ID) select {1},{5},{6},JOB_SEQ_ID from {2} WHERE NEW_JOB_SEQ_ID= (SELECT  JOB_SEQ_ID FROM ETL.JOB_LOG WHERE TO_CHAR(DATA_PRD,'yyyymmdd')='{3}' AND JOB_NM ='AP_ODS_{4}');\n".format(table,all_column,his_tablename,newdate,table.replace('.','_'),effDtCode,endDtCode)
             f.write(sql)
 
             sql = "DELETE FROM {0} WHERE NEW_JOB_SEQ_ID= (SELECT  JOB_SEQ_ID FROM ETL.JOB_LOG WHERE TO_CHAR(DATA_PRD,'yyyymmdd')='{1}' AND JOB_NM ='AP_ODS_{2}');\n\n".format(his_tablename,newdate,table.replace('.','_'))
@@ -1161,8 +1229,7 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             sql = "LOAD CLIENT FROM /etl/etldata/input/init/{0}/{1}_{0} of del replace into DELTA.{1}_YATOPUPDATE;\n".format(newdate,table.replace('.','_'))
             f.write(sql)
             
-            sql = "MERGE INTO {0} T USING (SELECT {1},{2} FROM DELTA.{3}_YATOPUPDATE A WHERE NOT EXISTS (SELECT 1 FROM DELTA.{3} B WHERE {4})) S ON {5} AND T.END_DT='9999-12-31' WHEN MATCHED THEN UPDATE SET {6};\n".format(table,primary_str,add_str,table.replace('.','_'),primary_and_str,primary_and_str2,add_and_str)
-            f.write(sql)
+            sql = "MERGE INTO {0} T USING (SELECT {1},{2} FROM DELTA.{3}_YATOPUPDATE A WHERE NOT EXISTS (SELECT 1 FROM DELTA.{3} B WHERE {4})) S ON {5} AND T.{7}='9999-12-31' WHEN MATCHED THEN UPDATE SET {6};\n".format(table,primary_str,add_str,table.replace('.','_'),primary_and_str,primary_and_str2,add_and_str,endDtCode)
             sql = "DROP TABLE DELTA.{0}_YATOPUPDATE;\n".format(table.replace('.','_'))
             f.write(sql)
             f.close()
@@ -1343,6 +1410,16 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
 
             all_column = ','.join(field_code_list)
 
+            if 'EFF_DT' not in field_code_list:
+                effDtCode = 'EFF_DT'
+            else:
+                effDtCode = 'EFF_DATE'
+            
+            if 'END_DT' not in field_code_list:
+                endDtCode = 'END_DT'
+            else:
+                endDtCode = 'END_DATE'
+
             f.write("--redo:\n")
             sql = "UPDATE {0} SET {1};\n".format(table,null_str)
             f.write(sql)
@@ -1350,7 +1427,7 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             sql = "DELETE FROM {0} WHERE JOB_SEQ_ID= (SELECT JOB_SEQ_ID FROM ETL.JOB_LOG WHERE TO_CHAR(DATA_PRD,'yyyymmdd')='{1}' AND JOB_NM ='AP_ODS_{2}');\n".format(table,newdate,table.replace('.','_'))
             f.write(sql)
 
-            sql = "INSERT INTO {0}({1},EFF_DT,END_DT,JOB_SEQ_ID) select {1},EFF_DT,END_DT,JOB_SEQ_ID from {2} WHERE NEW_JOB_SEQ_ID= (SELECT  JOB_SEQ_ID FROM ETL.JOB_LOG WHERE TO_CHAR(DATA_PRD,'yyyymmdd')='{3}' AND JOB_NM ='AP_ODS_{4}');\n".format(table,all_column,his_tablename,newdate,table.replace('.','_'))
+            sql = "INSERT INTO {0}({1},{5},{6},JOB_SEQ_ID) select {1},{5},{6},JOB_SEQ_ID from {2} WHERE NEW_JOB_SEQ_ID= (SELECT  JOB_SEQ_ID FROM ETL.JOB_LOG WHERE TO_CHAR(DATA_PRD,'yyyymmdd')='{3}' AND JOB_NM ='AP_ODS_{4}');\n".format(table,all_column,his_tablename,newdate,table.replace('.','_'),effDtCode,endDtCode)
             f.write(sql)
 
             sql = "DELETE FROM {0} WHERE NEW_JOB_SEQ_ID= (SELECT  JOB_SEQ_ID FROM ETL.JOB_LOG WHERE TO_CHAR(DATA_PRD,'yyyymmdd')='{1}' AND JOB_NM ='AP_ODS_{2}');\n\n".format(his_tablename,newdate,table.replace('.','_'))
@@ -1362,7 +1439,7 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             sql = "LOAD CLIENT FROM /etl/etldata/input/init/{0}/{1}_{0} of del replace into DELTA.{1}_YATOPUPDATE;\n".format(newdate,table.replace('.','_'))
             f.write(sql)
             
-            sql = "MERGE INTO {0} T USING (SELECT {1},{2} FROM DELTA.{3}_YATOPUPDATE A WHERE NOT EXISTS (SELECT 1 FROM DELTA.{3} B WHERE {4})) S ON {5} AND T.END_DT='9999-12-31' WHEN MATCHED THEN UPDATE SET {6};\n".format(table,primary_str,add_str,table.replace('.','_'),primary_and_str,primary_and_str2,add_and_str)
+            sql = "MERGE INTO {0} T USING (SELECT {1},{2} FROM DELTA.{3}_YATOPUPDATE A WHERE NOT EXISTS (SELECT 1 FROM DELTA.{3} B WHERE {4})) S ON {5} AND T.{7}='9999-12-31' WHEN MATCHED THEN UPDATE SET {6};\n".format(table,primary_str,add_str,table.replace('.','_'),primary_and_str,primary_and_str2,add_and_str,endDtCode)
             f.write(sql)
             sql = "DROP TABLE DELTA.{0}_YATOPUPDATE;\n".format(table.replace('.','_'))
             f.write(sql)
