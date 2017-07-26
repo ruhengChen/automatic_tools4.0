@@ -936,3 +936,72 @@ EDUID   : 16060
 FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
 DATA #1 : String with size, 43 bytes
 loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-26-11.29.19.971000+480 I40666H341         LEVEL: Warning
+PID     : 14096                TID  : 3540        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 3540
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-26-11.29.41.150000+480 I41009H332         LEVEL: Error
+PID     : 14096                TID  : 3540        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 3540
+FUNCTION: DB2 UDB, common communication, sqlcctcpconnr, probe:110
+MESSAGE : DIA3202C The TCP/IP call "connect" returned an errno="10060".
+
+2017-07-26-11.30.02.228000+480 I41343H332         LEVEL: Error
+PID     : 14096                TID  : 3540        PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 3540
+FUNCTION: DB2 UDB, common communication, sqlcctcpconnr, probe:110
+MESSAGE : DIA3202C The TCP/IP call "connect" returned an errno="10060".
+
+2017-07-26-11.31.15.473000+480 I41677H342         LEVEL: Warning
+PID     : 11076                TID  : 12780       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 12780
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-26-11.31.36.655000+480 I42021H333         LEVEL: Error
+PID     : 11076                TID  : 12780       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 12780
+FUNCTION: DB2 UDB, common communication, sqlcctcpconnr, probe:110
+MESSAGE : DIA3202C The TCP/IP call "connect" returned an errno="10060".
+
+2017-07-26-11.34.23.229000+480 I42356H342         LEVEL: Warning
+PID     : 15276                TID  : 15080       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 15080
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-26-11.35.36.364000+480 I42700H351         LEVEL: Warning
+PID     : 16756                TID  : 9948        PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 9948
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-26-15.28.30.716000+480 I43053H342         LEVEL: Warning
+PID     : 11996                TID  : 17968       PROC : python.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 17968
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126
+
+2017-07-26-15.29.41.585000+480 I43397H352         LEVEL: Warning
+PID     : 11024                TID  : 11692       PROC : compare_generate.exe
+INSTANCE: DB2                  NODE : 000
+EDUID   : 11692
+FUNCTION: DB2 UDB, bsu security, sqlexLogPluginMessage, probe:20
+DATA #1 : String with size, 43 bytes
+loadAuthidMapper: GetModuleHandle rc = 126

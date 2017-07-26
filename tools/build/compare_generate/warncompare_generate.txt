@@ -13,5 +13,5 @@ missing module named vms_lib - imported by platform, F:\desktop\自动化运维工具4.
 missing module named termios - imported by tty, F:\desktop\自动化运维工具4.0\tools\compare_generate.py, getpass
 missing module named _dummy_threading - imported by dummy_threading, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
 missing module named grp - imported by tarfile, shutil, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
-missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, F:\desktop\自动化运维工具4.0\tools\compare_generate.py, getpass
 missing module named org - imported by copy, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
+missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, F:\desktop\自动化运维工具4.0\tools\compare_generate.py, getpass

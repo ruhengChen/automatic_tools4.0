@@ -235,6 +235,11 @@ def generate_delta_ddl(tablename,date,tabspace,tabletype):
     rows = cursor_dw.fetchall()
 
     delta_tablename = "DELTA."+tablename.replace('.','_')
+
+    if tablename not in existsTableList:
+        existsTableList.append(tablename)
+    else:
+        return 0
     
     delta_log.log("------------------------------------------------")
     delta_log.log("-- DDL Statements for Table " + delta_tablename)
@@ -675,9 +680,9 @@ def deal_table_all(tablename,date,tabspace):
 
     his_log.log('')
     his_log.log('--------------------------------------------------')
-    his_log.log('-- Create Index '+his_tablename)
+    his_log.log('-- Create Index '+his_tablename+'_'+date)
     his_log.log('--------------------------------------------------')
-    his_log.log('create  Index '+his_tablename)
+    his_log.log('create  Index '+his_tablename+'_'+date)
     his_log.log('   on '+his_tablename)
     his_log.log('   (NEW_JOB_SEQ_ID)    Allow Reverse Scans;\n')
 
@@ -717,9 +722,14 @@ def deal_column_update(table, newdate, olddate, update_list, is_primary, new_col
             ## rename ODSHIS, ODS表（表结尾加上”_yyyymmdd”)
             syscode,tablenm = table.split('.')
             his_syscode, his_tablenm = his_tablename.split('.')
-            alter_table.log("--rename table")
-            alter_table.log("rename table {} to {}_{}".format(table,tablenm,newdate))
-            alter_table.log("rename table {} to {}_{}".format(his_tablename,his_tablenm,newdate))
+
+            if tablenm not in exsitsRenameTableList:
+                alter_table.log("--rename table")
+                alter_table.log("rename table {0} to {1}_{2};".format(table,tablenm,newdate))
+                alter_table.log("rename table {0} to {1}_{2};".format(his_tablename,his_tablenm,newdate))
+            else:
+                exsitsRenameTableList.append(tablenm)
+                
             ## 重新生成AP 和 AP_INIT
             syscode,tablenm = table.split('.')
             sql = "select trim(field_code),case when primary_key_flag='' then 'N' else 'Y' end from DSA.ORGIN_TABLE_DETAIL where trim(src_stm_id) ='{2}' and trim(tab_code) = '{0}' and change_date='{1}' order by cast(column_id as int)".format(tablenm,newdate,syscode)
@@ -770,9 +780,13 @@ def deal_column_update(table, newdate, olddate, update_list, is_primary, new_col
             ## rename ODSHIS, ODS表（表结尾加上”_yyyymmdd”)
             syscode,tablenm = table.split('.')
             his_syscode, his_tablenm = his_tablename.split('.')
-            alter_table.log("--rename table")
-            alter_table.log("rename table {} to {}_{}".format(table,tablenm,newdate))
-            alter_table.log("rename table {} to {}_{}".format(his_tablename,his_tablenm,newdate))
+
+            if tablenm not in exsitsRenameTableList:
+                alter_table.log("--rename table")
+                alter_table.log("rename table {0} to {1}_{2};".format(table,tablenm,newdate))
+                alter_table.log("rename table {0} to {1}_{2};".format(his_tablename,his_tablenm,newdate))
+            else:
+                exsitsRenameTableList.append(tablenm)
 
             ## 重新生成AP 和 AP_INIT
             syscode,tablenm = table.split('.')
@@ -861,9 +875,15 @@ def deal_column_update(table, newdate, olddate, update_list, is_primary, new_col
             ## rename ODSHIS, ODS表（表结尾加上”_yyyymmdd”)
             syscode,tablenm = table.split('.')
             his_syscode, his_tablenm = his_tablename.split('.')
-            alter_table.log("--rename table")
-            alter_table.log("rename table {} to {}_{}".format(table,tablenm,newdate))
-            alter_table.log("rename table {} to {}_{}".format(his_tablename,his_tablenm,newdate))
+
+            if tablenm not in exsitsRenameTableList:
+                alter_table.log("--rename table")
+                alter_table.log("rename table {0} to {1}_{2};".format(table,tablenm,newdate))
+                alter_table.log("rename table {0} to {1}_{2};".format(his_tablename,his_tablenm,newdate))
+            else:
+                exsitsRenameTableList.append(tablenm)
+                
+                
             ## 重新生成AP 和 AP_INIT
             syscode,tablenm = table.split('.')
             sql = "select trim(field_code),case when primary_key_flag='' then 'N' else 'Y' end from DSA.ORGIN_TABLE_DETAIL where trim(src_stm_id) ='{2}' and trim(tab_code) = '{0}' and change_date='{1}' order by cast(column_id as int)".format(tablenm,newdate,syscode)
@@ -1003,9 +1023,14 @@ def deal_column_del(table, newdate, olddate, del_list, is_primary, old_column_di
             ## rename ODSHIS, ODS表（表结尾加上”_yyyymmdd”)
             syscode,tablenm = table.split('.')
             his_syscode, his_tablenm = his_tablename.split('.')
-            alter_table.log("--rename table")
-            alter_table.log("rename table {} to {}_{}".format(table,tablenm,newdate))
-            alter_table.log("rename table {} to {}_{}".format(his_tablename,his_tablenm,newdate))
+
+            if tablenm not in exsitsRenameTableList:
+                alter_table.log("--rename table")
+                alter_table.log("rename table {0} to {1}_{2};".format(table,tablenm,newdate))
+                alter_table.log("rename table {0} to {1}_{2};".format(his_tablename,his_tablenm,newdate))
+            else:
+                exsitsRenameTableList.append(tablenm)
+                
 
             ## 重新生成AP 和 AP_INIT
             syscode,tablenm = table.split('.')
@@ -1255,9 +1280,15 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             ## rename ODSHIS, ODS表（表结尾加上”_yyyymmdd”)
             syscode,tablenm = table.split('.')
             his_syscode, his_tablenm = his_tablename.split('.')
-            alter_table.log("--rename table")
-            alter_table.log("rename table {} to {}_{}".format(table,tablenm,newdate))
-            alter_table.log("rename table {} to {}_{}".format(his_tablename,his_tablenm,newdate))
+
+            if tablenm not in exsitsRenameTableList:
+                alter_table.log("--rename table")
+                alter_table.log("rename table {0} to {1}_{2};".format(table,tablenm,newdate))
+                alter_table.log("rename table {0} to {1}_{2};".format(his_tablename,his_tablenm,newdate))
+            else:
+                exsitsRenameTableList.append(tablenm)
+                
+        
             ## 重新生成AP 和 AP_INIT
             syscode,tablenm = table.split('.')
             sql = "select trim(field_code),case when primary_key_flag='' then 'N' else 'Y' end from DSA.ORGIN_TABLE_DETAIL where trim(src_stm_id) ='{2}' and trim(tab_code) = '{0}' and change_date='{1}' order by cast(column_id as int)".format(tablenm,newdate,syscode)
@@ -1466,9 +1497,14 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             ## rename ODSHIS, ODS表（表结尾加上”_yyyymmdd”)
             syscode,tablenm = table.split('.')
             his_syscode, his_tablenm = his_tablename.split('.')
-            alter_table.log("--rename table")
-            alter_table.log("rename table {} to {}_{}".format(table,tablenm,newdate))
-            alter_table.log("rename table {} to {}_{}".format(his_tablename,his_tablenm,newdate))
+
+            if tablenm not in exsitsRenameTableList:
+                alter_table.log("--rename table")
+                alter_table.log("rename table {0} to {1}_{2};".format(table,tablenm,newdate))
+                alter_table.log("rename table {0} to {1}_{2};".format(his_tablename,his_tablenm,newdate))
+            else:
+                exsitsRenameTableList.append(tablenm)
+                
             ## 重新生成AP 和 AP_INIT
             syscode,tablenm = table.split('.')
             sql = "select trim(field_code),case when primary_key_flag='' then 'N' else 'Y' end from DSA.ORGIN_TABLE_DETAIL where trim(src_stm_id) ='{2}' and trim(tab_code) = '{0}' and change_date='{1}' order by cast(column_id as int)".format(tablenm,newdate,syscode)
@@ -1666,6 +1702,8 @@ if __name__=="__main__":
         if not os.path.isdir(datelist[1]+'/AP'):
             os.makedirs(datelist[1]+'/AP')
 
+        exsitsRenameTableList = []
+        existsTableList = []
         ## 受影响的作业列表
         influencedJoblist = []
 
