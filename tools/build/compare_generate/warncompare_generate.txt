@@ -2,7 +2,6 @@ missing module named resource - imported by posix, F:\desktop\自动化运维工具4.0\
 missing module named posix - imported by os, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
 missing module named _posixsubprocess - imported by subprocess, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
 missing module named 'org.python' - imported by pickle, F:\desktop\自动化运维工具4.0\tools\compare_generate.py, xml.sax
-missing module named ce - imported by os, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
 missing module named readline - imported by cmd, code, pdb, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
 excluded module named _frozen_importlib - imported by importlib, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
 missing module named _winreg - imported by platform, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
@@ -11,7 +10,8 @@ missing module named java - imported by platform, F:\desktop\自动化运维工具4.0\t
 missing module named 'java.lang' - imported by platform, F:\desktop\自动化运维工具4.0\tools\compare_generate.py, xml.sax._exceptions
 missing module named vms_lib - imported by platform, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
 missing module named termios - imported by tty, F:\desktop\自动化运维工具4.0\tools\compare_generate.py, getpass
-missing module named _dummy_threading - imported by dummy_threading, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
 missing module named grp - imported by tarfile, shutil, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
 missing module named org - imported by copy, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
 missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, F:\desktop\自动化运维工具4.0\tools\compare_generate.py, getpass
+missing module named ce - imported by os, F:\desktop\自动化运维工具4.0\tools\compare_generate.py
+missing module named _dummy_threading - imported by dummy_threading, F:\desktop\自动化运维工具4.0\tools\compare_generate.py

@@ -50,7 +50,7 @@ def deal_table_add(tablelist, date):
         job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('LD_ODS_%s_INIT','UNCOMPRESS_INIT',CURRENT TIMESTAMP);" %tablestr)
         job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('LD_ODS_%s','UNCOMPRESS_%s',CURRENT TIMESTAMP);" %(tablestr,syscode))
         job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('AP_ODS_%s','LD_ODS_%s',CURRENT TIMESTAMP);" %(tablestr,tablestr))
-        # 0719 修改 job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('AP_ODS_%s','LD_ODS_%s_INIT',CURRENT TIMESTAMP);\n" %(tablestr,tablestr))
+        job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('AP_ODS_%s','LD_ODS_%s_INIT',CURRENT TIMESTAMP);\n" %(tablestr,tablestr))
         job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('AP_ODS_%s_INIT','LD_ODS_%s_INIT',CURRENT TIMESTAMP);" %(tablestr,tablestr))
         job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('ODS_DONE','AP_ODS_%s',CURRENT TIMESTAMP);" %tablestr)
         job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('ODS_DONE_INIT','AP_ODS_%s_INIT',CURRENT TIMESTAMP);" %tablestr)
@@ -58,9 +58,9 @@ def deal_table_add(tablelist, date):
         # 0712 修改 job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('AP_ODS_%s_YATOPUPDATE','UNCOMPRESS_INIT',CURRENT TIMESTAMP);" %tablestr)
         # 0712 修改 job.log("INSERT INTO ETL.JOB_SEQ (JOB_NM,PRE_JOB ,PPN_TSTMP) VALUES ('AP_ODS_%s','AP_ODS_%s_YATOPUPDATE',CURRENT TIMESTAMP);" %(tablestr,tablestr))
         
-        ## 0719 新增
-        job.log("update etl.job_metadata set init_flag='N' WHERE JOB_NM ='AP_ODS_%s_INIT';" %tablestr)
-        job.log("update etl.job_metadata set init_flag='W' WHERE JOB_NM ='AP_ODS_%s';" %tablestr)
+        # ## 0719 新增
+        # job.log("update etl.job_metadata set init_flag='N' WHERE JOB_NM ='AP_ODS_%s_INIT';" %tablestr)
+        # job.log("update etl.job_metadata set init_flag='W' WHERE JOB_NM ='AP_ODS_%s';" %tablestr)
 
         job.log("UPDATE ETL.JOB_METADATA SET INIT_FLAG='N' WHERE JOB_NM ='UNCOMPRESS_INIT';")
         job.log("UPDATE ETL.JOB_METADATA SET INIT_FLAG='N' WHERE JOB_NM ='FTP_DOWNLOAD_INIT';")
@@ -760,8 +760,9 @@ def deal_column_update(table, newdate, olddate, update_list, is_primary, new_col
             job.log("UPDATE ETL.JOB_METADATA SET INIT_FLAG='N' WHERE JOB_NM ='FTP_DOWNLOAD_INIT';")
             job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='LD_ODS_%s_INIT';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='LD_ODS_%s';" %(table.replace('.','_')))
-            job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
-            job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
+
+            # job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
+            # job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
             
 
         elif old_primary == "Y" and new_primary == "N": ##主键变为非主键
@@ -818,8 +819,9 @@ def deal_column_update(table, newdate, olddate, update_list, is_primary, new_col
             job.log("UPDATE ETL.JOB_METADATA SET INIT_FLAG='N' WHERE JOB_NM ='FTP_DOWNLOAD_INIT';")
             job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='LD_ODS_%s_INIT';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='LD_ODS_%s';" %(table.replace('.','_')))
-            job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
-            job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
+
+            # job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
+            # job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
 
         elif old_primary == new_primary: ##字段属性变更
             ##重新生成delta表
@@ -914,8 +916,9 @@ def deal_column_update(table, newdate, olddate, update_list, is_primary, new_col
             job.log("UPDATE ETL.JOB_METADATA SET INIT_FLAG='N' WHERE JOB_NM ='FTP_DOWNLOAD_INIT';")
             job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='LD_ODS_%s_INIT';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='LD_ODS_%s';" %(table.replace('.','_')))
-            job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
-            job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
+
+            # job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
+            # job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
 
         else:
             ## 以上
@@ -1062,8 +1065,9 @@ def deal_column_del(table, newdate, olddate, del_list, is_primary, old_column_di
             job.log("UPDATE ETL.JOB_METADATA SET INIT_FLAG='N' WHERE JOB_NM ='FTP_DOWNLOAD_INIT';")
             job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='LD_ODS_%s_INIT';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='LD_ODS_%s';" %(table.replace('.','_')))
-            job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
-            job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
+
+            # job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
+            # job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
 
     else: ## 无主键表
         print(table+ ' not has primary_key')
@@ -1154,12 +1158,14 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             ## 6.alter table 增加ODS, ODSHIS表字段
             print("--------alter table 增加ODS, ODSHIS表字段---------")
             add_str = ','.join("\'%s\'" %x for x in add_list)
-            sql = "select trim(src_stm_id),trim(tab_code),trim(field_code) from DSA.ORGIN_TABLE_DETAIL where trim(src_stm_id)='{0}' and trim(tab_code) = '{1}' and change_date='{2}' and trim(field_code) in ({3}) order by cast(column_id as int)".format(syscode,tablenm,newdate,add_str)
+            sql = "select trim(src_stm_id),trim(tab_code),trim(field_code),trim(FIELD_NM) from DSA.ORGIN_TABLE_DETAIL where trim(src_stm_id)='{0}' and trim(tab_code) = '{1}' and change_date='{2}' and trim(field_code) in ({3}) order by cast(column_id as int)".format(syscode,tablenm,newdate,add_str)
             cursor_dw.execute(sql)
             rows = cursor_dw.fetchall()
             # f = open(newdate+"/table_add_column.sql",'a')
             for row in rows:
-                src_stm_id,tab_code,field_code = row
+                src_stm_id,tab_code,field_code,field_comment = row
+                field_comment = field_comment.replace('\'','\'\'')
+                field_comment = field_comment.replace('\"','\\\"')
                 # print(field_code)
                 # print(new_column_dict[field_code])
 
@@ -1180,6 +1186,9 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
                 print(table+" execute sql: alter table "+ his_tablename + " add column " + filed_line+";")
                 alter_table.log("alter table "+ table + " add column " + filed_line+";\n")
                 alter_table.log("alter table "+ his_tablename + " add column " + filed_line+";\n")
+
+                alter_table.log("Comment on Column "+table+'.'+field_code+'\tis \''+field_comment+'\';\n')
+                alter_table.log("Comment on Column "+his_tablename+'.'+field_code+'\tis \''+field_comment+'\';\n')
             
             # f.close()
             ## 7.reorg table(ODS_TABLE,ODSHIS_TABLE) 
@@ -1320,8 +1329,9 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             job.log("UPDATE ETL.JOB_METADATA SET INIT_FLAG='N' WHERE JOB_NM ='FTP_DOWNLOAD_INIT';")
             job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='LD_ODS_%s_INIT';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='LD_ODS_%s';" %(table.replace('.','_')))
-            job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
-            job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
+
+            # job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
+            # job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
             
     else: #非主键表
         print(table+ ' not has primary_key')
@@ -1369,12 +1379,16 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             ## 6.alter table 增加ODS, ODSHIS表字段
             print("--------alter table 增加ODS, ODSHIS表字段---------")
             add_str = ','.join("\'%s\'" %x for x in add_list)
-            sql = "select trim(src_stm_id),trim(tab_code),trim(field_code) from DSA.ORGIN_TABLE_DETAIL where trim(src_stm_id)='{0}' and trim(tab_code) = '{1}' and change_date='{2}' and trim(field_code) in ({3}) order by cast(column_id as int)".format(syscode,tablenm,newdate,add_str)
+            sql = "select trim(src_stm_id),trim(tab_code),trim(field_code),trim(field_nm) from DSA.ORGIN_TABLE_DETAIL where trim(src_stm_id)='{0}' and trim(tab_code) = '{1}' and change_date='{2}' and trim(field_code) in ({3}) order by cast(column_id as int)".format(syscode,tablenm,newdate,add_str)
             cursor_dw.execute(sql)
             rows = cursor_dw.fetchall()
             # f = open(newdate+"/table_add_column.sql",'a')
             for row in rows:
-                src_stm_id,tab_code,field_code = row
+                src_stm_id,tab_code,field_code,field_comment = row
+                
+                field_comment = field_comment.replace('\'','\'\'')
+                field_comment = field_comment.replace('\"','\\\"')
+
                 # print(field_code)
                 # print(new_column_dict[field_code])
 
@@ -1395,6 +1409,9 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
                 print(table+" execute sql: alter table "+ his_tablename + " add column " + filed_line+";")
                 alter_table.log("alter table "+ table + " add column " + filed_line+";\n")
                 alter_table.log("alter table "+ his_tablename + " add column " + filed_line+";\n")
+
+                alter_table.log("Comment on Column "+table+'.'+field_code+'\tis \''+field_comment+'\';\n')
+                alter_table.log("Comment on Column "+his_tablename+'.'+field_code+'\tis \''+field_comment+'\';\n')
             
             # f.close()
             ## 7.reorg table(ODS_TABLE,ODSHIS_TABLE) 
@@ -1535,8 +1552,9 @@ def deal_column_add(table, newdate, add_list, is_primary, new_column_dict):
             job.log("UPDATE ETL.JOB_METADATA SET INIT_FLAG='N' WHERE JOB_NM ='FTP_DOWNLOAD_INIT';")
             job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='LD_ODS_%s_INIT';" %(table.replace('.','_')))
             job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='LD_ODS_%s';" %(table.replace('.','_')))
-            job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
-            job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
+
+            # job.log("UPDATE etl.job_metadata set init_flag='N' where job_nm='AP_ODS_%s_INIT';" %(table.replace('.','_')))
+            # job.log("UPDATE etl.job_metadata set init_flag='W' where job_nm='AP_ODS_%s';" %(table.replace('.','_')))
 
 
 # 获取字段级差异
@@ -1659,7 +1677,7 @@ if __name__=="__main__":
         cursor_dw = con.cursor()
 
         datestring = input("请输入一个日期或者是要对比的两个日期,以逗号隔开,若不需要,请输入Enter跳过:")
-        #datestring = ""
+        # datestring = ""
 
         if not datestring:
             sql = "select distinct change_date from DSA.ORGIN_TABLE_DETAIL order by change_date"
